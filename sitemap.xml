@@ -19,6 +19,12 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://groomingnote.co.kr/homecare/dog-grooming-types/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://groomingnote.co.kr/breeds/</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -29,6 +35,12 @@
     <lastmod>2026-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://groomingnote.co.kr/career/how-to-become-dog-groomer/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://groomingnote.co.kr/industry/</loc>
