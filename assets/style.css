@@ -984,7 +984,14 @@ a.post-row:hover h3 { color: var(--color-terracotta-dark); }
 
 .cat-hero.section-banner {
   border-bottom: none;
+  padding-top: 28px;
   padding-bottom: 56px;
+}
+
+.cat-hero.section-banner .breadcrumb {
+  padding-top: 0;
+  margin-bottom: 32px;
+  text-shadow: 0 1px 6px rgba(255,255,255,0.85), 0 1px 2px rgba(255,255,255,0.9);
 }
 
 .section-banner-cat-homecare {
