@@ -988,50 +988,29 @@ a.post-row:hover h3 { color: var(--color-terracotta-dark); }
 }
 
 .section-banner-cat-homecare {
-  background-image:
-    linear-gradient(180deg, var(--color-bg) 0%, rgba(255,255,255,0) 24%, rgba(255,255,255,0) 90%, var(--color-bg) 100%),
-    linear-gradient(90deg, var(--color-bg) 0%, var(--color-bg) 30%, rgba(255,255,255,0.7) 55%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%),
-    url("/assets/images/pages/homecare-banner.jpg");
+  background-image: url("/assets/images/pages/homecare-banner.jpg");
 }
 
 .section-banner-cat-breeds {
-  background-image:
-    linear-gradient(180deg, var(--color-bg) 0%, rgba(255,255,255,0) 24%, rgba(255,255,255,0) 90%, var(--color-bg) 100%),
-    linear-gradient(90deg, var(--color-bg) 0%, var(--color-bg) 30%, rgba(255,255,255,0.7) 55%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%),
-    url("/assets/images/pages/breeds-banner.jpg");
+  background-image: url("/assets/images/pages/breeds-banner.jpg");
 }
 
 .section-banner-cat-career {
-  background-image:
-    linear-gradient(180deg, var(--color-bg) 0%, rgba(255,255,255,0) 24%, rgba(255,255,255,0) 90%, var(--color-bg) 100%),
-    linear-gradient(90deg, var(--color-bg) 0%, var(--color-bg) 30%, rgba(255,255,255,0.7) 55%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%),
-    url("/assets/images/pages/career-banner.jpg");
+  background-image: url("/assets/images/pages/career-banner.jpg");
 }
 
 .section-banner-cat-industry {
-  background-image:
-    linear-gradient(180deg, var(--color-bg) 0%, rgba(255,255,255,0) 24%, rgba(255,255,255,0) 90%, var(--color-bg) 100%),
-    linear-gradient(90deg, var(--color-bg) 0%, var(--color-bg) 30%, rgba(255,255,255,0.7) 55%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%),
-    url("/assets/images/pages/industry-banner.jpg");
+  background-image: url("/assets/images/pages/industry-banner.jpg");
 }
 
 .section-banner-cat-reviews {
-  background-image:
-    linear-gradient(180deg, var(--color-bg) 0%, rgba(255,255,255,0) 24%, rgba(255,255,255,0) 90%, var(--color-bg) 100%),
-    linear-gradient(90deg, var(--color-bg) 0%, var(--color-bg) 30%, rgba(255,255,255,0.7) 55%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%),
-    url("/assets/images/pages/reviews-banner.jpg");
+  background-image: url("/assets/images/pages/reviews-banner.jpg");
 }
 
 .section-banner-cat-qna {
-  background-image:
-    linear-gradient(180deg, var(--color-bg) 0%, rgba(255,255,255,0) 24%, rgba(255,255,255,0) 90%, var(--color-bg) 100%),
-    linear-gradient(90deg, var(--color-bg) 0%, var(--color-bg) 30%, rgba(255,255,255,0.7) 55%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%),
-    url("/assets/images/pages/qna-banner.jpg");
+  background-image: url("/assets/images/pages/qna-banner.jpg");
 }
 
 .section-banner-cat-about {
-  background-image:
-    linear-gradient(180deg, var(--color-bg) 0%, rgba(255,255,255,0) 24%, rgba(255,255,255,0) 90%, var(--color-bg) 100%),
-    linear-gradient(90deg, var(--color-bg) 0%, var(--color-bg) 30%, rgba(255,255,255,0.7) 55%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%),
-    url("/assets/images/pages/about-banner.jpg");
+  background-image: url("/assets/images/pages/about-banner.jpg");
 }
