@@ -1,5 +1,6 @@
 "use strict";
 const articles = [
+ {title:"애견미용클리퍼 종류와 선택법, 초보자는 무엇을 확인할까?",description:"클리퍼 종류와 날 관리, 발열·안전관리까지 초보자 선택 기준을 정리했습니다.",category:"미용",label:"미용·관리",path:"/reviews/dog-grooming-clippers/",tags:"애견미용클리퍼 클리퍼 트리머 바리깡 날 교체 날관리 위생미용",recent:true},
  {title:"애견미용가위 종류와 선택법, 초보자는 무엇부터 준비할까?",description:"일자가위·커브가위·숱가위 등 종류와 초보자 선택 기준을 정리했습니다.",category:"미용",label:"미용·관리",path:"/reviews/dog-grooming-scissors/",tags:"애견미용가위 가위 일자가위 커브가위 숱가위 블렌딩가위 청커가위 미용도구",recent:true},
  {title:"반려동물시장규모, 국내 펫산업은 얼마나 커졌을까?",description:"반려동물 양육가구와 시장 규모, 미용업 변화를 공식자료로 살펴보세요.",category:"업계",label:"업계",path:"/industry/pet-market-size/",tags:"반려동물시장규모 펫산업 시장규모 반려동물 산업 미용업",recent:true},
  {title:"강아지발바닥털미용, 어디까지 잘라도 될까?",description:"발바닥 털 관리의 범위와 집에서 미용하기 전 알아둘 점.",category:"미용",label:"애견미용정보",path:"/homecare/dog-paw-hair-trimming/",tags:"강아지 발바닥털 발바닥 털 위생 부분미용 홈케어"},
