@@ -1,7 +1,9 @@
 "use strict";
 const articles = [
- {title:"강아지발바닥털미용, 어디까지 잘라도 될까?",description:"발바닥 털 관리의 범위와 집에서 미용하기 전 알아둘 점.",category:"미용",label:"애견미용정보",path:"/homecare/dog-paw-hair-trimming/",tags:"강아지 발바닥털 발바닥 털 위생 부분미용 홈케어",recent:true},
- {title:"강아지셀프미용, 집에서 어디까지 해도 될까?",description:"집에서 할 수 있는 관리와 전문가의 도움이 필요한 미용.",category:"미용",label:"애견미용정보",path:"/homecare/dog-self-grooming/",tags:"강아지 셀프미용 홈미용 홈케어",recent:true},
+ {title:"애견미용가위 종류와 선택법, 초보자는 무엇부터 준비할까?",description:"일자가위·커브가위·숱가위 등 종류와 초보자 선택 기준을 정리했습니다.",category:"미용",label:"미용·관리",path:"/reviews/dog-grooming-scissors/",tags:"애견미용가위 가위 일자가위 커브가위 숱가위 블렌딩가위 청커가위 미용도구",recent:true},
+ {title:"반려동물시장규모, 국내 펫산업은 얼마나 커졌을까?",description:"반려동물 양육가구와 시장 규모, 미용업 변화를 공식자료로 살펴보세요.",category:"업계",label:"업계",path:"/industry/pet-market-size/",tags:"반려동물시장규모 펫산업 시장규모 반려동물 산업 미용업",recent:true},
+ {title:"강아지발바닥털미용, 어디까지 잘라도 될까?",description:"발바닥 털 관리의 범위와 집에서 미용하기 전 알아둘 점.",category:"미용",label:"애견미용정보",path:"/homecare/dog-paw-hair-trimming/",tags:"강아지 발바닥털 발바닥 털 위생 부분미용 홈케어"},
+ {title:"강아지셀프미용, 집에서 어디까지 해도 될까?",description:"집에서 할 수 있는 관리와 전문가의 도움이 필요한 미용.",category:"미용",label:"애견미용정보",path:"/homecare/dog-self-grooming/",tags:"강아지 셀프미용 홈미용 홈케어"},
  {title:"강아지 목욕 주기, 얼마나 자주 씻겨야 할까요?",description:"생활환경과 피부·털 상태에 맞춰 목욕 주기를 살펴보세요.",category:"목욕",label:"목욕·홈케어",path:"/homecare/dog-bathing-frequency/",tags:"강아지목욕 목욕주기 목욕 주기 샴푸 홈케어 피부"},
  {title:"강아지 미용 종류, 어떤 차이가 있을까요?",description:"전체미용, 위생미용, 부분미용의 차이를 알아보세요.",category:"미용",label:"애견미용정보",path:"/homecare/dog-grooming-types/",tags:"미용종류 미용 종류 전체미용 위생미용 부분미용"},
  {title:"강아지 미용 주기, 몇 주마다 해야 할까요?",description:"견종과 털 특징에 따라 달라지는 미용 주기의 기준.",category:"미용",label:"애견미용정보",path:"/homecare/dog-grooming-frequency/",tags:"미용주기 미용 주기 얼마나 자주"},
@@ -17,7 +19,7 @@ const articles = [
  {title:"애견미용사취업, 자격증 다음에 필요한 것은?",description:"자격증 이후 실무 경험과 취업 준비 사항을 확인하세요.",category:"진로",label:"취업·창업",path:"/career/dog-groomer-employment/",tags:"취업 취직 면접 실무"},
  {title:"애견미용사 전망, 앞으로도 수요가 있을까?",description:"애견미용사의 진로를 고민할 때 살펴볼 업계 흐름.",category:"진로",label:"취업·창업",path:"/career/dog-groomer-outlook/",tags:"전망 수요 진로 취업"},
  {title:"애견미용실창업, 비용과 준비 과정 알아보기",description:"미용실 창업을 위한 준비 과정과 확인 사항.",category:"진로",label:"취업·창업",path:"/career/dog-grooming-shop-startup/",tags:"창업 비용 준비 미용실"},
- {title:"동물미용업, 창업 전 알아야 할 등록 기준",description:"애견미용실 운영을 준비할 때 확인할 등록 관련 정보.",category:"업계",label:"업계",path:"/industry/animal-grooming-business/",tags:"동물미용업 등록 시설 기준 창업",recent:true}
+ {title:"동물미용업, 창업 전 알아야 할 등록 기준",description:"애견미용실 운영을 준비할 때 확인할 등록 관련 정보.",category:"업계",label:"업계",path:"/industry/animal-grooming-business/",tags:"동물미용업 등록 시설 기준 창업"}
 ];
 const breeds = {
  poodle:{name:"푸들",tag:"곱슬털 관리",title:"푸들, 스타일만큼 중요한 털 관리",description:"미용 종류와 스타일을 살펴보고, 털 엉킴을 줄이는 관리 방법과 미용 주기를 함께 알아보세요.",path:"/breeds/poodle-grooming/"},
