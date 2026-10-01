@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "강아지털엉킴, 집에서 어디까지 관리해도 될까?", "description": "엉킨 털의 상태를 확인하고 집에서 관리할 범위와 전문가에게 맡길 기준을 살펴보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-matted-coat/", "tags": "강아지털엉킴 털뭉침 엉킨털 빗질 목욕전빗질", "recent": true},
+{"title": "부산애견미용학원, 퇴근 후 배워 취업까지 준비하려면?", "description": "서면·연산의 공식 위치와 운영시간, 직장인의 실견수업·취업 준비 기준을 확인하세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/부산-애견미용학원/", "tags": "부산애견미용학원 서면 연산 직장인 야간 주말 토요일 실견수업 취업 비용 연맹지원", "recent": true},
+{"title": "강아지털엉킴, 집에서 어디까지 관리해도 될까?", "description": "엉킨 털의 상태를 확인하고 집에서 관리할 범위와 전문가에게 맡길 기준을 살펴보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-matted-coat/", "tags": "강아지털엉킴 털뭉침 엉킨털 빗질 목욕전빗질", "recent":false},
 {"title": "강아지미용스트레스, 싫어하는 신호부터 살펴보세요", "description": "불편한 신호부터 짧은 적응 연습과 미용 전 준비까지 살펴보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-grooming-stress/", "tags": "강아지미용스트레스 미용 적응 거부 빗질 보상 스트레스 미용전준비", "recent":false},
  {"title": "광주애견미용학원 가이드, 통학과 실견수업부터 확인하세요", "description": "광주 지점의 실제 소재지와 통학 동선, 실견수업·비용 확인 기준을 살펴보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/광주-애견미용학원/", "tags": "광주애견미용학원 광주광역시 학원 자격증 실견수업 비용 통학 나주 담양 화순", "recent":false},
  {"title":"강아지귀청소, 집에서 어디까지 해야 할까?","description":"귀 상태 확인부터 귀세정제 사용과 면봉 주의, 적응 연습까지 살펴보세요.","category":"미용","label":"애견미용정보","path":"/homecare/dog-ear-cleaning/","tags":"강아지귀청소 귀세정제 귀냄새 귀청소주기 면봉 위생미용 홈케어","recent":false},
