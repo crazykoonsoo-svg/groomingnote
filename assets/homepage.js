@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
- {"title": "광주애견미용학원 가이드, 통학과 실견수업부터 확인하세요", "description": "광주 지점의 실제 소재지와 통학 동선, 실견수업·비용 확인 기준을 살펴보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/광주-애견미용학원/", "tags": "광주애견미용학원 광주광역시 학원 자격증 실견수업 비용 통학 나주 담양 화순", "recent": true},
+{"title": "강아지미용스트레스, 싫어하는 신호부터 살펴보세요", "description": "불편한 신호부터 짧은 적응 연습과 미용 전 준비까지 살펴보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-grooming-stress/", "tags": "강아지미용스트레스 미용 적응 거부 빗질 보상 스트레스 미용전준비", "recent": true},
+ {"title": "광주애견미용학원 가이드, 통학과 실견수업부터 확인하세요", "description": "광주 지점의 실제 소재지와 통학 동선, 실견수업·비용 확인 기준을 살펴보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/광주-애견미용학원/", "tags": "광주애견미용학원 광주광역시 학원 자격증 실견수업 비용 통학 나주 담양 화순", "recent":false},
  {"title":"강아지귀청소, 집에서 어디까지 해야 할까?","description":"귀 상태 확인부터 귀세정제 사용과 면봉 주의, 적응 연습까지 살펴보세요.","category":"미용","label":"애견미용정보","path":"/homecare/dog-ear-cleaning/","tags":"강아지귀청소 귀세정제 귀냄새 귀청소주기 면봉 위생미용 홈케어","recent":false},
  {"title":"강아지드라이, 목욕 후 털은 어떻게 말려야 할까?","description":"수건으로 물기를 줄이는 방법부터 바람 조절과 털 안쪽 건조 확인까지 살펴보세요.","category":"목욕","label":"애견미용정보","path":"/homecare/dog-coat-drying/","tags":"강아지드라이 털말리기 목욕 건조 드라이기 드라이어 자연건조","recent":false},
  {"title": "강아지발톱깎기, 어디까지 잘라야 할까?", "description": "발톱 길이와 혈관 확인부터 검은 발톱, 도구 사용과 적응 연습까지 살펴보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-nail-trimming/", "tags": "강아지발톱깎기 강아지발톱관리 발톱깎는법 검은발톱 혈관 퀵 그라인더 위생미용", "recent": false},
