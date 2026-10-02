@@ -1224,3 +1224,23 @@ img { height: auto; }
   .main-nav a { font-size: 12.5px; }
   .cta-btn { padding-left: 10px; padding-right: 10px; }
 }
+
+/* ---------- 카테고리 안내 섹션 ---------- */
+.cat-guide { border-top: 1px solid var(--color-line); }
+.cat-guide .article-body h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 36px 0 14px;
+}
+.cat-guide .article-body .post-table-wrap { max-width: 700px; }
+.cat-guide .article-body ol,
+.cat-guide .article-body ul {
+  max-width: 700px;
+  margin: 0 0 22px;
+  padding-left: 22px;
+  font-size: 15.5px;
+  line-height: 1.8;
+}
+.cat-guide .article-body li { margin-bottom: 6px; }
+.cat-guide .article-body a { color: var(--color-terracotta-dark); text-decoration: underline; text-underline-offset: 3px; }
+.cat-guide .article-body td:first-child { white-space: nowrap; }
