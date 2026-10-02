@@ -22,23 +22,28 @@
 <link rel="icon" href="/favicon-192x192.png" type="image/png" sizes="192x192">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
 <meta name="theme-color" content="#173a3e">
-<link rel="stylesheet" href="/assets/homepage.css?v=20261002">
+<link rel="stylesheet" href="/assets/homepage.css?v=20261002c">
+<link rel="stylesheet" href="/assets/layout.css?v=20261002c">
 <script src="/assets/homepage.js?v=20261001-busan" defer></script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "inLanguage": "ko-KR", "publisher": {"@type": "Organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": {"@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png"}}}, {"@type": "Organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": {"@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png"}}]}</script>
 </head>
 <body>
   <a class="skip" href="#main">본문으로 바로가기</a>
-  <header class="header">
-    <div class="wrap header-inner">
-      <a class="brand" href="/" aria-label="그루밍노트 홈"><img src="/favicon-192x192.png" alt="" width="40" height="40"><span>그루밍<span class="brand-accent">노트</span><small>GROOMINGNOTE</small></span></a>
-      <nav class="desktop-nav" aria-label="주요 메뉴"><a href="#explore" data-nav-topic="미용">애견미용정보</a><a href="#breeds">견종별 가이드</a><a href="#career">자격증·진로</a><a href="/academy-guide/">지역별 학원</a><a href="#questions">Q&A</a></nav>
-      <a class="contact" href="https://evaw-pet-grooming.co.kr/" target="_blank" rel="noopener noreferrer">교육 상담</a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="메뉴 열기"><span></span><span></span></button>
+<header class="header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="그루밍노트 홈"><img src="/favicon-192x192.png" alt="" width="40" height="40"><span>그루밍<span class="brand-accent">노트</span><small>GROOMINGNOTE</small></span></a>
+    <nav class="desktop-nav" aria-label="주요 메뉴"><a href="/homecare/">애견미용정보</a><a href="/breeds/">견종별 가이드</a><a href="/career/">자격증·진로</a><a href="/academy-guide/">지역별 학원</a><a href="/industry/">업계</a><a href="/reviews/">리뷰</a><a href="/qna/">Q&amp;A</a></nav>
+    <div class="header-cta">
+      <a class="cta-btn cta-naver" href="https://talk.naver.com/ct/w5ipub#nafullscreen" target="_blank" rel="noopener">네이버</a>
+      <a class="cta-btn cta-kakao" href="https://pf.kakao.com/_xaNjrn/chat" target="_blank" rel="noopener">카톡</a>
+      <a class="cta-btn cta-consult" href="https://evaw-pet-grooming.co.kr/" target="_blank" rel="noopener">상담문의</a>
     </div>
-    <nav id="mobile-nav" aria-label="모바일 메뉴" hidden><a href="#explore" data-nav-topic="미용">애견미용정보</a><a href="#breeds">견종별 가이드</a><a href="#career">자격증·진로</a><a href="/academy-guide/">지역별 학원</a><a href="#questions">Q&A</a><a href="/industry/">업계 뉴스</a><a href="/reviews/">리뷰</a></nav>
-  </header>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="메뉴 열기"><span></span><span></span></button>
+  </div>
+  <nav id="mobile-nav" aria-label="모바일 메뉴" hidden><div class="wrap"><a href="/" class="active" aria-current="page">홈</a><a href="/homecare/">애견미용정보</a><a href="/breeds/">견종별 가이드</a><a href="/career/">자격증·진로</a><a href="/academy-guide/">지역별 학원</a><a href="/industry/">업계</a><a href="/reviews/">리뷰</a><a href="/qna/">Q&amp;A</a><a href="/about/">사이트 소개</a></div></nav>
+</header>
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
       <img width="1600" height="533" class="hero-image" src="/assets/images/home/breeds-banner.jpg" alt="밝은 공간에서 함께 있는 슈나우저, 골든리트리버, 포메라니안, 비숑" fetchpriority="high">
@@ -135,7 +140,14 @@
     </section>
     <section class="wrap section more-topics" aria-labelledby="more-topics-title"><div><p class="eyebrow">MORE TO EXPLORE</p><h2 id="more-topics-title">그루밍의 더 넓은 이야기</h2></div><a href="/industry/"><span>INDUSTRY</span><h3>업계 뉴스</h3><p>동물미용업 제도와 산업 흐름</p></a><a href="/reviews/"><span>REVIEWS</span><h3>도구·제품 리뷰</h3><p>샴푸와 미용도구 선택 기준</p></a></section>
   </main>
-  <footer class="footer"><div class="wrap"><div class="footer-top"><div><a class="brand footer-brand" href="/">그루밍<span class="brand-accent">노트</span><small>GROOMINGNOTE</small></a><p>반려견과 더 편안한 일상을 위한 기록.<br>애견미용 정보를 읽고, 배우고, 함께 나눕니다.</p></div><nav aria-label="하단 메뉴"><a href="#explore">애견미용정보</a><a href="#breeds">견종별 가이드</a><a href="#career">자격증·진로</a><a href="/academy-guide/">지역별 학원</a><a href="#questions">Q&A</a><a href="/about/">사이트 소개</a></nav><div class="footer-contact"><span>교육과정이 궁금하다면</span><a href="https://talk.naver.com/ct/w5ipub#nafullscreen" target="_blank" rel="noopener noreferrer">네이버 톡톡</a><a href="https://pf.kakao.com/_xaNjrn/chat" target="_blank" rel="noopener noreferrer">카카오톡</a></div></div><div class="footer-bottom"><p>© 2026 GroomingNote. All rights reserved.</p><p>함께 배우는 애견미용 정보</p><p class="footer-disclosure">그루밍노트는 이바우펫 애견미용학원과 연관되어 운영되는 정보 사이트입니다. <a href="/about/">운영 안내</a></p></div></div></footer>
+  <footer class="footer"><div class="wrap">
+  <div class="footer-top">
+    <div><a class="brand footer-brand" href="/">그루밍<span class="brand-accent">노트</span><small>GROOMINGNOTE</small></a><p>반려견과 더 편안한 일상을 위한 기록.<br>애견미용 정보를 읽고, 배우고, 함께 나눕니다.</p></div>
+    <nav aria-label="하단 메뉴"><a href="/homecare/">애견미용정보</a><a href="/breeds/">견종별 가이드</a><a href="/career/">자격증·진로</a><a href="/academy-guide/">지역별 학원</a><a href="/industry/">업계 뉴스</a><a href="/reviews/">리뷰</a><a href="/qna/">Q&amp;A</a><a href="/about/">사이트 소개</a></nav>
+    <div class="footer-contact"><span>교육과정이 궁금하다면</span><a href="https://talk.naver.com/ct/w5ipub#nafullscreen" target="_blank" rel="noopener noreferrer">네이버 톡톡</a><a href="https://pf.kakao.com/_xaNjrn/chat" target="_blank" rel="noopener noreferrer">카카오톡</a><a href="https://evaw-pet-grooming.co.kr/" target="_blank" rel="noopener">교육 상담</a></div>
+  </div>
+  <div class="footer-bottom"><p>© 2026 GroomingNote. All rights reserved.</p><p>함께 배우는 애견미용 정보</p><p class="footer-disclosure">그루밍노트는 이바우펫 애견미용학원과 연관되어 운영되는 정보 사이트입니다. <a href="/about/">운영 안내</a></p></div>
+</div></footer>
   <button id="back-top" class="back-top" aria-label="맨 위로 이동" hidden>TOP</button>
 <!-- Naver Analytics -->
 <script type="text/javascript" src="https://wcs.pstatic.net/wcslog.js"></script>
