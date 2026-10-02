@@ -1033,3 +1033,8 @@ img { height: auto; }
 .article-body .post-cta,
 .article-body .faq-list,
 .article-body .summary-box { max-width: 100%; }
+
+/* ---------- 본문 가운데 정렬: 글 페이지는 제목·경로·본문을 같은 700px 칼럼으로 ---------- */
+main:has(.post-meta) .article-body { margin-left: auto; margin-right: auto; }
+main > .wrap.breadcrumb,
+.cat-hero:has(.post-meta) > .wrap { max-width: 700px; }
