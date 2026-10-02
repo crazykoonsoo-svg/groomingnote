@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "강아지이중모 관리, 속털을 얼마나 정리해야 할까?", "description": "빠진 속털 정리와 짧은 미용의 차이, 브러싱·목욕·건조 확인 기준을 살펴보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/double-coated-dog-care/", "tags": "강아지이중모 속털 겉털 이중모관리 이중모빗질 이중모미용 털갈이 브러싱 목욕 건조", "recent": true},
+{"title": "시츄미용, 집에서 유지할 수 있는 털 길이는?", "description": "집에서 유지할 털 길이와 얼굴·눈 주변 관리, 엉킴 확인 기준을 살펴보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/shih-tzu-grooming/", "tags": "시츄미용 시츄털관리 시츄얼굴미용 시츄빗질 시츄미용주기", "recent": true},
+{"title": "강아지이중모 관리, 속털을 얼마나 정리해야 할까?", "description": "빠진 속털 정리와 짧은 미용의 차이, 브러싱·목욕·건조 확인 기준을 살펴보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/double-coated-dog-care/", "tags": "강아지이중모 속털 겉털 이중모관리 이중모빗질 이중모미용 털갈이 브러싱 목욕 건조", "recent": false},
 {"title": "부산애견미용학원, 퇴근 후 배워 취업까지 준비하려면?", "description": "서면역 1번·연산역 17번 출구 1분, 월~목 21:30까지 운영하는 이바우펫 서면점·연산점의 직장인 수강 기준을 정리했습니다.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/부산-애견미용학원/", "tags": "부산애견미용학원 서면 연산 서면역 연산역 직장인 야간반 토요일 주말반 실견수업 취업 비용 교육지원", "recent": false},
 {"title": "강아지털엉킴, 집에서 어디까지 관리해도 될까?", "description": "엉킨 털의 상태를 확인하고 집에서 관리할 범위와 전문가에게 맡길 기준을 살펴보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-matted-coat/", "tags": "강아지털엉킴 털뭉침 엉킨털 빗질 목욕전빗질", "recent":false},
 {"title": "강아지미용스트레스, 싫어하는 신호부터 살펴보세요", "description": "불편한 신호부터 짧은 적응 연습과 미용 전 준비까지 살펴보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-grooming-stress/", "tags": "강아지미용스트레스 미용 적응 거부 빗질 보상 스트레스 미용전준비", "recent":false},
