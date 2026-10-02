@@ -1023,3 +1023,13 @@ img { height: auto; }
 
 .post-table-wrap.compare th { background: var(--color-terracotta-dark); color: #fff; border-color: var(--color-terracotta-dark); }
 .post-table-wrap.compare td:first-child { font-weight: 600; background: var(--color-bg-alt); }
+
+/* ---------- 본문 폭 통일: 글·이미지·표·박스 모두 원고 폭(700px)에 맞춤 ---------- */
+.article-body { max-width: 700px; }
+.article-body figure,
+.article-body .post-hero-image,
+.article-body .post-gallery,
+.article-body .post-table-wrap,
+.article-body .post-cta,
+.article-body .faq-list,
+.article-body .summary-box { max-width: 100%; }
