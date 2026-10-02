@@ -40,7 +40,8 @@ const breeds = {
  poodle:{name:"푸들",tag:"곱슬털 관리",title:"푸들, 스타일만큼 중요한 털 관리",description:"미용 종류와 스타일을 살펴보고, 털 엉킴을 줄이는 관리 방법과 미용 주기를 함께 알아보세요.",path:"/breeds/poodle-grooming/"},
  bichon:{name:"비숑",tag:"풍성한 털 관리",title:"비숑, 둥근 얼굴과 풍성한 털",description:"비숑의 미용 스타일을 비교하고, 풍성한 털을 유지하기 위한 브러싱과 엉킴 관리 방법을 살펴보세요.",path:"/breeds/bichon-grooming/"},
  maltese:{name:"말티즈",tag:"얼굴·털 관리",title:"말티즈, 생활에 맞는 미용 스타일",description:"말티즈의 미용 스타일과 얼굴 주변 관리 등 보호자가 알아두면 좋은 털 관리 포인트를 확인해보세요.",path:"/breeds/maltese-grooming/"},
- pomeranian:{name:"포메라니안",tag:"이중모 관리",title:"포메라니안, 털의 구조부터 알아보기",description:"이중모의 특징을 이해하고, 털 상태에 맞는 미용 스타일과 집에서의 관리 방법을 함께 살펴보세요.",path:"/breeds/pomeranian-grooming/"}
+ pomeranian:{name:"포메라니안",tag:"이중모 관리",title:"포메라니안, 털의 구조부터 알아보기",description:"이중모의 특징을 이해하고, 털 상태에 맞는 미용 스타일과 집에서의 관리 방법을 함께 살펴보세요.",path:"/breeds/pomeranian-grooming/"},
+ shihtzu:{name:"시츄",tag:"긴 털·얼굴 관리",title:"시츄, 털 길이와 얼굴 관리부터",description:"몸통과 얼굴의 털 길이를 나눠 정하고, 눈 주변 정돈과 엉킴 확인 기준을 함께 살펴보세요.",path:"/breeds/shih-tzu-grooming/"}
 };
 const state={category:"전체",query:"",limit:9};
 const $=s=>document.querySelector(s);
