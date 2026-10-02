@@ -945,3 +945,81 @@ img { height: auto; }
 @media (max-width: 560px) {
   .post-cta-btn { white-space: normal; max-width: 100%; padding: 13px 22px; line-height: 1.45; text-align: left; }
 }
+
+/* ---------- 원고 컴포넌트: 요약 박스 · 강조 H3 · 👉 핵심 문장 · 인용문 · 체크리스트 · 비교표 ---------- */
+.article-body ul,
+.article-body ol { max-width: 700px; padding-left: 22px; margin: 0 0 22px; font-size: 15.5px; line-height: 1.8; }
+.article-body li { margin-bottom: 6px; }
+
+.summary-box {
+  max-width: 700px;
+  margin: 8px 0 32px;
+  padding: 22px 24px 18px;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-line);
+  border-top: 3px solid var(--color-terracotta);
+  border-radius: var(--radius);
+}
+.summary-box .summary-title {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--color-terracotta);
+}
+.article-body .summary-box ul { margin: 0; padding-left: 20px; font-size: 15px; }
+.article-body .summary-box li { margin-bottom: 4px; }
+
+.article-body h3.accent {
+  max-width: 700px;
+  margin: 30px 0 12px;
+  padding-left: 12px;
+  border-left: 3px solid var(--color-coral);
+  font-size: 17.5px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.article-body p.key-point {
+  max-width: 700px;
+  margin: 18px 0 24px;
+  padding: 14px 18px;
+  background: #EAF4F2;
+  border-radius: 8px;
+  font-weight: 600;
+  color: var(--color-terracotta-dark);
+}
+
+.article-body blockquote {
+  max-width: 700px;
+  margin: 24px 0 28px;
+  padding: 4px 0 4px 20px;
+  border-left: 3px solid var(--color-sand-dark);
+  color: var(--color-ink-soft);
+  font-size: 16px;
+  line-height: 1.8;
+}
+.article-body blockquote p { margin: 0 0 6px; color: inherit; }
+.article-body blockquote cite { display: block; font-size: 13px; font-style: normal; color: var(--color-ink-soft); }
+
+.article-body ul.checklist { list-style: none; padding: 18px 20px; background: #fff; border: 1px solid var(--color-line); border-radius: var(--radius); }
+.article-body ul.checklist li { position: relative; padding-left: 30px; margin-bottom: 10px; }
+.article-body ul.checklist li:last-child { margin-bottom: 0; }
+.article-body ul.checklist li::before {
+  content: "";
+  position: absolute; left: 0; top: 4px;
+  width: 18px; height: 18px;
+  border: 2px solid var(--color-terracotta);
+  border-radius: 4px;
+}
+.article-body ul.checklist li::after {
+  content: "";
+  position: absolute; left: 6px; top: 7px;
+  width: 6px; height: 10px;
+  border: solid var(--color-terracotta);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.post-table-wrap.compare th { background: var(--color-terracotta-dark); color: #fff; border-color: var(--color-terracotta-dark); }
+.post-table-wrap.compare td:first-child { font-weight: 600; background: var(--color-bg-alt); }
