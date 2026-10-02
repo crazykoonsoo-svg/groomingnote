@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://groomingnote.co.kr/</loc><lastmod>2026-10-01</lastmod><priority>1.0</priority></url>
+  <url><loc>https://groomingnote.co.kr/</loc><lastmod>2026-10-02</lastmod><priority>1.0</priority></url>
   <url><loc>https://groomingnote.co.kr/about/</loc><lastmod>2026-09-30</lastmod><priority>0.5</priority></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/%EA%B4%91%EC%A3%BC-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
@@ -39,4 +39,5 @@
   <url><loc>https://groomingnote.co.kr/reviews/dog-grooming-scissors/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://groomingnote.co.kr/reviews/dog-shampoo/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority></url>
   <url><loc>https://groomingnote.co.kr/reviews/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
+  <url><loc>https://groomingnote.co.kr/homecare/double-coated-dog-care/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
 </urlset>
