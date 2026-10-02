@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "대구애견미용학원, 창업 준비에 필요한 실견수업은? | 그루밍노트", "description": "동대구·반월당의 공식 위치와 창업 준비에 필요한 실견수업, 상담·인계 교육 범위를 확인하세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/대구-애견미용학원/", "tags": "대구애견미용학원 동대구 반월당 창업 실견수업 보호자상담 인계 비용 교육지원", "recent": true},
+{"title": "슈나우저미용, 클리핑과 핸드스트리핑은 어떻게 다를까? | 그루밍노트", "description": "클리핑과 핸드스트리핑의 차이, 수염·다리 관리와 다음 미용 상담에 필요한 내용을 확인하세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/schnauzer-grooming/", "tags": "슈나우저미용 슈나우저 클리핑 핸드스트리핑 수염관리 빗질", "recent": true},
+{"title": "대구애견미용학원, 창업 준비에 필요한 실견수업은? | 그루밍노트", "description": "동대구·반월당의 공식 위치와 창업 준비에 필요한 실견수업, 상담·인계 교육 범위를 확인하세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/대구-애견미용학원/", "tags": "대구애견미용학원 동대구 반월당 창업 실견수업 보호자상담 인계 비용 교육지원", "recent": false},
 {"title": "애견미용국비지원, 국민내일배움카드로 배울 수 있을까?", "description": "지원 대상과 한도, 실제 과정의 자부담 예시, 고용24에서 국비과정 찾는 순서를 확인하세요.", "category": "진로", "label": "진로·자격증", "path": "/career/dog-grooming-government-support/", "tags": "애견미용국비지원 국민내일배움카드 애견미용국비 고용24 훈련장려금 자부담 애견미용학원비 애완동물미용 한국유기견구호연맹 교육지원", "recent": false},
 {"title": "강아지첫미용, 언제 시작하고 무엇을 준비할까?", "description": "첫 예약 시점과 준비, 짧은 적응 연습과 첫날 작업 범위를 확인하세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/puppy-first-grooming/", "tags": "강아지첫미용 새끼강아지미용 첫미용시기 미용적응 첫미용준비", "recent": false},
 {"title": "시츄미용, 집에서 유지할 수 있는 털 길이는?", "description": "집에서 유지할 털 길이와 얼굴·눈 주변 관리, 엉킴 확인 기준을 살펴보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/shih-tzu-grooming/", "tags": "시츄미용 시츄털관리 시츄얼굴미용 시츄빗질 시츄미용주기", "recent": false},
@@ -41,7 +42,8 @@ const breeds = {
  bichon:{name:"비숑",tag:"풍성한 털 관리",title:"비숑, 둥근 얼굴과 풍성한 털",description:"비숑의 미용 스타일을 비교하고, 풍성한 털을 유지하기 위한 브러싱과 엉킴 관리 방법을 살펴보세요.",path:"/breeds/bichon-grooming/"},
  maltese:{name:"말티즈",tag:"얼굴·털 관리",title:"말티즈, 생활에 맞는 미용 스타일",description:"말티즈의 미용 스타일과 얼굴 주변 관리 등 보호자가 알아두면 좋은 털 관리 포인트를 확인해보세요.",path:"/breeds/maltese-grooming/"},
  pomeranian:{name:"포메라니안",tag:"이중모 관리",title:"포메라니안, 털의 구조부터 알아보기",description:"이중모의 특징을 이해하고, 털 상태에 맞는 미용 스타일과 집에서의 관리 방법을 함께 살펴보세요.",path:"/breeds/pomeranian-grooming/"},
- shihtzu:{name:"시츄",tag:"긴 털·얼굴 관리",title:"시츄, 털 길이와 얼굴 관리부터",description:"몸통과 얼굴의 털 길이를 나눠 정하고, 눈 주변 정돈과 엉킴 확인 기준을 함께 살펴보세요.",path:"/breeds/shih-tzu-grooming/"}
+ shihtzu:{name:"시츄",tag:"긴 털·얼굴 관리",title:"시츄, 털 길이와 얼굴 관리부터",description:"몸통과 얼굴의 털 길이를 나눠 정하고, 눈 주변 정돈과 엉킴 확인 기준을 함께 살펴보세요.",path:"/breeds/shih-tzu-grooming/"},
+ schnauzer:{"name": "슈나우저", "tag": "겉털·수염 관리", "title": "슈나우저, 미용 방식과 수염 관리", "description": "클리핑과 핸드스트리핑의 차이를 알아보고, 수염·다리 관리와 미용 상담 기준을 확인해보세요.", "path": "/breeds/schnauzer-grooming/"}
 };
 const state={category:"전체",query:"",limit:9};
 const $=s=>document.querySelector(s);
