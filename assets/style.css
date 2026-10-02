@@ -1197,3 +1197,30 @@ a.post-row:hover h3 { color: var(--color-terracotta-dark); }
 .section-banner-cat-about {
   --cat-banner-img: url("/assets/images/pages/about-banner.jpg");
 }
+
+/* ---------- 2026-10-02: 이미지 비율 유지 · 작성일 · 운영 고지 ---------- */
+img { height: auto; }
+.cat-hero p.post-meta {
+  font-size: 13px;
+  color: var(--color-ink-soft);
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+.footer-disclosure {
+  flex-basis: 100%;
+  font-size: 11.5px;
+  opacity: 0.85;
+}
+.footer-disclosure a { text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 640px) {
+  .main-nav { width: 100%; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .main-nav::-webkit-scrollbar { display: none; }
+  .main-nav ul { flex-wrap: nowrap; white-space: nowrap; gap: 11px; }
+}
+.site-header .brand { flex-shrink: 0; }
+.site-header .brand-mark { white-space: nowrap; }
+@media (min-width: 641px) and (max-width: 1080px) {
+  .main-nav ul { gap: 11px; }
+  .main-nav a { font-size: 12.5px; }
+  .cta-btn { padding-left: 10px; padding-right: 10px; }
+}

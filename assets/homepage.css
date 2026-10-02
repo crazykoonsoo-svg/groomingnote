@@ -13,3 +13,6 @@
 @media(max-width:800px){.entry h2{font-size:18px}.entry p{font-size:13px}.career-steps h3{font-size:20px}}
 @media(max-width:480px){.entry h2{font-size:16px}.entry p{font-size:13px}.search-form input{font-size:13px}.filter{font-size:14px}.quick-queries button{font-size:13px}.career-steps h3{font-size:19px}}
 @media(max-width:360px){.entry-section{grid-template-columns:1fr;padding:8px 0}.entry{padding:14px 0!important;border-right:0;border-bottom:1px solid var(--line);align-items:center}.entry:last-child{border-bottom:0}.entry h2{font-size:18px}.entry p{font-size:13px;margin-top:3px}.entry-number{display:block;align-self:center;margin:0;font-size:12px;min-width:24px}.entry svg{display:block;width:22px;height:22px}.hero-caption{display:none}}
+
+img{height:auto}.footer-bottom .footer-disclosure{display:block!important;width:100%;font-size:10px}.footer-disclosure a{text-decoration:underline;text-underline-offset:3px}
+.footer-bottom{flex-wrap:wrap}
