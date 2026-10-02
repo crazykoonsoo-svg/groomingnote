@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "강아지첫미용, 언제 시작하고 무엇을 준비할까? | 그루밍노트", "description": "첫 예약 시점과 준비, 짧은 적응 연습과 첫날 작업 범위를 확인하세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/puppy-first-grooming/", "tags": "강아지첫미용 새끼강아지미용 첫미용시기 미용적응 첫미용준비", "recent": true},
+{"title": "애견미용국비지원, 국민내일배움카드로 배울 수 있을까?", "description": "지원 대상과 한도, 실제 과정의 자부담 예시, 고용24에서 국비과정 찾는 순서를 확인하세요.", "category": "진로", "label": "진로·자격증", "path": "/career/dog-grooming-government-support/", "tags": "애견미용국비지원 국민내일배움카드 애견미용국비 고용24 훈련장려금 자부담 애견미용학원비 애완동물미용 한국유기견구호연맹 교육지원", "recent": true},
+{"title": "강아지첫미용, 언제 시작하고 무엇을 준비할까?", "description": "첫 예약 시점과 준비, 짧은 적응 연습과 첫날 작업 범위를 확인하세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/puppy-first-grooming/", "tags": "강아지첫미용 새끼강아지미용 첫미용시기 미용적응 첫미용준비", "recent": false},
 {"title": "시츄미용, 집에서 유지할 수 있는 털 길이는?", "description": "집에서 유지할 털 길이와 얼굴·눈 주변 관리, 엉킴 확인 기준을 살펴보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/shih-tzu-grooming/", "tags": "시츄미용 시츄털관리 시츄얼굴미용 시츄빗질 시츄미용주기", "recent": false},
 {"title": "강아지이중모 관리, 속털을 얼마나 정리해야 할까?", "description": "빠진 속털 정리와 짧은 미용의 차이, 브러싱·목욕·건조 확인 기준을 살펴보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/double-coated-dog-care/", "tags": "강아지이중모 속털 겉털 이중모관리 이중모빗질 이중모미용 털갈이 브러싱 목욕 건조", "recent": false},
 {"title": "부산애견미용학원, 퇴근 후 배워 취업까지 준비하려면?", "description": "서면역 1번·연산역 17번 출구 1분, 월~목 21:30까지 운영하는 이바우펫 서면점·연산점의 직장인 수강 기준을 정리했습니다.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/부산-애견미용학원/", "tags": "부산애견미용학원 서면 연산 서면역 연산역 직장인 야간반 토요일 주말반 실견수업 취업 비용 교육지원", "recent": false},
