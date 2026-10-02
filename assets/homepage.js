@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "슈나우저미용, 클리핑과 핸드스트리핑은 어떻게 다를까? | 그루밍노트", "description": "클리핑과 핸드스트리핑의 차이, 수염·다리 관리와 다음 미용 상담에 필요한 내용을 확인하세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/schnauzer-grooming/", "tags": "슈나우저미용 슈나우저 클리핑 핸드스트리핑 수염관리 빗질", "recent": true},
+{"title": "대전애견미용학원, 진로를 바꾸려면 무엇부터 정해야 할까?", "description": "은하수네거리 도보 6분 대전점의 선택 수업제와 재취업·진로 전환 목표별 과정, 교육지원 확인 기준을 정리했습니다.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/대전-애견미용학원/", "tags": "대전애견미용학원 대전 둔산 은하수네거리 재취업 경력단절 진로전환 주부 오전반 야간반 실견수업 교육지원 국민내일배움카드", "recent": true},
+{"title": "슈나우저미용, 클리핑과 핸드스트리핑은 어떻게 다를까? | 그루밍노트", "description": "클리핑과 핸드스트리핑의 차이, 수염·다리 관리와 다음 미용 상담에 필요한 내용을 확인하세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/schnauzer-grooming/", "tags": "슈나우저미용 슈나우저 클리핑 핸드스트리핑 수염관리 빗질", "recent": false},
 {"title": "대구애견미용학원, 창업 준비에 필요한 실견수업은? | 그루밍노트", "description": "동대구·반월당의 공식 위치와 창업 준비에 필요한 실견수업, 상담·인계 교육 범위를 확인하세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/대구-애견미용학원/", "tags": "대구애견미용학원 동대구 반월당 창업 실견수업 보호자상담 인계 비용 교육지원", "recent": false},
 {"title": "애견미용국비지원, 국민내일배움카드로 배울 수 있을까?", "description": "지원 대상과 한도, 실제 과정의 자부담 예시, 고용24에서 국비과정 찾는 순서를 확인하세요.", "category": "진로", "label": "진로·자격증", "path": "/career/dog-grooming-government-support/", "tags": "애견미용국비지원 국민내일배움카드 애견미용국비 고용24 훈련장려금 자부담 애견미용학원비 애완동물미용 한국유기견구호연맹 교육지원", "recent": false},
 {"title": "강아지첫미용, 언제 시작하고 무엇을 준비할까?", "description": "첫 예약 시점과 준비, 짧은 적응 연습과 첫날 작업 범위를 확인하세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/puppy-first-grooming/", "tags": "강아지첫미용 새끼강아지미용 첫미용시기 미용적응 첫미용준비", "recent": false},
