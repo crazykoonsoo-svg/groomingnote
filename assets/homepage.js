@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "닥스훈트미용, 단모·장모·강모는 관리가 어떻게 다를까?", "description": "우리 강아지의 털 유형부터 확인하고, 빗질·부분 정돈·전문 미용의 범위를 나눠 살펴보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/dachshund-grooming/", "tags": "닥스훈트미용 단모 장모 강모 닥스훈트 빗질 목욕 핸드스트리핑", "recent": true},
+{"title": "상동애견미용학원 이바우펫 오픈 기념 미용도구·장학지원 알아보기", "description": "상동애견미용학원 이바우펫의 신규 연수생 지원을 도구 구성·장학 심사·교육과정으로 나눠 확인해보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/상동-애견미용학원/", "tags": "상동애견미용학원 이바우펫 상동 부천 미용도구 장학지원 오픈 연맹지원", "recent": true},
+{"title": "닥스훈트미용, 단모·장모·강모는 관리가 어떻게 다를까?", "description": "우리 강아지의 털 유형부터 확인하고, 빗질·부분 정돈·전문 미용의 범위를 나눠 살펴보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/dachshund-grooming/", "tags": "닥스훈트미용 단모 장모 강모 닥스훈트 빗질 목욕 핸드스트리핑", "recent": false},
 {"title": "강아지미용후관리, 귀가 후 어떤 변화를 확인해야 할까?", "description": "미용 후 달라진 피부와 행동을 살피고, 집에서 할 관리와 전문가에게 확인할 내용을 구분하세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-after-grooming-care/", "tags": "강아지미용후관리 미용후피부 미용후긁음 미용후목욕 홈케어", "recent": false},
 {"title": "코카스파니엘미용, 귀털과 몸통 길이는 어떻게 정할까?", "description": "귀털의 오염과 귀 이상 증상을 구분하고, 집에서 유지할 수 있는 부위별 길이를 상담하세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/cocker-spaniel-grooming/", "tags": "코카스파니엘미용 코카스파니엘 귀털 몸통 길이 빗질 목욕", "recent": false},
 {"title": "주안애견미용학원, 20대가 처음 시작한다면 무엇부터 확인할까?", "description": "주안역에서 5정거장, 인천터미널역 2번 출구 364m 이바우펫 인천점. 20대가 처음 시작할 때의 과정 순서와 수업 시간 계획을 정리했습니다.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/주안-애견미용학원/", "tags": "주안애견미용학원 주안역 인천애견미용학원 미추홀구 인천터미널역 구월동 인천2호선 인천1호선 20대 대학생 첫진로 야간반 실견수업", "recent": false},
