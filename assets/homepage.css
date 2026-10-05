@@ -16,3 +16,10 @@
 
 img{height:auto}.footer-bottom .footer-disclosure{display:block!important;width:100%;font-size:10px}.footer-disclosure a{text-decoration:underline;text-underline-offset:3px}
 .footer-bottom{flex-wrap:wrap}
+
+/* 2026-10-05: 상단 주제 바로가기 4개 (04 애견미용학원) */
+.entry-section{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(min-width:801px){.entry{padding-inline:20px;gap:12px}.entry:first-child{padding-left:0}.entry svg{width:24px;height:24px}.entry h2{font-size:19px}}
+@media(min-width:801px) and (max-width:1180px){.entry svg{display:none}}
+@media(max-width:480px){.entry-section{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:6px}.entry:nth-child(2n){border-right:0}.entry:nth-child(2n+1){padding-left:0}.entry:nth-child(-n+2){border-bottom:1px solid var(--line);padding-bottom:12px}}
+@media(max-width:360px){.entry-section{grid-template-columns:1fr;row-gap:0}.entry:nth-child(-n+2){padding-bottom:14px}}
