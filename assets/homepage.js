@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "코카스파니엘미용, 귀털과 몸통 길이는 어떻게 정할까?", "description": "귀털의 오염과 귀 이상 증상을 구분하고, 집에서 유지할 수 있는 부위별 길이를 상담하세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/cocker-spaniel-grooming/", "tags": "코카스파니엘미용 코카스파니엘 귀털 몸통 길이 빗질 목욕", "recent": true},
+{"title": "강아지미용후관리, 귀가 후 어떤 변화를 확인해야 할까?", "description": "미용 후 달라진 피부와 행동을 살피고, 집에서 할 관리와 전문가에게 확인할 내용을 구분하세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-after-grooming-care/", "tags": "강아지미용후관리 미용후피부 미용후긁음 미용후목욕 홈케어", "recent": true},
+{"title": "코카스파니엘미용, 귀털과 몸통 길이는 어떻게 정할까?", "description": "귀털의 오염과 귀 이상 증상을 구분하고, 집에서 유지할 수 있는 부위별 길이를 상담하세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/cocker-spaniel-grooming/", "tags": "코카스파니엘미용 코카스파니엘 귀털 몸통 길이 빗질 목욕", "recent": false},
 {"title": "주안애견미용학원, 20대가 처음 시작한다면 무엇부터 확인할까?", "description": "주안역에서 5정거장, 인천터미널역 2번 출구 364m 이바우펫 인천점. 20대가 처음 시작할 때의 과정 순서와 수업 시간 계획을 정리했습니다.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/주안-애견미용학원/", "tags": "주안애견미용학원 주안역 인천애견미용학원 미추홀구 인천터미널역 구월동 인천2호선 인천1호선 20대 대학생 첫진로 야간반 실견수업", "recent": false},
 {"title": "송파구애견미용학원, 내 생활권에서는 어느 지점이 가까울까?", "description": "8호선·5호선은 천호점, 2호선은 강남점. 송파구 생활권별로 환승 없이 갈 수 있는 지점과 미용도구 증정을 정리했습니다.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/송파구-애견미용학원/", "tags": "송파구애견미용학원 송파애견미용학원 잠실 문정 방이 오금 가락 위례 천호역 선릉역 8호선 5호선 2호선 미용도구 주부 평일낮", "recent": false},
 {"title": "골든리트리버미용, 긴 털과 부분 정돈은 어떻게 관리할까? | 그루밍노트", "description": "귀 뒤·다리·꼬리의 긴 털을 살피고, 몸 전체 미용과 필요한 부위의 정돈을 나눠서 미용하세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/golden-retriever-grooming/", "tags": "골든리트리버미용 골든리트리버 털관리 빗질 부분미용 목욕", "recent": false},
