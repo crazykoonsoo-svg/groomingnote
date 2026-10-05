@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "부천애견미용학원 추천을 찾는다면 무엇부터 비교해야 할까?", "description": "위치·수업 시간·실견수업·과정·비용·수료 후 연계 6가지 기준으로 부천역 5번 출구 296m 부천점 정보를 정리했습니다.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/부천-애견미용학원/", "tags": "부천애견미용학원 부천애견미용학원추천 부천역 원미구 1호선 실견수업 가정견 선택수업제 교육지원 애견미용학원비교", "recent": true},
+{"title": "골든리트리버미용, 긴 털과 부분 정돈은 어떻게 관리할까? | 그루밍노트", "description": "귀 뒤·다리·꼬리의 긴 털을 살피고, 몸 전체 미용과 필요한 부위의 정돈을 나눠서 미용하세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/golden-retriever-grooming/", "tags": "골든리트리버미용 골든리트리버 털관리 빗질 부분미용 목욕", "recent": true},
+{"title": "부천애견미용학원 추천을 찾는다면 무엇부터 비교해야 할까?", "description": "위치·수업 시간·실견수업·과정·비용·수료 후 연계 6가지 기준으로 부천역 5번 출구 296m 부천점 정보를 정리했습니다.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/부천-애견미용학원/", "tags": "부천애견미용학원 부천애견미용학원추천 부천역 원미구 1호선 실견수업 가정견 선택수업제 교육지원 애견미용학원비교", "recent": false},
 {"title": "노령견미용, 건강 상태와 작업 범위는 어떻게 전달할까? | 그루밍노트", "description": "최근 건강 변화와 불편한 자세를 전달하고, 필요한 미용 범위와 휴식·중단 기준을 상담하세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/senior-dog-grooming/", "tags": "노령견미용 노령견 미용준비 목욕 빗질 스트레스", "recent": false},
 {"title": "대전애견미용학원, 진로를 바꾸려면 무엇부터 정해야 할까?", "description": "은하수네거리 도보 6분 대전점의 선택 수업제와 재취업·진로 전환 목표별 과정, 교육지원 확인 기준을 정리했습니다.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/대전-애견미용학원/", "tags": "대전애견미용학원 대전 둔산 은하수네거리 재취업 경력단절 진로전환 주부 오전반 야간반 실견수업 교육지원 국민내일배움카드", "recent": false},
 {"title": "슈나우저미용, 클리핑과 핸드스트리핑은 어떻게 다를까? | 그루밍노트", "description": "클리핑과 핸드스트리핑의 차이, 수염·다리 관리와 다음 미용 상담에 필요한 내용을 확인하세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/schnauzer-grooming/", "tags": "슈나우저미용 슈나우저 클리핑 핸드스트리핑 수염관리 빗질", "recent": false},
@@ -46,7 +47,8 @@ const breeds = {
  maltese:{name:"말티즈",tag:"얼굴·털 관리",title:"말티즈, 생활에 맞는 미용 스타일",description:"말티즈의 미용 스타일과 얼굴 주변 관리 등 보호자가 알아두면 좋은 털 관리 포인트를 확인해보세요.",path:"/breeds/maltese-grooming/"},
  pomeranian:{name:"포메라니안",tag:"이중모 관리",title:"포메라니안, 털의 구조부터 알아보기",description:"이중모의 특징을 이해하고, 털 상태에 맞는 미용 스타일과 집에서의 관리 방법을 함께 살펴보세요.",path:"/breeds/pomeranian-grooming/"},
  shihtzu:{name:"시츄",tag:"긴 털·얼굴 관리",title:"시츄, 털 길이와 얼굴 관리부터",description:"몸통과 얼굴의 털 길이를 나눠 정하고, 눈 주변 정돈과 엉킴 확인 기준을 함께 살펴보세요.",path:"/breeds/shih-tzu-grooming/"},
- schnauzer:{"name": "슈나우저", "tag": "겉털·수염 관리", "title": "슈나우저, 미용 방식과 수염 관리", "description": "클리핑과 핸드스트리핑의 차이를 알아보고, 수염·다리 관리와 미용 상담 기준을 확인해보세요.", "path": "/breeds/schnauzer-grooming/"}
+ schnauzer:{"name": "슈나우저", "tag": "겉털·수염 관리", "title": "슈나우저, 미용 방식과 수염 관리", "description": "클리핑과 핸드스트리핑의 차이를 알아보고, 수염·다리 관리와 미용 상담 기준을 확인해보세요.", "path": "/breeds/schnauzer-grooming/"},
+ golden:{"name": "골든리트리버", "tag": "긴 털·부분 정돈", "title": "골든리트리버, 긴 털과 부분 정돈", "description": "귀 뒤·다리·꼬리의 긴 털을 확인하고, 브러싱과 부분 정돈·목욕·건조 기준을 살펴보세요.", "path": "/breeds/golden-retriever-grooming/"}
 };
 const state={category:"전체",query:"",limit:9};
 const $=s=>document.querySelector(s);

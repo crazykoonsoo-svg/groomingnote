@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://groomingnote.co.kr/</loc><lastmod>2026-10-02</lastmod><priority>1.0</priority></url>
+  <url><loc>https://groomingnote.co.kr/</loc><lastmod>2026-10-05</lastmod><priority>1.0</priority></url>
   <url><loc>https://groomingnote.co.kr/about/</loc><lastmod>2026-09-30</lastmod><priority>0.5</priority></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/%EA%B4%91%EC%A3%BC-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/%EB%B6%80%EC%82%B0-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
   <url><loc>https://groomingnote.co.kr/breeds/bichon-grooming/</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/breeds/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
+  <url><loc>https://groomingnote.co.kr/breeds/</loc><lastmod>2026-10-05</lastmod><priority>0.8</priority></url>
   <url><loc>https://groomingnote.co.kr/breeds/maltese-grooming/</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://groomingnote.co.kr/breeds/pomeranian-grooming/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://groomingnote.co.kr/breeds/poodle-grooming/</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority></url>
@@ -48,4 +48,5 @@
   <url><loc>https://groomingnote.co.kr/academy-guide/%EB%8C%80%EC%A0%84-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
   <url><loc>https://groomingnote.co.kr/homecare/senior-dog-grooming/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/%EB%B6%80%EC%B2%9C-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
+  <url><loc>https://groomingnote.co.kr/breeds/golden-retriever-grooming/</loc><lastmod>2026-10-05</lastmod><priority>0.7</priority></url>
 </urlset>
