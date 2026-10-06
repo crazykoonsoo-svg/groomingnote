@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://groomingnote.co.kr/</loc><lastmod>2026-10-05</lastmod><priority>1.0</priority></url>
   <url><loc>https://groomingnote.co.kr/about/</loc><lastmod>2026-09-30</lastmod><priority>0.5</priority></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://groomingnote.co.kr/academy-guide/%EA%B4%91%EC%A3%BC-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/academy-guide/%EB%B6%80%EC%82%B0-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/breeds/bichon-grooming/</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://groomingnote.co.kr/academy-guide/%EA%B4%91%EC%A3%BC-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/gwangju-academy/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/academy-guide/%EB%B6%80%EC%82%B0-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/busan-academy/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/breeds/bichon-grooming/</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/bichon-grooming/bichon-grooming-hero-title-card.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/breeds/</loc><lastmod>2026-10-05</lastmod><priority>0.8</priority></url>
-  <url><loc>https://groomingnote.co.kr/breeds/maltese-grooming/</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/breeds/pomeranian-grooming/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/breeds/poodle-grooming/</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/career/dog-groomer-employment/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/career/dog-groomer-outlook/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/career/dog-grooming-certificate-level-2/</loc><lastmod>2026-09-23</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/career/dog-grooming-certificate-level-3/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/career/dog-grooming-certificate/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/career/dog-grooming-shop-startup/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/career/how-to-become-dog-groomer/</loc><lastmod>2026-09-29</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/career/how-to-choose-dog-grooming-academy/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://groomingnote.co.kr/breeds/maltese-grooming/</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/maltese-grooming/maltese-grooming-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/breeds/pomeranian-grooming/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/pomeranian-grooming/pomeranian-grooming-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/breeds/poodle-grooming/</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/poodle-grooming/poodle-grooming-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/career/dog-groomer-employment/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-groomer-employment/dog-groomer-employment-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/career/dog-groomer-outlook/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-groomer-outlook/dog-groomer-outlook-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/career/dog-grooming-certificate-level-2/</loc><lastmod>2026-09-23</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-grooming-certificate-level-2/dog-grooming-certificate-level-2-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/career/dog-grooming-certificate-level-3/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-grooming-certificate-level-3/dog-grooming-certificate-level-3-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/career/dog-grooming-certificate/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-grooming-certificate/dog-grooming-certificate-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/career/dog-grooming-shop-startup/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-grooming-shop-startup/dog-grooming-shop-startup-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/career/how-to-become-dog-groomer/</loc><lastmod>2026-09-29</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/how-to-become-dog-groomer/how-to-become-dog-groomer-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/career/how-to-choose-dog-grooming-academy/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/how-to-choose-dog-grooming-academy/how-to-choose-dog-grooming-academy-hero-title-card.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/career/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/dog-bathing-frequency/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/dog-coat-drying/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/dog-ear-cleaning/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/dog-grooming-frequency/</loc><lastmod>2026-09-29</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/dog-grooming-stress/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/dog-grooming-types/</loc><lastmod>2026-09-29</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/dog-matted-coat/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/dog-nail-trimming/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/dog-paw-hair-trimming/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/dog-self-grooming/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://groomingnote.co.kr/homecare/dog-bathing-frequency/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-bathing-frequency/dog-bathing-frequency-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/homecare/dog-coat-drying/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-coat-drying/dog-coat-drying-hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/homecare/dog-ear-cleaning/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-ear-cleaning/dog-ear-cleaning-hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/homecare/dog-grooming-frequency/</loc><lastmod>2026-09-29</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-grooming-frequency/dog-grooming-frequency-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/homecare/dog-grooming-stress/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-grooming-stress/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/homecare/dog-grooming-types/</loc><lastmod>2026-09-29</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-grooming-types/dog-grooming-types-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/homecare/dog-matted-coat/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-matted-coat/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/homecare/dog-nail-trimming/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-nail-trimming/dog-nail-trimming-hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/homecare/dog-paw-hair-trimming/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-paw-hair-trimming/dog-paw-hair-trimming-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/homecare/dog-self-grooming/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-self-grooming/dog-self-grooming-hero-title-card.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/homecare/</loc><lastmod>2026-10-05</lastmod><priority>0.8</priority></url>
-  <url><loc>https://groomingnote.co.kr/industry/animal-grooming-business/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://groomingnote.co.kr/industry/animal-grooming-business/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/animal-grooming-business/animal-grooming-business-hero-title-card.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/industry/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://groomingnote.co.kr/industry/pet-market-size/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://groomingnote.co.kr/industry/pet-market-size/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/pet-market-size/pet-market-size-hero-title-card.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/qna/</loc><lastmod>2026-09-30</lastmod><priority>0.5</priority></url>
-  <url><loc>https://groomingnote.co.kr/reviews/dog-grooming-brushes/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/reviews/dog-grooming-clippers/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/reviews/dog-grooming-scissors/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/reviews/dog-shampoo/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://groomingnote.co.kr/reviews/dog-grooming-brushes/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-grooming-brushes/dog-grooming-brushes-hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/reviews/dog-grooming-clippers/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-grooming-clippers/dog-grooming-clippers-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/reviews/dog-grooming-scissors/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-grooming-scissors/dog-grooming-scissors-hero-title-card.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/reviews/dog-shampoo/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-shampoo/dog-shampoo-hero.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/reviews/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/double-coated-dog-care/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/breeds/shih-tzu-grooming/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/puppy-first-grooming/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/career/dog-grooming-government-support/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/academy-guide/대구-애견미용학원/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/breeds/schnauzer-grooming/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/academy-guide/%EB%8C%80%EC%A0%84-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/senior-dog-grooming/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/academy-guide/%EB%B6%80%EC%B2%9C-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/breeds/golden-retriever-grooming/</loc><lastmod>2026-10-05</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/academy-guide/%EC%86%A1%ED%8C%8C%EA%B5%AC-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/academy-guide/%EC%A3%BC%EC%95%88-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/breeds/cocker-spaniel-grooming/</loc><lastmod>2026-10-05</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/homecare/dog-after-grooming-care/</loc><lastmod>2026-10-05</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/breeds/dachshund-grooming/</loc><lastmod>2026-10-05</lastmod><priority>0.7</priority></url>
-  <url><loc>https://groomingnote.co.kr/academy-guide/상동-애견미용학원/</loc><lastmod>2026-10-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://groomingnote.co.kr/homecare/double-coated-dog-care/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/double-coated-dog-care/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/breeds/shih-tzu-grooming/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/shih-tzu-grooming/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/homecare/puppy-first-grooming/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/puppy-first-grooming/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/career/dog-grooming-government-support/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-grooming-government-support/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/academy-guide/대구-애견미용학원/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/daegu-academy/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/breeds/schnauzer-grooming/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/schnauzer-grooming/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/academy-guide/%EB%8C%80%EC%A0%84-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/daejeon-academy/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/homecare/senior-dog-grooming/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/senior-dog-grooming/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/academy-guide/%EB%B6%80%EC%B2%9C-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/bucheon-academy/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/breeds/golden-retriever-grooming/</loc><lastmod>2026-10-05</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/golden-retriever-grooming/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/academy-guide/%EC%86%A1%ED%8C%8C%EA%B5%AC-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/songpa-academy/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/academy-guide/%EC%A3%BC%EC%95%88-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/juan-academy/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/breeds/cocker-spaniel-grooming/</loc><lastmod>2026-10-05</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/cocker-spaniel-grooming/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/homecare/dog-after-grooming-care/</loc><lastmod>2026-10-05</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-after-grooming-care/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/breeds/dachshund-grooming/</loc><lastmod>2026-10-05</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dachshund-grooming/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/academy-guide/상동-애견미용학원/</loc><lastmod>2026-10-05</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/sangdong-academy/hero.jpg</image:loc></image:image></url>
 </urlset>
