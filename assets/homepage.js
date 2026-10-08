@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "강아지미용비용, 예약 전 견적에서 무엇을 확인할까?", "description": "미용 가격을 비교하기 전에 기본 작업과 추가 비용의 기준부터 확인해보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-grooming-cost/", "tags": "강아지미용비용 강아지 미용 가격 애견미용 가격 강아지 목욕 비용 강아지 미용 추가 비용 강아지 미용 예약", "recent": true},
+{"title": "서산애견미용학원, 처음 배우는 사람은 실견수업 전에 무엇을 익힐까?", "description": "서산에서 애견미용을 시작한다면 통학 가능한 수업과 기초 연습·실견수업의 연결을 함께 확인해보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/서산-애견미용학원/", "tags": "서산애견미용학원 서산 애견미용자격증 애견미용 기초교육 가정견 실견수업 천안이바우펫 애견미용학원 비용", "recent": true},
+{"title": "강아지미용비용, 예약 전 견적에서 무엇을 확인할까?", "description": "미용 가격을 비교하기 전에 기본 작업과 추가 비용의 기준부터 확인해보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-grooming-cost/", "tags": "강아지미용비용 강아지 미용 가격 애견미용 가격 강아지 목욕 비용 강아지 미용 추가 비용 강아지 미용 예약", "recent": false},
 {"title": "요크셔테리어미용, 긴 털과 짧은 스타일은 어떻게 선택할까?", "description": "긴 털을 유지할 범위와 집에서 가능한 빗질을 살펴보고, 생활에 맞는 미용 스타일을 상담하세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/yorkshire-terrier-grooming/", "tags": "요크셔테리어미용 요크셔테리어 털관리 요키미용 빗질 미용스타일", "recent": false},
 {"title": "강아지위생미용, 배변 후 오염되는 털은 어디까지 정리할까?", "description": "배변 후 털에 묻는 오염과 피부 이상을 구분하고, 필요한 부위만 정돈할 수 있도록 미용 상담을 준비하세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-sanitary-grooming/", "tags": "강아지위생미용 강아지부분미용 배변후털관리 강아지엉덩이털 위생미용주기", "recent": false},
 {"title": "구미애견미용학원 통학하며 취업 준비를 이어가려면?", "description": "구미에서 출발하는 통학 계획과 취업에 필요한 실습 경험을 함께 살펴보고, 지속할 수 있는 교육과정을 선택하세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/구미-애견미용학원/", "tags": "구미애견미용학원 구미 애견미용사 취업 실견수업 대구이바우펫 통학 비용", "recent": false},
