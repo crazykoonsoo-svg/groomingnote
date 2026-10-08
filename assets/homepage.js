@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "강아지위생미용, 배변 후 오염되는 털은 어디까지 정리할까?", "description": "배변 후 털에 묻는 오염과 피부 이상을 구분하고, 필요한 부위만 정돈할 수 있도록 미용 상담을 준비하세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-sanitary-grooming/", "tags": "강아지위생미용 강아지부분미용 배변후털관리 강아지엉덩이털 위생미용주기", "recent": true},
+{"title": "요크셔테리어미용, 긴 털과 짧은 스타일은 어떻게 선택할까?", "description": "긴 털을 유지할 범위와 집에서 가능한 빗질을 살펴보고, 생활에 맞는 미용 스타일을 상담하세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/yorkshire-terrier-grooming/", "tags": "요크셔테리어미용 요크셔테리어 털관리 요키미용 빗질 미용스타일", "recent": true},
+{"title": "강아지위생미용, 배변 후 오염되는 털은 어디까지 정리할까?", "description": "배변 후 털에 묻는 오염과 피부 이상을 구분하고, 필요한 부위만 정돈할 수 있도록 미용 상담을 준비하세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-sanitary-grooming/", "tags": "강아지위생미용 강아지부분미용 배변후털관리 강아지엉덩이털 위생미용주기", "recent": false},
 {"title": "구미애견미용학원 통학하며 취업 준비를 이어가려면?", "description": "구미에서 출발하는 통학 계획과 취업에 필요한 실습 경험을 함께 살펴보고, 지속할 수 있는 교육과정을 선택하세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/구미-애견미용학원/", "tags": "구미애견미용학원 구미 애견미용사 취업 실견수업 대구이바우펫 통학 비용", "recent": false},
 {"title": "상동애견미용학원 이바우펫 오픈 기념 미용도구·장학지원 알아보기", "description": "상동애견미용학원 이바우펫의 신규 연수생 지원을 도구 구성·장학 심사·교육과정으로 나눠 확인해보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/상동-애견미용학원/", "tags": "상동애견미용학원 이바우펫 상동 부천 미용도구 장학지원 오픈 연맹지원", "recent": false},
 {"title": "닥스훈트미용, 단모·장모·강모는 관리가 어떻게 다를까?", "description": "우리 강아지의 털 유형부터 확인하고, 빗질·부분 정돈·전문 미용의 범위를 나눠 살펴보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/dachshund-grooming/", "tags": "닥스훈트미용 단모 장모 강모 닥스훈트 빗질 목욕 핸드스트리핑", "recent": false},
@@ -50,6 +51,7 @@ const articles = [
  {title:"동물미용업, 창업 전 알아야 할 등록 기준",description:"애견미용실 운영을 준비할 때 확인할 등록 관련 정보.",category:"업계",label:"업계",path:"/industry/animal-grooming-business/",tags:"동물미용업 등록 시설 기준 창업"}
 ];
 const breeds = {
+ yorkshire:{"name": "요크셔테리어", "tag": "긴 털·생활 스타일", "title": "요크셔테리어, 유지할 수 있는 털 길이", "description": "긴 털을 유지할 범위와 집에서 가능한 빗질을 살펴보고, 생활에 맞는 미용 스타일을 상담하세요.", "path": "/breeds/yorkshire-terrier-grooming/"},
  poodle:{name:"푸들",tag:"곱슬털 관리",title:"푸들, 스타일만큼 중요한 털 관리",description:"미용 종류와 스타일을 살펴보고, 털 엉킴을 줄이는 관리 방법과 미용 주기를 함께 알아보세요.",path:"/breeds/poodle-grooming/"},
  bichon:{name:"비숑",tag:"풍성한 털 관리",title:"비숑, 둥근 얼굴과 풍성한 털",description:"비숑의 미용 스타일을 비교하고, 풍성한 털을 유지하기 위한 브러싱과 엉킴 관리 방법을 살펴보세요.",path:"/breeds/bichon-grooming/"},
  maltese:{name:"말티즈",tag:"얼굴·털 관리",title:"말티즈, 생활에 맞는 미용 스타일",description:"말티즈의 미용 스타일과 얼굴 주변 관리 등 보호자가 알아두면 좋은 털 관리 포인트를 확인해보세요.",path:"/breeds/maltese-grooming/"},
