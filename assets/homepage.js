@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "구미애견미용학원 통학하며 취업 준비를 이어가려면?", "description": "구미에서 출발하는 통학 계획과 취업에 필요한 실습 경험을 함께 살펴보고, 지속할 수 있는 교육과정을 선택하세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/구미-애견미용학원/", "tags": "구미애견미용학원 구미 애견미용사 취업 실견수업 대구이바우펫 통학 비용", "recent": true},
+{"title": "강아지위생미용, 배변 후 오염되는 털은 어디까지 정리할까?", "description": "배변 후 털에 묻는 오염과 피부 이상을 구분하고, 필요한 부위만 정돈할 수 있도록 미용 상담을 준비하세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-sanitary-grooming/", "tags": "강아지위생미용 강아지부분미용 배변후털관리 강아지엉덩이털 위생미용주기", "recent": true},
+{"title": "구미애견미용학원 통학하며 취업 준비를 이어가려면?", "description": "구미에서 출발하는 통학 계획과 취업에 필요한 실습 경험을 함께 살펴보고, 지속할 수 있는 교육과정을 선택하세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/구미-애견미용학원/", "tags": "구미애견미용학원 구미 애견미용사 취업 실견수업 대구이바우펫 통학 비용", "recent": false},
 {"title": "상동애견미용학원 이바우펫 오픈 기념 미용도구·장학지원 알아보기", "description": "상동애견미용학원 이바우펫의 신규 연수생 지원을 도구 구성·장학 심사·교육과정으로 나눠 확인해보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/상동-애견미용학원/", "tags": "상동애견미용학원 이바우펫 상동 부천 미용도구 장학지원 오픈 연맹지원", "recent": false},
 {"title": "닥스훈트미용, 단모·장모·강모는 관리가 어떻게 다를까?", "description": "우리 강아지의 털 유형부터 확인하고, 빗질·부분 정돈·전문 미용의 범위를 나눠 살펴보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/dachshund-grooming/", "tags": "닥스훈트미용 단모 장모 강모 닥스훈트 빗질 목욕 핸드스트리핑", "recent": false},
 {"title": "강아지미용후관리, 귀가 후 어떤 변화를 확인해야 할까?", "description": "미용 후 달라진 피부와 행동을 살피고, 집에서 할 관리와 전문가에게 확인할 내용을 구분하세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-after-grooming-care/", "tags": "강아지미용후관리 미용후피부 미용후긁음 미용후목욕 홈케어", "recent": false},
