@@ -87,7 +87,7 @@ $("#reset").addEventListener('click',()=>selectCategory('전체'));
 $("#show-more").addEventListener('click',()=>{state.limit+=9;render();});
 function selectBreed(key,focus=false){
  const b=breeds[key]; $("#breed-tag").textContent=b.tag;$("#breed-title").textContent=b.title;$("#breed-description").textContent=b.description;$("#breed-link").href=b.path;$("#breed-link").textContent=b.name+' 미용 가이드 읽기';$("#breed-panel").setAttribute('aria-labelledby','breed-tab-'+key);
- document.querySelectorAll('[data-breed]').forEach(t=>{const active=t.dataset.breed===key;t.setAttribute('aria-selected',String(active));t.tabIndex=active?0:-1;if(active&&focus)t.focus();});
+ document.querySelectorAll('[data-breed]').forEach(t=>{const active=t.dataset.breed===key;t.setAttribute('aria-selected',String(active));t.tabIndex=active?0:-1;if(active){if(focus)t.focus({preventScroll:true});const track=t.parentElement;const left=t.offsetLeft-track.offsetLeft;if(left<track.scrollLeft)track.scrollTo({left,behavior:'auto'});else if(left+t.offsetWidth>track.scrollLeft+track.clientWidth)track.scrollTo({left:left+t.offsetWidth-track.clientWidth,behavior:'auto'});}});
 }
 document.querySelectorAll('[data-breed]').forEach(t=>{t.addEventListener('click',()=>selectBreed(t.dataset.breed));t.addEventListener('keydown',e=>{const keys=Object.keys(breeds),i=keys.indexOf(t.dataset.breed);let next;if(e.key==='ArrowRight')next=keys[(i+1)%keys.length];if(e.key==='ArrowLeft')next=keys[(i+keys.length-1)%keys.length];if(e.key==='Home')next=keys[0];if(e.key==='End')next=keys[keys.length-1];if(next){e.preventDefault();selectBreed(next,true);}});});
 const toggle=$(".menu-toggle"),mobileNav=$("#mobile-nav");
@@ -99,3 +99,12 @@ window.addEventListener('resize',()=>{if(innerWidth>800)closeMenu();});
 $("#back-top").addEventListener('click',()=>window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}));
 window.addEventListener('scroll',()=>{$("#back-top").hidden=window.scrollY<700;},{passive:true});
 render();
+
+const breedTrack=$("#breed-tab-track"),breedPrev=$("#breed-prev"),breedNext=$("#breed-next");
+function updateBreedArrows(){breedPrev.disabled=breedTrack.scrollLeft<=1;breedNext.disabled=breedTrack.scrollLeft+breedTrack.clientWidth>=breedTrack.scrollWidth-1;}
+function slideBreeds(direction){const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;breedTrack.scrollBy({left:direction*Math.max(120,breedTrack.clientWidth*.75),behavior:reduced?'auto':'smooth'});}
+breedPrev.addEventListener('click',()=>slideBreeds(-1));
+breedNext.addEventListener('click',()=>slideBreeds(1));
+breedTrack.addEventListener('scroll',updateBreedArrows,{passive:true});
+window.addEventListener('resize',updateBreedArrows);
+updateBreedArrows();
