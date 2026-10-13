@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "강아지미용예약, 상담 전에 무엇을 알려줘야 할까?", "description": "원하는 스타일 사진에 털 상태와 미용 경험을 더해보세요. 예약 상담부터 당일 인계까지 필요한 정보를 정리합니다.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-grooming-appointment/", "tags": "강아지미용예약 강아지 미용 상담 애견미용 예약 준비 강아지 미용 준비물 미용 스타일 상담 강아지 미용실", "recent": true},
+{"title": "강아지홈케어, 다음 미용까지 빗질·목욕 계획은 어떻게 세울까?", "description": "미용실에서 정돈한 털을 다음 방문까지 유지하려면 어떤 관리가 필요할까요? 부위별 확인과 집에서 가능한 작업을 기준으로 홈케어 계획을 세워보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-grooming-homecare-routine/", "tags": "강아지홈케어 강아지 털 관리 강아지 빗질 미용 사이 관리 강아지 목욕 관리 반려견 홈케어", "recent": true},
+{"title": "강아지미용예약, 상담 전에 무엇을 알려줘야 할까?", "description": "원하는 스타일 사진에 털 상태와 미용 경험을 더해보세요. 예약 상담부터 당일 인계까지 필요한 정보를 정리합니다.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-grooming-appointment/", "tags": "강아지미용예약 강아지 미용 상담 애견미용 예약 준비 강아지 미용 준비물 미용 스타일 상담 강아지 미용실", "recent": false},
 {"title": "월곶애견미용 쁘띠댕댕, 1:1 맞춤미용부터 데이케어까지", "description": "시흥 월곶 쁘띠댕댕의 1:1 맞춤미용, 나노수소스파, 데이케어·호텔링과 위치를 소개합니다.", "category": "업계", "label": "업계", "path": "/industry/월곶-애견미용-쁘띠댕댕/", "tags": "월곶애견미용 쁘띠댕댕 시흥 데이케어 호텔링 나노수소스파", "recent": false},
 {"title": "서산애견미용학원, 처음 배우는 사람은 실견수업 전에 무엇을 익힐까?", "description": "서산에서 애견미용을 시작한다면 통학 가능한 수업과 기초 연습·실견수업의 연결을 함께 확인해보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/서산-애견미용학원/", "tags": "서산애견미용학원 서산 애견미용자격증 애견미용 기초교육 가정견 실견수업 천안이바우펫 애견미용학원 비용", "recent": false},
 {"title": "강아지미용비용, 예약 전 견적에서 무엇을 확인할까?", "description": "미용 가격을 비교하기 전에 기본 작업과 추가 비용의 기준부터 확인해보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-grooming-cost/", "tags": "강아지미용비용 강아지 미용 가격 애견미용 가격 강아지 목욕 비용 강아지 미용 추가 비용 강아지 미용 예약", "recent": false},
