@@ -4,7 +4,7 @@ layout: null
 {%- capture records -%}
 {%- for file in site.pages -%}
 {%- if file.path contains '/index.html' -%}
-{%- assign include_path = file.path | remove_first: '/' -%}
+{%- assign include_path = file.path -%}
 {%- assign source = file.content -%}
 {%- if source contains 'property="article:published_time"' and source contains '<div class="article-body">' -%}
 {%- assign modified = source | split: 'property="article:modified_time" content="' | last | split: '"' | first -%}
