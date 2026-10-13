@@ -2,10 +2,10 @@
 layout: null
 ---
 {%- capture records -%}
-{%- for file in site.static_files -%}
-{%- if file.extname == '.html' and file.name == 'index.html' -%}
+{%- for file in site.pages -%}
+{%- if file.path contains '/index.html' -%}
 {%- assign include_path = file.path | remove_first: '/' -%}
-{%- capture source -%}{%- include_relative {{ include_path }} -%}{%- endcapture -%}
+{%- assign source = file.content -%}
 {%- if source contains 'property="article:published_time"' and source contains '<div class="article-body">' -%}
 {%- assign modified = source | split: 'property="article:modified_time" content="' | last | split: '"' | first -%}
 {{- modified -}}|{{- include_path -}}||
@@ -25,7 +25,8 @@ layout: null
 {%- for record in ordered limit:20 -%}
 {%- if record contains '|' -%}
 {%- assign include_path = record | split: '|' | last -%}
-{%- capture source -%}{%- include_relative {{ include_path }} -%}{%- endcapture -%}
+{%- assign matching = site.pages | where: 'path', include_path -%}
+{%- assign source = matching.first.content -%}
 {%- assign title = source | split: '<title>' | last | split: '</title>' | first -%}
 {%- assign canonical = source | split: 'rel="canonical" href="' | last | split: '"' | first -%}
 {%- assign published = source | split: 'property="article:published_time" content="' | last | split: '"' | first -%}
