@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "강아지미용학원비용, 수강료 외에 얼마를 준비해야 할까?", "description": "월 수강료와 전체 교육비는 어떻게 다를까요? 도구·시험·추가 실습 비용을 나눠 확인하고, 자신의 목표까지 필요한 예산을 계산해보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-grooming-academy-cost/", "tags": "강아지미용학원비용 애견미용학원 수강료 애견미용 도구비 애견미용 자격증 비용 애견미용 교육지원 애견미용 실견수업", "recent": true},
+{"title": "웰시코기미용, 엉덩이 털은 어디까지 다듬어야 할까?", "description": "동그란 엉덩이 미용이 모든 코기에게 필요할까요? 오염되는 부위와 털 구조를 살펴 우리 강아지에게 필요한 정돈 범위를 정해보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/welsh-corgi-grooming/", "tags": "웰시코기미용 웰시코기 털 관리 웰시코기 엉덩이 미용 코기 털갈이 웰시코기 빗질", "recent": true},
+{"title": "강아지미용학원비용, 수강료 외에 얼마를 준비해야 할까?", "description": "월 수강료와 전체 교육비는 어떻게 다를까요? 도구·시험·추가 실습 비용을 나눠 확인하고, 자신의 목표까지 필요한 예산을 계산해보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-grooming-academy-cost/", "tags": "강아지미용학원비용 애견미용학원 수강료 애견미용 도구비 애견미용 자격증 비용 애견미용 교육지원 애견미용 실견수업", "recent": false},
 {"title": "애견미용고등학교, 중학생은 학교 선택 전에 무엇을 확인할까?", "description": "강아지를 좋아하는 마음을 학교 선택으로 연결하려면 무엇을 살펴야 할까요? 미용 수업과 동물 돌봄, 지원 조건과 학교생활을 함께 확인해보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-grooming-high-school/", "tags": "애견미용고등학교 반려동물 특성화고 반려동물관리과 애견미용 고등학교 진학 중학생 애견미용 애견미용 진로", "recent": false},
 {"title": "애견미용학과 대학교, 어떤 전공과 실습과정을 확인해야 할까?", "description": "반려동물 관련 학과라고 모두 같은 미용 교육을 받는 것은 아닙니다. 공식 전공명과 교육과정, 실습 참여 범위를 살펴 진학 방향을 정해보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-grooming-university/", "tags": "애견미용학과 대학교 애견미용 대학 반려동물학과 애견미용전공 애견미용학과 진학 애견미용사 진로", "recent": false},
 {"title": "애견미용 포트폴리오, 취업 전에 사진과 작업 기록을 어떻게 정리할까?", "description": "완성 사진만으로 설명하기 어려운 실습 경험을 정리해보세요. 직접 수행한 작업과 지도받은 부분, 다음 연습 내용을 연결하는 방법을 안내합니다.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-grooming-portfolio/", "tags": "애견미용 포트폴리오 애견미용사 취업 준비 애견미용 실습 기록 애견미용 전후 사진 애견미용 면접", "recent": false},
@@ -64,6 +65,7 @@ const articles = [
  {title:"동물미용업, 애견미용실 창업 전 알아야 할 등록 기준 | 그루밍노트",description:"애견미용실 운영을 준비할 때 확인할 등록 관련 정보.",category:"업계",label:"업계",path:"/industry/animal-grooming-business/",tags:"동물미용업 등록 시설 기준 창업"}
 ];
 const breeds = {
+ corgi:{"name": "웰시코기", "tag": "이중모·부분 정돈", "title": "웰시코기, 자연스러운 털과 엉덩이 정돈", "description": "동그란 엉덩이 미용이 모든 코기에게 필요할까요? 오염되는 부위와 털 구조를 살펴 우리 강아지에게 필요한 정돈 범위를 정해보세요.", "path": "/breeds/welsh-corgi-grooming/"},
  bordercollie:{"name": "보더콜리", "tag": "이중모·산책 후 관리", "title": "보더콜리, 산책 후 관리와 부분 정돈", "description": "털 유형에 맞춰 오염 확인과 속털 빗질, 목욕·건조와 부분 정돈을 계획하세요.", "path": "/breeds/border-collie-grooming/"},
  yorkshire:{"name": "요크셔테리어", "tag": "긴 털·생활 스타일", "title": "요크셔테리어, 유지할 수 있는 털 길이", "description": "긴 털을 유지할 범위와 집에서 가능한 빗질을 살펴보고, 생활에 맞는 미용 스타일을 상담하세요.", "path": "/breeds/yorkshire-terrier-grooming/"},
  poodle:{name:"푸들",tag:"곱슬털 관리",title:"푸들, 스타일만큼 중요한 털 관리",description:"미용 종류와 스타일을 살펴보고, 털 엉킴을 줄이는 관리 방법과 미용 주기를 함께 알아보세요.",path:"/breeds/poodle-grooming/"},
