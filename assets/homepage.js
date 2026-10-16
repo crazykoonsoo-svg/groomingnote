@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "애견미용배우는기간, 자격증 준비와 취업까지 얼마나 계획할까?", "description": "같은 기간을 배워도 직접 해본 작업은 다를 수 있습니다. 자격증·실견 실습·취업 준비를 나눠 자신의 출석 일정에 맞는 계획을 세워보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-grooming-learning-period/", "tags": "애견미용배우는기간 애견미용 배우는 시간 애견미용 자격증 준비기간 직장인 애견미용 실견수업 취업 준비", "recent": true},
+{"title": "비글미용, 짧은 털도 빗질과 목욕 관리가 필요할까?", "description": "털이 짧은 비글도 빠진 털과 오염을 관리해야 합니다. 빗질·목욕·귀 확인을 생활에 맞게 나누고 필요한 미용 서비스를 상담해보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/beagle-grooming/", "tags": "비글미용 비글 털 관리 비글 털빠짐 비글 빗질 비글 목욕 비글 귀 관리", "recent": true},
+{"title": "애견미용배우는기간, 자격증 준비와 취업까지 얼마나 계획할까?", "description": "같은 기간을 배워도 직접 해본 작업은 다를 수 있습니다. 자격증·실견 실습·취업 준비를 나눠 자신의 출석 일정에 맞는 계획을 세워보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-grooming-learning-period/", "tags": "애견미용배우는기간 애견미용 배우는 시간 애견미용 자격증 준비기간 직장인 애견미용 실견수업 취업 준비", "recent": false},
 {"title": "애견미용도구관리, 사용 후 청소부터 보관까지 어떻게 할까?", "description": "털만 털어내고 도구함에 넣어도 괜찮을까요? 브러시·가위·클리퍼를 사용한 뒤 확인할 관리 순서와 보관 기준을 살펴보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/dog-grooming-tool-care/", "tags": "애견미용도구관리 애견미용 도구 청소 클리퍼 날 관리 애견미용 가위 관리 강아지 브러시 세척 미용도구 보관", "recent": false},
 {"title": "웰시코기미용, 엉덩이 털은 어디까지 다듬어야 할까?", "description": "동그란 엉덩이 미용이 모든 코기에게 필요할까요? 오염되는 부위와 털 구조를 살펴 우리 강아지에게 필요한 정돈 범위를 정해보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/welsh-corgi-grooming/", "tags": "웰시코기미용 웰시코기 털 관리 웰시코기 엉덩이 미용 코기 털갈이 웰시코기 빗질", "recent": false},
 {"title": "강아지미용학원비용, 수강료 외에 얼마를 준비해야 할까?", "description": "월 수강료와 전체 교육비는 어떻게 다를까요? 도구·시험·추가 실습 비용을 나눠 확인하고, 자신의 목표까지 필요한 예산을 계산해보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-grooming-academy-cost/", "tags": "강아지미용학원비용 애견미용학원 수강료 애견미용 도구비 애견미용 자격증 비용 애견미용 교육지원 애견미용 실견수업", "recent": false},
@@ -67,6 +68,7 @@ const articles = [
  {title:"동물미용업, 애견미용실 창업 전 알아야 할 등록 기준 | 그루밍노트",description:"애견미용실 운영을 준비할 때 확인할 등록 관련 정보.",category:"업계",label:"업계",path:"/industry/animal-grooming-business/",tags:"동물미용업 등록 시설 기준 창업"}
 ];
 const breeds = {
+ beagle:{"name": "비글", "tag": "짧은 털·일상 관리", "title": "비글, 짧은 털의 빗질과 목욕", "description": "털이 짧은 비글도 빠진 털과 오염을 관리해야 합니다. 빗질·목욕·귀 확인을 생활에 맞게 나누고 필요한 미용 서비스를 상담해보세요.", "path": "/breeds/beagle-grooming/"},
  corgi:{"name": "웰시코기", "tag": "이중모·부분 정돈", "title": "웰시코기, 자연스러운 털과 엉덩이 정돈", "description": "동그란 엉덩이 미용이 모든 코기에게 필요할까요? 오염되는 부위와 털 구조를 살펴 우리 강아지에게 필요한 정돈 범위를 정해보세요.", "path": "/breeds/welsh-corgi-grooming/"},
  bordercollie:{"name": "보더콜리", "tag": "이중모·산책 후 관리", "title": "보더콜리, 산책 후 관리와 부분 정돈", "description": "털 유형에 맞춰 오염 확인과 속털 빗질, 목욕·건조와 부분 정돈을 계획하세요.", "path": "/breeds/border-collie-grooming/"},
  yorkshire:{"name": "요크셔테리어", "tag": "긴 털·생활 스타일", "title": "요크셔테리어, 유지할 수 있는 털 길이", "description": "긴 털을 유지할 범위와 집에서 가능한 빗질을 살펴보고, 생활에 맞는 미용 스타일을 상담하세요.", "path": "/breeds/yorkshire-terrier-grooming/"},
