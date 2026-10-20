@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "창원애견미용학원, 실견수업에서 무엇을 확인받아야 할까?", "description": "수업이 끝난 뒤 무엇을 설명할 수 있나요? 직접 수행한 작업과 교정받은 내용을 중심으로 창원 실견교육을 살펴보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/창원-애견미용학원/", "tags": "창원애견미용학원 이바우펫 창원점 창원 애견미용 실견수업 창원 애견미용자격증 애견미용 취업 준비 애견미용학원 비용", "recent": true},
+{"title": "래브라도리트리버미용, 짧은 털도 따로 관리해야 할까?", "description": "털이 짧아도 빠진 털 정리와 건조 확인은 필요합니다. 래브라도의 털 구조에 맞춰 집에서 할 관리와 맡길 작업을 나눠보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/labrador-retriever-grooming/", "tags": "래브라도리트리버미용 래브라도 털빠짐 래브라도 빗질 래브라도 목욕 래브라도 이중모 대형견 미용", "recent": true},
+{"title": "창원애견미용학원, 실견수업에서 무엇을 확인받아야 할까?", "description": "수업이 끝난 뒤 무엇을 설명할 수 있나요? 직접 수행한 작업과 교정받은 내용을 중심으로 창원 실견교육을 살펴보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/창원-애견미용학원/", "tags": "창원애견미용학원 이바우펫 창원점 창원 애견미용 실견수업 창원 애견미용자격증 애견미용 취업 준비 애견미용학원 비용", "recent": false},
 {"title": "천안애견미용학원 비용·수업·실습은 어떤 순서로 비교할까?", "description": "시간표, 교육 범위, 본인 부담액을 나눠 확인하세요. 천안애견미용학원 등록하기 전 수강 계획을 세우는 순서와 상담 질문을 정리합니다.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/천안-애견미용학원/", "tags": "천안애견미용학원 이바우펫 천안점 천안 애견미용자격증 천안 애견미용 실견수업 애견미용학원 비용 애견미용 교육지원", "recent": false},
 {"title": "파피용미용, 귀 장식털을 살리면서 어디까지 정리할까?", "description": "귀 장식털은 남기고 오염되는 부위만 정리할 수 있을까요? 파피용의 털 특징과 부위별 미용 상담 기준을 살펴보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/papillon-grooming/", "tags": "파피용미용 파피용 귀털 파피용 털 관리 파피용 빗질 파피용 부분미용 파피용 목욕", "recent": false},
 {"title": "애견미용사면접, 초보자는 실습 경험을 어떻게 설명할까?", "description": "“어디까지 할 수 있나요?”라는 질문에 어떻게 답할까요? 직접 한 작업과 도움받은 부분을 나눠 설명하고 첫 업무의 범위까지 확인해보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-groomer-interview/", "tags": "애견미용사면접 애견미용사 면접 질문 초보 애견미용사 취업 애견미용 면접 준비 애견미용 실기면접 애견미용 포트폴리오", "recent": false},
@@ -74,6 +75,7 @@ const articles = [
  {title:"동물미용업, 애견미용실 창업 전 알아야 할 등록 기준 | 그루밍노트",description:"애견미용실 운영을 준비할 때 확인할 등록 관련 정보.",category:"업계",label:"업계",path:"/industry/animal-grooming-business/",tags:"동물미용업 등록 시설 기준 창업"}
 ];
 const breeds = {
+ labrador:{"name": "래브라도리트리버", "tag": "짧은 이중모·목욕 관리", "title": "래브라도, 짧은 이중모의 빗질과 건조", "description": "털이 짧아도 빠진 털 정리와 건조 확인은 필요합니다. 래브라도의 털 구조에 맞춰 집에서 할 관리와 맡길 작업을 나눠보세요.", "path": "/breeds/labrador-retriever-grooming/"},
  papillon:{"name": "파피용", "tag": "귀 장식털·부분 정돈", "title": "파피용, 귀 장식털과 생활 관리", "description": "귀 장식털은 남기고 오염되는 부위만 정리할 수 있을까요? 파피용의 털 특징과 부위별 미용 상담 기준을 살펴보세요.", "path": "/breeds/papillon-grooming/"},
  beagle:{"name": "비글", "tag": "짧은 털·일상 관리", "title": "비글, 짧은 털의 빗질과 목욕", "description": "털이 짧은 비글도 빠진 털과 오염을 관리해야 합니다. 빗질·목욕·귀 확인을 생활에 맞게 나누고 필요한 미용 서비스를 상담해보세요.", "path": "/breeds/beagle-grooming/"},
  corgi:{"name": "웰시코기", "tag": "이중모·부분 정돈", "title": "웰시코기, 자연스러운 털과 엉덩이 정돈", "description": "동그란 엉덩이 미용이 모든 코기에게 필요할까요? 오염되는 부위와 털 구조를 살펴 우리 강아지에게 필요한 정돈 범위를 정해보세요.", "path": "/breeds/welsh-corgi-grooming/"},
