@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "애견미용사면접, 초보자는 실습 경험을 어떻게 설명할까?", "description": "“어디까지 할 수 있나요?”라는 질문에 어떻게 답할까요? 직접 한 작업과 도움받은 부분을 나눠 설명하고 첫 업무의 범위까지 확인해보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-groomer-interview/", "tags": "애견미용사면접 애견미용사 면접 질문 초보 애견미용사 취업 애견미용 면접 준비 애견미용 실기면접 애견미용 포트폴리오", "recent": true},
+{"title": "파피용미용, 귀 장식털을 살리면서 어디까지 정리할까?", "description": "귀 장식털은 남기고 오염되는 부위만 정리할 수 있을까요? 파피용의 털 특징과 부위별 미용 상담 기준을 살펴보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/papillon-grooming/", "tags": "파피용미용 파피용 귀털 파피용 털 관리 파피용 빗질 파피용 부분미용 파피용 목욕", "recent": true},
+{"title": "애견미용사면접, 초보자는 실습 경험을 어떻게 설명할까?", "description": "“어디까지 할 수 있나요?”라는 질문에 어떻게 답할까요? 직접 한 작업과 도움받은 부분을 나눠 설명하고 첫 업무의 범위까지 확인해보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-groomer-interview/", "tags": "애견미용사면접 애견미용사 면접 질문 초보 애견미용사 취업 애견미용 면접 준비 애견미용 실기면접 애견미용 포트폴리오", "recent": false},
 {"title": "부산애견미용학원 국비, 내일배움카드와 교육지원 확인 순서", "description": "내일배움카드가 있어도 원하는 과정에 바로 사용할 수 있을까요? 부산 국비과정과 별도 교육지원을 확인하는 순서를 살펴보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/부산-애견미용학원-국비/", "tags": "부산애견미용학원 국비 부산 애견미용 국비지원 내일배움카드 교육지원 서면 연산 이바우펫", "recent": false},
 {"title": "강아지빗질, 겉털만 빗고 있지는 않을까? 순서와 확인 기준", "description": "빗질했는데 안쪽에서 다시 빗이 걸리나요? 작은 구역을 나눠 확인하고, 강아지 반응에 맞춰 관리하는 방법을 알아보세요.", "category": "미용", "label": "애견미용정보", "path": "/homecare/how-to-brush-dog-coat/", "tags": "강아지빗질 강아지 빗질 방법 강아지 빗질 순서 강아지 빗질 주기 강아지 빗질 싫어함 강아지 털 관리", "recent": false},
 {"title": "비글미용, 짧은 털도 빗질과 목욕 관리가 필요할까?", "description": "털이 짧은 비글도 빠진 털과 오염을 관리해야 합니다. 빗질·목욕·귀 확인을 생활에 맞게 나누고 필요한 미용 서비스를 상담해보세요.", "category": "견종", "label": "견종별 가이드", "path": "/breeds/beagle-grooming/", "tags": "비글미용 비글 털 관리 비글 털빠짐 비글 빗질 비글 목욕 비글 귀 관리", "recent": false},
@@ -71,6 +72,7 @@ const articles = [
  {title:"동물미용업, 애견미용실 창업 전 알아야 할 등록 기준 | 그루밍노트",description:"애견미용실 운영을 준비할 때 확인할 등록 관련 정보.",category:"업계",label:"업계",path:"/industry/animal-grooming-business/",tags:"동물미용업 등록 시설 기준 창업"}
 ];
 const breeds = {
+ papillon:{"name": "파피용", "tag": "귀 장식털·부분 정돈", "title": "파피용, 귀 장식털과 생활 관리", "description": "귀 장식털은 남기고 오염되는 부위만 정리할 수 있을까요? 파피용의 털 특징과 부위별 미용 상담 기준을 살펴보세요.", "path": "/breeds/papillon-grooming/"},
  beagle:{"name": "비글", "tag": "짧은 털·일상 관리", "title": "비글, 짧은 털의 빗질과 목욕", "description": "털이 짧은 비글도 빠진 털과 오염을 관리해야 합니다. 빗질·목욕·귀 확인을 생활에 맞게 나누고 필요한 미용 서비스를 상담해보세요.", "path": "/breeds/beagle-grooming/"},
  corgi:{"name": "웰시코기", "tag": "이중모·부분 정돈", "title": "웰시코기, 자연스러운 털과 엉덩이 정돈", "description": "동그란 엉덩이 미용이 모든 코기에게 필요할까요? 오염되는 부위와 털 구조를 살펴 우리 강아지에게 필요한 정돈 범위를 정해보세요.", "path": "/breeds/welsh-corgi-grooming/"},
  bordercollie:{"name": "보더콜리", "tag": "이중모·산책 후 관리", "title": "보더콜리, 산책 후 관리와 부분 정돈", "description": "털 유형에 맞춰 오염 확인과 속털 빗질, 목욕·건조와 부분 정돈을 계획하세요.", "path": "/breeds/border-collie-grooming/"},
