@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://groomingnote.co.kr/sitemap.xml
+
+#DaumWebMasterTool:092a076457013cc264f214e7d5e4a3d87e9aaf3f6451dc5df24cb0fb69fccdad:6JNuku1jO8QFMMcL4HrRjQ==
