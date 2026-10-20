@@ -2,7 +2,7 @@
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://groomingnote.co.kr/</loc><lastmod>2026-10-05</lastmod><priority>1.0</priority></url>
   <url><loc>https://groomingnote.co.kr/about/</loc><lastmod>2026-09-30</lastmod><priority>0.5</priority></url>
-  <url><loc>https://groomingnote.co.kr/academy-guide/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
+  <url><loc>https://groomingnote.co.kr/academy-guide/</loc><lastmod>2026-10-20</lastmod><priority>0.8</priority></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/%EA%B4%91%EC%A3%BC-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/gwangju-academy/hero.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/%EB%B6%80%EC%82%B0-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/busan-academy/hero.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/breeds/bichon-grooming/</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/bichon-grooming/bichon-grooming-hero-title-card.jpg</image:loc></image:image></url>
@@ -79,4 +79,5 @@
   <url><loc>https://groomingnote.co.kr/academy-guide/부산-애견미용학원-국비/</loc><lastmod>2026-10-19</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/busan-academy-support/hero.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/career/dog-groomer-interview/</loc><lastmod>2026-10-19</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-groomer-interview/hero.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/breeds/papillon-grooming/</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/papillon-grooming/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/academy-guide/천안-애견미용학원/</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/cheonan-academy/hero.jpg</image:loc></image:image></url>
 </urlset>
