@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "애견미용 실습일지, 피드백을 다음 연습으로 연결하려면?", "description": "“오늘도 어려웠다”는 감상에서 한 걸음 더 나아가 보세요. 직접 한 작업과 수정받은 부분을 나누고, 다음 수업에서 확인할 질문을 남기는 실습 기록법입니다.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-grooming-practice-journal/", "tags": "애견미용 실습일지 실습 기록 작성법 피드백 연습 포트폴리오", "recent": true},
+{"title": "애견미용 창업비용, 보증금과 장비 외에 무엇을 계산할까?", "description": "보증금과 장비 견적만 더하면 준비가 끝날까요? 개업 전 지출과 매달 나가는 돈을 구분하고, 매출이 예상보다 적을 때의 자금 계획까지 살펴보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-grooming-startup-costs/", "tags": "애견미용 창업비용 애견미용실 창업비용 1인 애견미용실 인테리어 창업 준비 운영비", "recent": true},
+{"title": "애견미용 실습일지, 피드백을 다음 연습으로 연결하려면?", "description": "“오늘도 어려웠다”는 감상에서 한 걸음 더 나아가 보세요. 직접 한 작업과 수정받은 부분을 나누고, 다음 수업에서 확인할 질문을 남기는 실습 기록법입니다.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-grooming-practice-journal/", "tags": "애견미용 실습일지 실습 기록 작성법 피드백 연습 포트폴리오", "recent": false},
 {"title": "애견미용사 첫 출근, 준비물보다 먼저 확인할 업무는?", "description": "첫날부터 모든 작업을 혼자 해내려 하지 마세요. 누구에게 확인하고 어디까지 맡을지 정리하면 첫 업무를 더 구체적으로 준비할 수 있습니다.", "category": "진로", "label": "자격증·진로", "path": "/career/dog-groomer-first-day/", "tags": "애견미용사 첫 출근 초보 애견미용사 준비물 업무 인계 취업 준비", "recent": false},
 {"title": "애견미용 드라이기, 에어탱크와 스탠드형은 어떻게 다를까?", "description": "강한 바람만으로 드라이기를 고르지 마세요. 호스를 잡는 방식, 작업 공간과 반려견의 반응까지 고려해 필요한 장비를 비교해보세요.", "category": "미용", "label": "리뷰", "path": "/reviews/dog-grooming-dryers/", "tags": "애견미용 드라이기 에어탱크 스탠드 핸즈프리 풍량 소음 가격 두즈 에이플러스 벨라펫", "recent": false},
 {"title": "애견미용 위그, 견체와 교체모는 어떻게 골라야 할까?", "description": "위그 가격만 비교하면 몸체나 교체모가 빠져 있을 수 있습니다. 연습 목적과 제품 구성을 먼저 확인하고 필요한 준비물을 골라보세요.", "category": "미용", "label": "리뷰", "path": "/reviews/dog-grooming-wigs/", "tags": "애견미용 위그 도그위그 견체 교체모 가격 연습용 시험용 준비물", "recent": false},
