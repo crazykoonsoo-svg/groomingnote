@@ -1,6 +1,7 @@
 "use strict";
 const articles = [
-{"title": "광산구애견미용학원 내 일정에 맞춰 꾸준히 배우려면?", "description": "가까운 거리만큼 중요한 것은 반복해서 다닐 수 있는 일정입니다. 광산구 출발 통학과 실제 교육시간을 연결해 수강 계획을 세워보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/광산구-애견미용학원/", "tags": "광산구애견미용학원 수완지구 송정 첨단 야간수업 통학 이바우펫 광주점", "recent": true},
+{"title": "애견미용 위그, 견체와 교체모는 어떻게 골라야 할까?", "description": "위그 가격만 비교하면 몸체나 교체모가 빠져 있을 수 있습니다. 연습 목적과 제품 구성을 먼저 확인하고 필요한 준비물을 골라보세요.", "category": "미용", "label": "리뷰", "path": "/reviews/dog-grooming-wigs/", "tags": "애견미용 위그 도그위그 견체 교체모 가격 연습용 시험용 준비물", "recent": true},
+{"title": "광산구애견미용학원 내 일정에 맞춰 꾸준히 배우려면?", "description": "가까운 거리만큼 중요한 것은 반복해서 다닐 수 있는 일정입니다. 광산구 출발 통학과 실제 교육시간을 연결해 수강 계획을 세워보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/광산구-애견미용학원/", "tags": "광산구애견미용학원 수완지구 송정 첨단 야간수업 통학 이바우펫 광주점", "recent": false},
 {"title": "광주서구애견미용학원, 보호자 상담부터 미용 후 인계까지 배울까?", "description": "원하는 스타일을 듣고 가능한 범위를 설명하는 과정도 미용 실무입니다. 가정견 수업에서 상담과 인계를 어떻게 배우는지 확인해보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/광주서구-애견미용학원/", "tags": "광주서구애견미용학원 이바우펫 광주점 보호자 상담 미용 인계 실무교육 가정견 실습", "recent": false},
 {"title": "애견미용 커브가위, 곡선과 크기는 어떻게 골라야 할까?", "description": "곡선이 강하거나 길이가 길다고 더 좋은 가위는 아닙니다. 만들려는 형태와 손에 맞는 구조를 기준으로 커브가위를 비교해보세요.", "category": "미용", "label": "리뷰", "path": "/reviews/dog-grooming-curved-scissors/", "tags": "애견미용 커브가위 곡선가위 인치 왼손 오프셋 스위블 시저링", "recent": false},
 {"title": "애견미용 클리퍼날, 번호와 남는 털 길이는 어떻게 확인할까?", "description": "10번날이 모두 같은 길이와 규격은 아닙니다. 제조사 길이표를 읽고 본체·교체날·빗살캡을 함께 확인하는 방법을 알아보세요.", "category": "미용", "label": "리뷰", "path": "/reviews/dog-grooming-clipper-blades/", "tags": "애견미용 클리퍼날 번호 길이 A5 5-in-1 호환 와이드 빗살캡 WAHL Andis", "recent": false},
