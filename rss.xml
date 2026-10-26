@@ -6,7 +6,7 @@ layout: null
 {%- if file.path contains '/index.html' -%}
 {%- assign include_path = file.path -%}
 {%- assign source = file.content -%}
-{%- if source contains 'property="article:published_time"' and source contains '<div class="article-body">' -%}
+{%- if source contains 'property="article:published_time"' and source contains '<div class="article-body' -%}
 {%- assign modified = source | split: 'property="article:modified_time" content="' | last | split: '"' | first -%}
 {{- modified -}}|{{- include_path -}}||
 {%- endif -%}
@@ -30,7 +30,8 @@ layout: null
 {%- assign title = source | split: '<title>' | last | split: '</title>' | first -%}
 {%- assign canonical = source | split: 'rel="canonical" href="' | last | split: '"' | first -%}
 {%- assign published = source | split: 'property="article:published_time" content="' | last | split: '"' | first -%}
-{%- assign article = source | split: '<div class="article-body">' | last | split: '    </div>
+{%- assign article_start = source | split: '<div class="article-body' | last -%}
+{%- assign article = article_start | split: '>' | shift | join: '>' | split: '    </div>
   </div>
 </section>' | first -%}
 {%- assign article = article | replace: 'href="/', 'href="https://groomingnote.co.kr/' | replace: 'src="/', 'src="https://groomingnote.co.kr/' -%}
