@@ -1,5 +1,6 @@
 "use strict";
 const articles = [
+{"title": "이바우펫서면, 자격증 준비를 실견수업과 취업으로 연결하려면?", "description": "자격증 준비가 가정견 실습과 취업 준비로 어떻게 이어질까요? 서면점의 교육 단계와 작업 기록, 지원 적용 후 비용을 살펴보세요.", "category": "지역", "label": "지역별 학원 가이드", "path": "/academy-guide/이바우펫-서면/", "tags": "이바우펫서면 서면애견미용학원 가정견 실습 취업 교육지원", "recent": true},
 {"title": "강아지미용배우기 기초부터 실견수업까지 무엇을 배울까?", "description": "우리 강아지의 관리가 목표인지, 애견미용사로 일하고 싶은지에 따라 필요한 연습은 달라집니다. 기초부터 가정견 실습까지 강아지미용배우기 확인해보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/learn-dog-grooming/", "tags": "강아지미용배우기 애견미용 기초 강아지 미용 실습 자격증 학원", "recent": true},
 {"title": "국비지원 애견미용, 신청 방법부터 교육기간·자부담까지", "description": "카드를 발급받았다고 모든 과정이 무료인 것은 아닙니다. 고용24에서 과정을 찾는 순서와 실제 훈련기간·자부담 사례를 함께 살펴보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/government-funded-dog-grooming-training/", "tags": "국비지원 애견미용 국민내일배움카드 애견미용 교육비 자부담 수강 신청", "recent": false},
 {"title": "이바우펫미용학원 교육과정, 가정견 실습부터 취업·창업 지원까지", "description": "애견미용자격증 준비와 실제 반려견 실습은 어떻게 연결될까요? 이바우펫미용학원의 과정 구성과 취업·창업 지원, 수강 전 확인할 조건을 살펴보세요.", "category": "진로", "label": "자격증·진로", "path": "/career/evawpet-grooming-academy-guide/", "tags": "이바우펫미용학원 이바우펫 교육과정 가정견 실습 창업 취업 교육지원", "recent": false},
