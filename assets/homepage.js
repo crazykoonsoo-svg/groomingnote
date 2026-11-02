@@ -4,6 +4,7 @@ layout: null
 "use strict";
 const articles = {{ site.data.article_catalog | jsonify }};
 const breeds = {
+ coton:{"name": "꼬똥드툴레아", "tag": "긴 털·안쪽 엉킴 관리", "title": "꼬똥드툴레아, 유지할 수 있는 긴 털", "description": "털 안쪽의 엉킴과 집에서 가능한 빗질 범위를 살펴보고, 생활에 맞는 길이와 관리 방법을 정해보세요.", "path": "/breeds/coton-de-tulear-grooming/"},
  labrador:{"name": "래브라도리트리버", "tag": "짧은 이중모·목욕 관리", "title": "래브라도, 짧은 이중모의 빗질과 건조", "description": "털이 짧아도 빠진 털 정리와 건조 확인은 필요합니다. 래브라도의 털 구조에 맞춰 집에서 할 관리와 맡길 작업을 나눠보세요.", "path": "/breeds/labrador-retriever-grooming/"},
  papillon:{"name": "파피용", "tag": "귀 장식털·부분 정돈", "title": "파피용, 귀 장식털과 생활 관리", "description": "귀 장식털은 남기고 오염되는 부위만 정리할 수 있을까요? 파피용의 털 특징과 부위별 미용 상담 기준을 살펴보세요.", "path": "/breeds/papillon-grooming/"},
  beagle:{"name": "비글", "tag": "짧은 털·일상 관리", "title": "비글, 짧은 털의 빗질과 목욕", "description": "털이 짧은 비글도 빠진 털과 오염을 관리해야 합니다. 빗질·목욕·귀 확인을 생활에 맞게 나누고 필요한 미용 서비스를 상담해보세요.", "path": "/breeds/beagle-grooming/"},

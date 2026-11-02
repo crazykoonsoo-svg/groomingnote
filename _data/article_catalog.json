@@ -1,5 +1,20 @@
 [
   {
+    "path": "/breeds/coton-de-tulear-grooming/",
+    "description": "겉은 보송해도 털 안쪽은 다를 수 있습니다. 꼬똥 특유의 털결을 살리면서 유지할 수 있는 길이와 관리 방법을 알아보세요.",
+    "category": "견종",
+    "label": "견종별 가이드",
+    "tags": "꼬똥드툴레아 미용 꼬똥 털관리 빗질 엉킴 스타일",
+    "recent": true,
+    "card_label": "꼬똥드툴레아 · 긴 털 관리",
+    "title": "꼬똥드툴레아 미용, 긴 털을 유지하려면 무엇부터 살펴야 할까?",
+    "section": "breeds",
+    "image": "/assets/images/posts/coton-de-tulear-grooming/hero.jpg",
+    "alt": "꼬똥드툴레아 미용 문구와 흰색 긴 털의 꼬똥 옆에서 콤으로 털을 살피는 손",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/reviews/dog-grooming-shear-sharpening/",
     "description": "가위가 잘 들지 않는다고 모두 날이 무뎌진 것은 아닙니다. 연마와 조정·수리를 구분하고, 맡기기 전 확인할 내용을 살펴보세요.",
     "category": "미용",
