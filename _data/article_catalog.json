@@ -1,5 +1,20 @@
 [
   {
+    "path": "/breeds/poochon-grooming/",
+    "description": "사진 속 둥근 얼굴이 우리 강아지에게도 어울릴까요? 푸숑의 털 상태와 생활 습관에 맞춰 얼굴·몸통·다리의 미용 범위를 나눠보세요.",
+    "category": "견종",
+    "label": "견종별 가이드",
+    "tags": "푸숑 미용 스타일 털관리 얼굴컷 빗질 비숑 푸들",
+    "recent": true,
+    "card_label": "푸숑 · 얼굴·생활 스타일",
+    "title": "푸숑 미용, 비숑처럼 둥근 얼굴로 해도 괜찮을까?",
+    "section": "breeds",
+    "image": "/assets/images/posts/poochon-grooming/hero.jpg",
+    "alt": "푸숑 미용 문구와 연한 살구색 푸숑의 몸통 털을 콤으로 살피는 모습",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/breeds/coton-de-tulear-grooming/",
     "description": "겉은 보송해도 털 안쪽은 다를 수 있습니다. 꼬똥 특유의 털결을 살리면서 유지할 수 있는 길이와 관리 방법을 알아보세요.",
     "category": "견종",
