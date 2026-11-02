@@ -1,5 +1,20 @@
 [
   {
+    "path": "/reviews/dog-grooming-shear-sharpening/",
+    "description": "가위가 잘 들지 않는다고 모두 날이 무뎌진 것은 아닙니다. 연마와 조정·수리를 구분하고, 맡기기 전 확인할 내용을 살펴보세요.",
+    "category": "미용",
+    "label": "리뷰",
+    "tags": "애견미용 가위 연마 장력 조절 수리 손상 점검 관리",
+    "recent": true,
+    "card_label": "가위 관리 · 연마·수리",
+    "title": "애견미용 가위 연마, 털이 밀리면 바로 맡겨야 할까?",
+    "section": "reviews",
+    "image": "/assets/images/posts/dog-grooming-shear-sharpening/hero.jpg",
+    "alt": "애견미용 가위 연마 문구와 회색 테리어 앞에서 미용가위를 살펴보는 손",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/career/dog-grooming-practical-exam-checklist/",
     "description": "연습할 때 쓰던 도구를 그대로 가져가도 될까요? 응시기관의 규정을 기준으로 위그, 도구, 복장과 입실시간을 확인하는 방법을 알아보세요.",
     "category": "진로",
