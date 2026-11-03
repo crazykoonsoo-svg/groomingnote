@@ -1,5 +1,20 @@
 [
   {
+    "path": "/career/kapp-dog-grooming-practical-exam/",
+    "description": "KAPP 실기는 위그 램클립을 제한시간 안에 완성하는 시험입니다. 완성된 모양과 함께 작업 자세·보정·도구 사용을 연습하는 방법을 정리했습니다.",
+    "category": "진로",
+    "label": "자격증·진로",
+    "tags": "애견미용자격증 실기 KAPP 위그 램클립 3급 2급 실격 연습",
+    "recent": true,
+    "card_label": "KAPP · 실기 준비",
+    "title": "애견미용자격증 실기, KAPP 위그 램클립은 어떻게 준비할까?",
+    "section": "career",
+    "image": "/assets/images/posts/kapp-dog-grooming-practical-exam/hero.jpg",
+    "alt": "애견미용자격증 실기 문구와 흰색 푸들 형태의 마네킹 옆에서 가위와 콤으로 연습하는 손",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/career/dog-grooming-written-exam/",
     "description": "문제집을 고르기 전 응시 기관과 급수를 확인하세요. 필기 기준을 구분하고, 용어 이해부터 오답 복습까지 공부 순서를 정리했습니다.",
     "category": "진로",
