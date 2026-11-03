@@ -1,5 +1,20 @@
 [
   {
+    "path": "/breeds/maltipoo-grooming/",
+    "description": "다음 스타일을 위해 털을 기르는 중이라면 무작정 기다리기보다 관리 계획이 필요합니다. 남길 길이와 생활에 필요한 부분 정돈을 나눠보세요.",
+    "category": "견종",
+    "label": "견종별 가이드",
+    "tags": "말티푸 미용 털기르기 부분미용 털관리 스타일",
+    "recent": true,
+    "card_label": "말티푸 · 길이·부분 정돈",
+    "title": "말티푸 미용, 털을 기르는 중에도 부분 정돈이 필요할까?",
+    "section": "breeds",
+    "image": "/assets/images/posts/maltipoo-grooming/hero.jpg",
+    "alt": "말티푸 미용 문구와 긴 귀털을 남긴 살구색 말티푸의 몸통 털을 콤으로 살피는 모습",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/breeds/toy-poodle-grooming/",
     "description": "작은 체구라고 미용 과정도 간단한 것은 아닙니다. 토이푸들이 편안하게 받아들이는 접촉부터 확인하고 필요한 미용 범위를 상담해보세요.",
     "category": "견종",
