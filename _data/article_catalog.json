@@ -1,5 +1,21 @@
 [
   {
+    "path": "/academy-guide/pyeongtaek-evawpet-course-guide/",
+    "description": "처음부터 긴 과정을 정해야 할까요? 평택이바우펫의 교육과정을 살펴보고, 목표와 출석 일정에 맞춰 상담할 내용을 정리했습니다.",
+    "category": "지역",
+    "label": "지역별 학원 가이드",
+    "tags": "평택이바우펫 평택 애견미용학원 과정 실견수업 비용 교육지원",
+    "recent": true,
+    "card_label": "평택 · 과정 선택",
+    "title": "평택이바우펫, 자격증부터 실견수업까지 어떤 과정으로 배울까?",
+    "section": "academy-guide",
+    "image": "/assets/images/posts/pyeongtaek-evawpet-course-guide/hero.jpg",
+    "alt": "평택 애견미용학원 문구와 갈색 보이킨 스패니얼 옆에서 콤과 브러시 사용을 설명하는 손",
+    "width": "1200",
+    "height": "1200",
+    "region": "capital"
+  },
+  {
     "path": "/career/kapp-dog-grooming-practical-exam/",
     "description": "KAPP 실기는 위그 램클립을 제한시간 안에 완성하는 시험입니다. 완성된 모양과 함께 작업 자세·보정·도구 사용을 연습하는 방법을 정리했습니다.",
     "category": "자격증",
