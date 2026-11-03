@@ -1,5 +1,20 @@
 [
   {
+    "path": "/career/dog-grooming-written-exam/",
+    "description": "문제집을 고르기 전 응시 기관과 급수를 확인하세요. 필기 기준을 구분하고, 용어 이해부터 오답 복습까지 공부 순서를 정리했습니다.",
+    "category": "진로",
+    "label": "자격증·진로",
+    "tags": "애견미용자격증 필기 시험 공부 교재 OMR 합격 기준",
+    "recent": true,
+    "card_label": "자격증 · 필기 준비",
+    "title": "애견미용자격증 필기, 처음 준비한다면 무엇부터 공부할까?",
+    "section": "career",
+    "image": "/assets/images/posts/dog-grooming-written-exam/hero.jpg",
+    "alt": "애견미용자격증 필기 문구와 코커 스패니얼 옆에서 교재를 읽고 노트에 필기하는 손",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/breeds/pomspitz-grooming/",
     "description": "털빠짐 때문에 짧게 자르기 전, 속털 관리와 길이 정돈의 차이를 확인하세요. 실제 모질과 이전 미용 이력에 맞춰 상담할 내용을 정리했습니다.",
     "category": "견종",
