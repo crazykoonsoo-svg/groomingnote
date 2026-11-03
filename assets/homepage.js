@@ -4,6 +4,7 @@ layout: null
 "use strict";
 const articles = {{ site.data.article_catalog | jsonify }};
 const breeds = {
+ pomspitz:{"name": "폼피츠", "tag": "털빠짐·속털 관리", "title": "폼피츠, 털빠짐과 길이 정돈 구분하기", "description": "속털 상태와 이전 미용 이력을 살피고, 빗질·부분 정돈·짧은 클리핑의 차이를 확인하세요.", "path": "/breeds/pomspitz-grooming/"},
  maltipoo:{"name": "말티푸", "tag": "털 기르기·부분 정돈", "title": "말티푸, 기를 털과 정돈할 부위 나누기", "description": "원하는 스타일을 위해 남길 길이와 생활에 필요한 부분 정돈을 나누고, 기르는 동안의 관리 방법을 확인하세요.", "path": "/breeds/maltipoo-grooming/"},
  toypoodle:{"name": "토이푸들", "tag": "발·얼굴 접촉·미용 준비", "title": "토이푸들, 편안한 접촉부터 미용 준비", "description": "발과 얼굴을 만질 때의 반응과 도구 소리에 익숙한 정도를 살펴 필요한 작업 범위를 상담해보세요.", "path": "/breeds/toy-poodle-grooming/"},
  poochon:{"name": "푸숑", "tag": "모질·얼굴·생활 스타일", "title": "푸숑, 털 상태에 맞는 둥근 얼굴과 길이", "description": "사진에서 원하는 특징과 실제 모량, 집에서 관리하기 어려운 부위를 함께 살펴 미용 범위를 정해보세요.", "path": "/breeds/poochon-grooming/"},

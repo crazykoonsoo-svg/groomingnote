@@ -1,5 +1,20 @@
 [
   {
+    "path": "/breeds/pomspitz-grooming/",
+    "description": "털빠짐 때문에 짧게 자르기 전, 속털 관리와 길이 정돈의 차이를 확인하세요. 실제 모질과 이전 미용 이력에 맞춰 상담할 내용을 정리했습니다.",
+    "category": "견종",
+    "label": "견종별 가이드",
+    "tags": "폼피츠 미용 털빠짐 이중모 속털 클리핑 빗질 부분 정돈",
+    "recent": true,
+    "card_label": "폼피츠 · 털빠짐 관리",
+    "title": "폼피츠 미용, 털빠짐이 많으면 짧게 잘라도 될까?",
+    "section": "breeds",
+    "image": "/assets/images/posts/pomspitz-grooming/hero.jpg",
+    "alt": "폼피츠 미용 문구와 크림색 강아지의 몸통 털을 나눠 콤으로 확인하는 모습",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/academy-guide/cheonan-government-funded-grooming/",
     "description": "내일배움카드가 있어도 모든 학원에서 사용할 수 있는 것은 아닙니다. 국비 과정의 실제 납부액과 일정, 별도 교육지원의 적용 조건을 나눠 확인해보세요.",
     "category": "지역",
