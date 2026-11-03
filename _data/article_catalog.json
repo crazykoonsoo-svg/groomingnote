@@ -1,5 +1,20 @@
 [
   {
+    "path": "/breeds/toy-poodle-grooming/",
+    "description": "작은 체구라고 미용 과정도 간단한 것은 아닙니다. 토이푸들이 편안하게 받아들이는 접촉부터 확인하고 필요한 미용 범위를 상담해보세요.",
+    "category": "견종",
+    "label": "견종별 가이드",
+    "tags": "토이푸들 미용 발 얼굴 털관리 미용준비 접촉 적응",
+    "recent": true,
+    "card_label": "토이푸들 · 미용 준비",
+    "title": "토이푸들 미용, 발과 얼굴을 만지기 싫어한다면 무엇부터 준비할까?",
+    "section": "breeds",
+    "image": "/assets/images/posts/toy-poodle-grooming/hero.jpg",
+    "alt": "토이푸들 미용 문구와 회색 토이푸들의 앞발에 가볍게 손을 대고 간식을 보여주는 모습",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/breeds/poochon-grooming/",
     "description": "사진 속 둥근 얼굴이 우리 강아지에게도 어울릴까요? 푸숑의 털 상태와 생활 습관에 맞춰 얼굴·몸통·다리의 미용 범위를 나눠보세요.",
     "category": "견종",
