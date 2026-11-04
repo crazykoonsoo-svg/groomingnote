@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/puppy-first-walk-vaccination-socialization/",
+    "description": "안고 바깥을 구경하는 외출과 직접 바닥을 걷는 산책은 다릅니다. 접종 상태와 환경을 확인하고 강아지의 반응에 맞춰 첫 외출을 준비하세요.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 산책 시기 첫 산책 예방접종 사회화 하네스 산책 준비",
+    "recent": true,
+    "card_label": "첫 산책 · 애견미용정보",
+    "title": "강아지 산책 시기, 예방접종이 끝날 때까지 기다려야 할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/puppy-first-walk-vaccination-socialization/hero.jpg",
+    "alt": "강아지 산책 시기, 예방접종이 끝날 때까지 기다려야 할까?",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/homecare/dog-neutering-aftercare-food-walk-bath/",
     "description": "수술 후 기운이 돌아와도 상처가 모두 아문 것은 아닙니다. 퇴원 지침을 기준으로 식사·움직임·상처 변화를 확인하며 회복을 도와주세요.",
     "category": "미용",
