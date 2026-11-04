@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-neutering-aftercare-food-walk-bath/",
+    "description": "수술 후 기운이 돌아와도 상처가 모두 아문 것은 아닙니다. 퇴원 지침을 기준으로 식사·움직임·상처 변화를 확인하며 회복을 도와주세요.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 중성화 수술 후 회복 넥카라 상처 관리 목욕 산책 식사",
+    "recent": true,
+    "card_label": "수술 후 돌봄 · 애견미용정보",
+    "title": "강아지 중성화 수술 후, 밥·산책·목욕은 언제부터 가능할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-neutering-aftercare-food-walk-bath/hero.jpg",
+    "alt": "강아지 중성화 수술 후 문구와 넥카라를 착용하고 쉬는 강아지",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/career/dog-grooming-college-comparison-guide/",
     "description": "학교 이름만으로 결정하기 어렵다면 학위·수업·실습·생활비·진로 지원을 나누어 살펴보세요. 지원할 대학을 좁히는 비교 방법을 안내합니다.",
     "category": "진로",
