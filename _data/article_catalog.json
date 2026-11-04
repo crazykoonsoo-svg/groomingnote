@@ -1,5 +1,21 @@
 [
   {
+    "path": "/academy-guide/incheon-dog-grooming-academy/",
+    "description": "인천애견미용학원을 찾는 입문자를 위해 기초과정, 자격증 준비, 실견수업의 차이와 비용·통학·상담 시 확인할 내용을 정리했습니다.",
+    "category": "지역",
+    "label": "지역별 학원 가이드",
+    "tags": "인천애견미용학원 인천이바우펫 구월동 인천터미널역 기초과정 자격증 실견수업 교육지원",
+    "recent": true,
+    "card_label": "인천광역시 남동구 · 지역별 학원 가이드",
+    "title": "인천애견미용학원, 처음 배울 때 어떤 수업부터 확인할까?",
+    "section": "academy-guide",
+    "image": "/assets/images/posts/incheon-dog-grooming-academy/hero.jpg",
+    "alt": "인천 애견미용학원 문구와 말리노이즈 브러싱 교육 장면 예시",
+    "width": "1200",
+    "height": "1200",
+    "region": "capital"
+  },
+  {
     "path": "/academy-guide/pyeongtaek-evawpet-course-guide/",
     "description": "처음부터 긴 과정을 정해야 할까요? 평택이바우펫의 교육과정을 살펴보고, 목표와 출석 일정에 맞춰 상담할 내용을 정리했습니다.",
     "category": "지역",
