@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-hairdryer-noise-training/",
+    "description": "목욕한 날 처음 드라이기를 켜기보다 평소 작은 단계로 익혀보세요. 장비·소리·바람을 구분하는 적응 방법을 안내합니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 드라이기 적응 강아지 드라이기 적응, 소리부터 무서워한다면?",
+    "recent": true,
+    "card_label": "강아지 드라이기 적응 · 애견미용정보",
+    "title": "강아지 드라이기 적응, 소리부터 무서워한다면?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-hairdryer-noise-training/hero.jpg",
+    "alt": "강아지 드라이기 적응 문구와 전원을 끈 드라이기 옆에서 쉬는 갈색 강아지",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/homecare/dog-brushing-desensitization/",
     "description": "빗을 꺼내면 숨는 강아지에게 필요한 것은 긴 빗질 시간이 아닐 수 있습니다. 보기·접촉·짧은 빗질을 나눠 편안하게 연습하세요.",
     "category": "미용",
