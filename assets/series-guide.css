@@ -8,3 +8,21 @@
 .series-guide a.article-cta-button{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:48px;padding:14px 22px;border-radius:12px;background:#245c62;color:#fff;font-weight:800;text-decoration:none;line-height:1.55;box-sizing:border-box;transition:background .15s}
 .series-guide a.article-cta-button:hover{background:#173f45}.series-guide a.article-cta-button:focus-visible{outline:3px solid #aa6b34;outline-offset:4px}
 @media(max-width:640px){.series-guide .article-cta{padding:21px 17px;margin:1.8rem 0}.series-guide .article-cta h3{font-size:1.13rem}.series-guide a.article-cta-button{display:flex;width:100%;padding:14px 12px;overflow-wrap:anywhere}}
+
+/* CTA motion: one interaction, no looping animation. */
+.series-guide a.article-cta-button{position:relative;isolation:isolate;overflow:hidden;transition:background-color .2s ease,transform .2s ease,box-shadow .2s ease}
+.series-guide a.article-cta-button span[aria-hidden="true"]{display:inline-block;transition:transform .2s ease}
+.series-guide .article-cta-consult a.article-cta-button::before{content:"";position:absolute;inset:-40% auto -40% -65%;width:35%;background:linear-gradient(110deg,transparent,rgba(255,255,255,.22),transparent);transform:skewX(-18deg);pointer-events:none;z-index:-1}
+@media(hover:hover) and (pointer:fine){
+.series-guide a.article-cta-button:hover{background:#173f45;transform:translateY(-3px);box-shadow:0 8px 18px #173f4530}
+.series-guide a.article-cta-button:hover span[aria-hidden="true"]{transform:translateX(4px)}
+.series-guide .article-cta-consult a.article-cta-button:hover::before{animation:cta-shine .65s ease-out 1}
+}
+.series-guide a.article-cta-button:active{transform:translateY(1px) scale(.985);background:#173f45;box-shadow:0 2px 5px #173f4520}
+.series-guide a.article-cta-button:focus-visible{outline:3px solid #aa6b34;outline-offset:4px;box-shadow:0 0 0 2px #fff}
+@keyframes cta-shine{from{left:-65%}to{left:135%}}
+@media(prefers-reduced-motion:reduce){
+.series-guide a.article-cta-button,.series-guide a.article-cta-button span[aria-hidden="true"]{transition:none}
+.series-guide a.article-cta-button:hover,.series-guide a.article-cta-button:active,.series-guide a.article-cta-button:hover span[aria-hidden="true"]{transform:none}
+.series-guide .article-cta-consult a.article-cta-button:hover::before{animation:none}
+}
