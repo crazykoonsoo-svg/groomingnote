@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-paw-handling-training/",
+    "description": "발을 빼는 강아지에게 바로 발톱 도구를 대지 마세요. 편안한 자세에서 손이 가까워지는 단계부터 작은 접촉을 연습해 보세요.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 발 만지기 훈련 강아지 발 만지기 훈련, 발톱 관리 전에 어떻게 연습할까?",
+    "recent": true,
+    "card_label": "강아지 발 만지기 훈련 · 애견미용정보",
+    "title": "강아지 발 만지기 훈련, 발톱 관리 전에 어떻게 연습할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-paw-handling-training/hero.jpg",
+    "alt": "강아지 발 만지기 훈련 문구와 낮은 매트에서 앞발 접촉을 준비하는 강아지",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/homecare/dog-hairdryer-noise-training/",
     "description": "목욕한 날 처음 드라이기를 켜기보다 평소 작은 단계로 익혀보세요. 장비·소리·바람을 구분하는 적응 방법을 안내합니다.",
     "category": "미용",
