@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-harness-training-at-home/",
+    "description": "하네스를 보면 숨거나 입힌 뒤 움직이지 않나요? 장비의 맞음새와 착용 과정을 나누어 살피고, 집에서 작은 단계부터 연습해 보세요.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 하네스 적응 하네스 거부 착용 훈련 실내 연습 첫 산책",
+    "recent": true,
+    "card_label": "하네스 적응 · 애견미용정보",
+    "title": "강아지 하네스 적응, 입히면 멈추거나 도망갈 때는?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-harness-training-at-home/hero.jpg",
+    "alt": "강아지 하네스 적응 문구와 분홍색 하네스의 냄새를 맡는 강아지",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/homecare/puppy-first-walk-vaccination-socialization/",
     "description": "안고 바깥을 구경하는 외출과 직접 바닥을 걷는 산책은 다릅니다. 접종 상태와 환경을 확인하고 강아지의 반응에 맞춰 첫 외출을 준비하세요.",
     "category": "미용",
