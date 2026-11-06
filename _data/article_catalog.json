@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/how-to-request-dog-grooming-style/",
+    "description": "스타일 이름만으로는 완성 모습을 다르게 떠올릴 수 있습니다. 원하는 특징과 관리 가능한 범위를 구체적으로 전달하는 방법입니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 미용 주문 방법 강아지 미용 주문 방법, 사진만 보여주면 충분할까?",
+    "recent": true,
+    "card_label": "강아지 미용 주문 방법 · 애견미용정보",
+    "title": "강아지 미용 주문 방법, 사진만 보여주면 충분할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/how-to-request-dog-grooming-style/hero.jpg",
+    "alt": "강아지 미용 주문 방법 문구와 반려견 사진을 보며 상담하는 장면",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/homecare/dog-bath-supplies-checklist/",
     "description": "샴푸와 수건뿐 아니라 미끄럼 방지 바닥과 건조 동선도 필요합니다. 젖은 강아지를 두고 물건을 찾지 않도록 준비해 보세요.",
     "category": "목욕",
