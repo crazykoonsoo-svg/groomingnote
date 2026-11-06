@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-brushing-desensitization/",
+    "description": "빗을 꺼내면 숨는 강아지에게 필요한 것은 긴 빗질 시간이 아닐 수 있습니다. 보기·접촉·짧은 빗질을 나눠 편안하게 연습하세요.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 빗질 적응 강아지 빗질 적응, 빗만 보면 도망간다면 무엇부터 할까?",
+    "recent": true,
+    "card_label": "강아지 빗질 적응 · 애견미용정보",
+    "title": "강아지 빗질 적응, 빗만 보면 도망간다면 무엇부터 할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-brushing-desensitization/hero.jpg",
+    "alt": "강아지 빗질 적응 문구와 부드러운 빗을 살펴보는 강아지",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/homecare/dog-paw-cleaning-after-walk/",
     "description": "먼지만 묻은 날과 진흙길을 걸은 날, 발 관리가 같을 필요는 없습니다. 필요한 부분만 씻고 말리는 귀가 후 관리 순서를 알아보세요.",
     "category": "미용",
