@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-bath-supplies-checklist/",
+    "description": "샴푸와 수건뿐 아니라 미끄럼 방지 바닥과 건조 동선도 필요합니다. 젖은 강아지를 두고 물건을 찾지 않도록 준비해 보세요.",
+    "category": "목욕",
+    "label": "애견미용정보",
+    "tags": "강아지 목욕 준비물 강아지 목욕 준비물, 씻기부터 건조까지 무엇을 챙길까?",
+    "recent": true,
+    "card_label": "강아지 목욕 준비물 · 애견미용정보",
+    "title": "강아지 목욕 준비물, 씻기부터 건조까지 무엇을 챙길까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-bath-supplies-checklist/hero.jpg",
+    "alt": "강아지 목욕 준비물 문구와 수건·샴푸·매트 옆의 강아지",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/homecare/dog-paw-handling-training/",
     "description": "발을 빼는 강아지에게 바로 발톱 도구를 대지 마세요. 편안한 자세에서 손이 가까워지는 단계부터 작은 접촉을 연습해 보세요.",
     "category": "미용",
