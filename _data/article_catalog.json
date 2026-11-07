@@ -1,5 +1,20 @@
 [
   {
+    "path": "/career/dog-grooming-hobby-class-home-care/",
+    "description": "애견미용 취미반을 찾는 보호자를 위한 수강 가이드입니다. 빗질·목욕·건조와 도구 기초, 자견 동반 조건, 수강료에 포함되는 항목과 집에서 이어갈 연습 범위를 확인하세요.",
+    "category": "진로",
+    "label": "자격증·진로",
+    "tags": "",
+    "recent": true,
+    "card_label": "자격증·진로",
+    "title": "애견미용 취미반, 우리 강아지 관리가 목표라면 무엇을 배울까?",
+    "section": "career",
+    "image": "/assets/images/posts/dog-grooming-hobby-class-home-care/hero.jpg",
+    "alt": "애견미용 취미반, 우리 강아지 관리가 목표라면 무엇을 배울까?",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/homecare/dog-winter-grooming-coat-care/",
     "description": "강아지 겨울 미용은 털을 무조건 기르거나 짧게 미는 선택만 있는 것이 아닙니다. 털 상태와 생활환경을 살펴 남길 길이, 부분 정돈, 산책 후 건조와 상담 기준을 정리했습니다.",
     "category": "미용",
