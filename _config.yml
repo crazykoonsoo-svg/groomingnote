@@ -1,0 +1,7 @@
+url: https://groomingnote.co.kr
+baseurl: ''
+exclude:
+  - scripts
+  - README.md
+  - DEPLOYMENT.md
+  - vercel.json
