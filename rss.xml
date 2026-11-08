@@ -39,7 +39,14 @@ layout: null
 <title>{{ title | xml_escape }}</title>
 <link>{{ canonical | xml_escape }}</link>
 <guid isPermaLink="true">{{ canonical | xml_escape }}</guid>
-<pubDate>{{ published | append: 'T00:00:00+09:00' | date_to_rfc822 }}</pubDate>
+{%- if published contains 'T' -%}
+{%- assign published_date = published | split: 'T' | first -%}
+{%- assign published_time = published | split: 'T' | last | slice: 0, 8 -%}
+{%- assign published_offset = published | split: '+' | last | replace: ':', '' | prepend: '+' -%}
+<pubDate>{{ published_date | date: '%a, %d %b %Y' }} {{ published_time }} {{ published_offset }}</pubDate>
+{%- else -%}
+<pubDate>{{ published | date: '%a, %d %b %Y' }} 00:00:00 +0900</pubDate>
+{%- endif -%}
 <description>{{ article | xml_escape }}</description>
 </item>
 {%- endif -%}
