@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-grooming-time-differences/",
+    "description": "강아지 미용 시간은 견종만으로 정해지지 않습니다. 털 길이와 밀도, 엉킴, 요청 범위, 건조 과정, 강아지의 컨디션에 따라 달라지는 이유를 정리합니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "",
+    "recent": true,
+    "card_label": "애견미용정보",
+    "title": "강아지 미용 시간, 같은 견종인데 왜 차이가 날까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-grooming-time-differences/hero.jpg",
+    "alt": "강아지 미용 시간, 같은 견종인데 왜 차이가 날까?",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/career/dog-grooming-bathing-basics-before-shampoo/",
     "description": "애견미용 베이싱은 거품을 많이 내는 기술보다 목욕 전 털·피부 확인, 안전한 환경 준비, 물 적응과 속털까지 고르게 적시는 순서가 먼저입니다.",
     "category": "진로",
