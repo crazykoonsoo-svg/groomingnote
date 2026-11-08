@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-static-electricity-brushing-care/",
+    "description": "강아지 정전기로 빗질할 때 털이 달라붙거나 날린다면 빗을 더 세게 쓰기보다 마른 털의 마찰, 옷과 담요, 실내 환경을 먼저 살펴보세요. 피부 이상과 구분하는 방법도 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "",
+    "recent": true,
+    "card_label": "애견미용정보",
+    "title": "강아지 정전기, 빗질할 때 털이 날리면 무엇부터 바꿀까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-static-electricity-brushing-care/hero.jpg",
+    "alt": "강아지 정전기, 빗질할 때 털이 날리면 무엇부터 바꿀까?",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/career/dog-grooming-certificate-retest-practice-review/",
     "description": "애견미용 자격증 재시험을 준비한다면 전체 과정을 반복하기 전에 감점 구간, 작업 순서, 시간 배분과 발급기관의 최신 응시 규정을 먼저 확인하세요.",
     "category": "진로",
