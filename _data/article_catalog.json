@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-grooming-salon-familiarisation/",
+    "description": "강아지 미용실 적응은 문턱을 넘는 것부터 작게 나눌 수 있습니다. 미용 없는 짧은 방문을 예약하는 방법, 편안한 거리와 중단 신호, 다음 방문에 전달할 기록을 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 미용실 적응, 미용 스트레스, 적응 방문",
+    "recent": true,
+    "card_label": "애견미용정보",
+    "title": "강아지 미용실 적응, 미용하지 않는 방문도 도움이 될까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-grooming-salon-familiarisation/hero.jpg",
+    "alt": "조용한 미용실 매트에서 편안하게 서 있는 샤펜도스",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/career/dog-grooming-scissor-grip-basics/",
     "description": "애견미용 가위를 잡을 때 손에 힘이 들어간다면 손가락 깊이와 엄지 움직임, 링의 맞음새부터 확인하세요. 초보자의 연습 순서와 강사에게 점검받을 항목을 정리했습니다.",
     "category": "진로",
