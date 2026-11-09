@@ -1,5 +1,20 @@
 [
   {
+    "path": "/breeds/bearded-collie-grooming-skin-check/",
+    "description": "비어디드콜리 미용에서 긴 겉털을 나눠 피부를 보는 법과 귀 뒤·겨드랑이 점검, 털 뭉치나 물기가 남았을 때의 대처를 알아보세요.",
+    "category": "견종",
+    "label": "견종별 가이드",
+    "tags": "비어디드콜리 빗질 속털 피부 털엉킴",
+    "recent": true,
+    "card_label": "견종별 가이드",
+    "title": "비어디드콜리 미용, 긴 털 아래 피부까지 확인하려면?",
+    "section": "breeds",
+    "image": "/assets/images/posts/bearded-collie-grooming-skin-check/hero.jpg",
+    "alt": "비어디드콜리 미용 문구 오른쪽에 앉은 회색과 흰색의 긴 털 비어디드콜리",
+    "width": "1000",
+    "height": "1000"
+  },
+  {
     "path": "/academy-guide/ilsan-dog-grooming-academy-solo-salon-practice/",
     "description": "일산애견미용학원에서 1인 미용실 창업을 준비한다면, 접수부터 미용·인계·정리까지 이어서 연습하고 예약이 겹치는 상황에 대처하는 방법을 확인해 보세요.",
     "category": "지역",
