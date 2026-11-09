@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-grooming-length-6mm/",
+    "description": "같은 6mm 강아지 미용도 털의 결과 밀도, 작업 방향, 부위별 길이에 따라 다르게 보입니다. 원하는 느낌을 미용 상담에서 어떻게 설명할지 알아보세요.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "",
+    "recent": true,
+    "card_label": "애견미용정보",
+    "title": "강아지 미용 길이, 같은 6mm라도 모습이 달라지는 이유는?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-grooming-length-6mm/hero.jpg",
+    "alt": "강아지 미용 길이 문구 옆 매트에 앉은 살구색 푸들",
+    "width": "1000",
+    "height": "1000"
+  },
+  {
     "path": "/career/dog-grooming-post-course-practice/",
     "description": "애견미용 수료 후 연습을 이어가는 방법을 정리했습니다. 위그에서 반복할 동작, 지도받을 실견 과제, 취업 전에 남길 작업 기록을 구분해 보세요.",
     "category": "진로",
