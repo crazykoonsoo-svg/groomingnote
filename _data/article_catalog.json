@@ -1,5 +1,20 @@
 [
   {
+    "path": "/career/dog-grooming-symmetry-checkpoints/",
+    "description": "애견미용 좌우대칭이 어긋나 보일 때 정면의 기준과 옆면의 윤곽, 빗질 후 차이를 확인하고 손댈 부분을 정하는 방법을 알아보세요.",
+    "category": "진로",
+    "label": "자격증·진로",
+    "tags": "",
+    "recent": true,
+    "card_label": "자격증·진로",
+    "title": "애견미용 좌우대칭, 계속 자르기 전에 어디에서 확인할까?",
+    "section": "career",
+    "image": "/assets/images/posts/dog-grooming-symmetry-checkpoints/hero.jpg",
+    "alt": "애견미용 좌우대칭 문구 옆에서 정면을 보는 소프트 코티드 휘튼 테리어",
+    "width": "1000",
+    "height": "1000"
+  },
+  {
     "path": "/breeds/havanese-grooming-coat-length/",
     "description": "하바니즈 미용에서 긴 털과 짧은 스타일을 빗질, 건조, 부위별 엉킴 관리로 비교하고 미용실에 원하는 길이를 전하는 방법을 알아보세요.",
     "category": "견종",
