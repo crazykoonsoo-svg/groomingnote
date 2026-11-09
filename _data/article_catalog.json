@@ -1,5 +1,20 @@
 [
   {
+    "path": "/career/dog-grooming-workstation-layout/",
+    "description": "애견미용 작업 동선을 줄이는 도구 배치 기준을 알아보세요. 빗과 가위 자리, 욕조에서 드라이 구역으로 가는 길, 사용한 도구를 분리하는 방법을 정리했습니다.",
+    "category": "진로",
+    "label": "자격증·진로",
+    "tags": "",
+    "recent": true,
+    "card_label": "자격증·진로",
+    "title": "애견미용 작업 동선, 도구를 어디에 두면 움직임이 줄어들까?",
+    "section": "career",
+    "image": "/assets/images/posts/dog-grooming-workstation-layout/hero.jpg",
+    "alt": "미용 테이블에 선 흰색과 갈색 드렌츠 파트레이스혼트의 등에 얹힌 손과 옆 수납장",
+    "width": "1000",
+    "height": "1000"
+  },
+  {
     "path": "/homecare/dog-bath-rinse-check/",
     "description": "강아지 목욕 헹굼은 거품이 안 보여도 털 안쪽과 겨드랑이, 배를 확인해야 합니다. 물을 흘리는 순서와 수건을 대기 전 확인할 부위를 알아보세요.",
     "category": "미용",
