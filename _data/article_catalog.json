@@ -1,5 +1,20 @@
 [
   {
+    "path": "/career/dog-grooming-reservation-capacity/",
+    "description": "애견미용 예약 관리는 하루 마릿수보다 상담·작업·정리·인계 시간을 먼저 계산해야 합니다. 실제 소요시간 기록과 인력·공간을 바탕으로 예약 수를 정하는 기준을 살펴보세요.",
+    "category": "진로",
+    "label": "자격증·진로",
+    "tags": "",
+    "recent": true,
+    "card_label": "자격증·진로",
+    "title": "애견미용 예약 관리, 하루에 몇 마리를 받을지 어떻게 정할까?",
+    "section": "career",
+    "image": "/assets/images/posts/dog-grooming-reservation-capacity/hero.jpg",
+    "alt": "애견미용 예약 관리 문구 옆 레온베르거와 예약 노트에 적는 손",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/breeds/shetland-sheepdog-grooming-coat-care/",
     "description": "셔틀랜드쉽독 미용은 풍성한 이중모를 짧게 자르기보다 털을 층별로 빗고 엉킴을 확인한 뒤 발바닥·위생 부위·윤곽을 필요한 만큼 정돈하는 관리가 중심입니다.",
     "category": "견종",
