@@ -1,5 +1,21 @@
 [
   {
+    "path": "/academy-guide/ilsan-dog-grooming-academy-solo-salon-practice/",
+    "description": "일산애견미용학원에서 1인 미용실 창업을 준비한다면, 접수부터 미용·인계·정리까지 이어서 연습하고 예약이 겹치는 상황에 대처하는 방법을 확인해 보세요.",
+    "category": "지역",
+    "label": "지역별 학원 가이드",
+    "tags": "",
+    "recent": true,
+    "card_label": "지역별 학원 가이드",
+    "title": "일산애견미용학원, 1인 미용실 창업 전에 어떤 실습이 필요할까?",
+    "section": "academy-guide",
+    "image": "/assets/images/posts/ilsan-dog-grooming-academy-solo-salon-practice/hero.jpg",
+    "alt": "일산애견미용학원 문구 옆 초록색 매트에 앉은 검정과 황갈색 랭커셔 힐러",
+    "width": "1000",
+    "height": "1000",
+    "region": "capital"
+  },
+  {
     "path": "/career/dog-grooming-workstation-layout/",
     "description": "애견미용 작업 동선을 줄이는 도구 배치 기준을 알아보세요. 빗과 가위 자리, 욕조에서 드라이 구역으로 가는 길, 사용한 도구를 분리하는 방법을 정리했습니다.",
     "category": "진로",
