@@ -1,5 +1,20 @@
 [
   {
+    "path": "/breeds/havanese-grooming-coat-length/",
+    "description": "하바니즈 미용에서 긴 털과 짧은 스타일을 빗질, 건조, 부위별 엉킴 관리로 비교하고 미용실에 원하는 길이를 전하는 방법을 알아보세요.",
+    "category": "견종",
+    "label": "견종별 가이드",
+    "tags": "",
+    "recent": true,
+    "card_label": "견종별 가이드",
+    "title": "하바니즈 미용, 긴 털과 짧은 스타일 사이에서 무엇을 비교할까?",
+    "section": "breeds",
+    "image": "/assets/images/posts/havanese-grooming-coat-length/hero.jpg",
+    "alt": "하바니즈 미용 문구 옆의 긴 크림색 털 하바니즈",
+    "width": "1000",
+    "height": "1000"
+  },
+  {
     "path": "/academy-guide/sillim-dog-grooming-academy-shift-practice/",
     "description": "신림애견미용학원을 알아보는 교대근무자를 위해 근무표에 맞춘 출석 계획, 결석 뒤 실습을 다시 시작하는 조건, 짧은 복습 기록을 정리했습니다.",
     "category": "지역",
