@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-towel-drying-after-bath/",
+    "description": "강아지 수건 드라이는 털을 세게 비비기보다 물기를 흡수시키는 과정입니다. 수건 교체, 부위별 닦는 방법, 털 안쪽의 건조 확인과 드라이기 적응 기준을 알아보세요.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "",
+    "recent": true,
+    "card_label": "애견미용정보",
+    "title": "강아지 수건 드라이, 목욕 후 문질러 닦아도 될까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-towel-drying-after-bath/hero.jpg",
+    "alt": "강아지 수건 드라이 문구 옆에서 복숭아색 수건으로 몸의 물기를 닦는 흰색 파우더퍼프 강아지",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/career/dog-grooming-wig-practice-foundations/",
     "description": "애견미용 위그 연습은 완성 모양을 서두르기보다 위그 고정, 인조 털 정리, 기준선 설정, 구간별 기록부터 익혀야 합니다. 초보자가 먼저 확인할 기초를 정리합니다.",
     "category": "진로",
