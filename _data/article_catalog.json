@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-bath-water-temperature/",
+    "description": "강아지 목욕 물온도는 미지근하게 맞추세요. 처음 나오는 물을 확인하는 법, 적시는 순서, 헹굼 전 온도 재확인과 추운 날 준비를 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "",
+    "recent": true,
+    "card_label": "애견미용정보",
+    "title": "강아지 목욕 물온도, 손으로 따뜻하면 괜찮을까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-bath-water-temperature/hero.jpg",
+    "alt": "강아지 목욕 물온도 문구 옆 욕실에 앉은 보스턴 테리어",
+    "width": "1000",
+    "height": "1000"
+  },
+  {
     "path": "/academy-guide/gangnam-dog-grooming-academy-class-visit/",
     "description": "강남애견미용학원 방문을 준비한다면 수업 참관 여부부터 물어보세요. 시연의 첫 설명과 작업을 멈추는 순간, 참관이 어려울 때 할 질문을 정리했습니다.",
     "category": "지역",
