@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-bath-rinse-check/",
+    "description": "강아지 목욕 헹굼은 거품이 안 보여도 털 안쪽과 겨드랑이, 배를 확인해야 합니다. 물을 흘리는 순서와 수건을 대기 전 확인할 부위를 알아보세요.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "",
+    "recent": true,
+    "card_label": "애견미용정보",
+    "title": "강아지 목욕 헹굼, 거품이 안 보이면 끝내도 될까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-bath-rinse-check/hero.jpg",
+    "alt": "강아지 목욕 헹굼 문구 오른쪽에 젖은 황갈색 피레니안 셰퍼드가 목욕통에 서 있는 모습",
+    "width": "1000",
+    "height": "1000"
+  },
+  {
     "path": "/academy-guide/bundang-dog-grooming-academy-live-dog-training/",
     "description": "분당애견미용학원에서 자격증 이후 실견교육을 알아본다면, 털 상태와 강아지 반응에 맞춰 작업을 조정하는 법과 현재 경험에 맞는 실습 범위를 확인해 보세요.",
     "category": "지역",
