@@ -1,5 +1,21 @@
 [
   {
+    "path": "/academy-guide/nowon-dog-grooming-academy-beginner-feedback/",
+    "description": "노원애견미용학원을 찾는 초보자를 위해 실습에서 손이 멈추는 이유를 구분하고, 동작 교정과 재연습이 어떻게 이어지는지 확인하는 방법을 정리했습니다.",
+    "category": "지역",
+    "label": "지역별 학원 가이드",
+    "tags": "",
+    "recent": true,
+    "card_label": "지역별 학원 가이드",
+    "title": "노원애견미용학원, 손이 느린 초보자는 어떤 피드백이 필요할까?",
+    "section": "academy-guide",
+    "image": "/assets/images/posts/nowon-dog-grooming-academy-beginner-feedback/hero.jpg",
+    "alt": "노원애견미용학원 문구 오른쪽의 옅은 갈색 강아지가 연녹색 매트에 앉아 있는 모습",
+    "width": "1000",
+    "height": "1000",
+    "region": "capital"
+  },
+  {
     "path": "/career/dog-grooming-symmetry-checkpoints/",
     "description": "애견미용 좌우대칭이 어긋나 보일 때 정면의 기준과 옆면의 윤곽, 빗질 후 차이를 확인하고 손댈 부분을 정하는 방법을 알아보세요.",
     "category": "진로",
