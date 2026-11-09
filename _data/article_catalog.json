@@ -1,5 +1,20 @@
 [
   {
+    "path": "/career/dog-grooming-post-course-practice/",
+    "description": "애견미용 수료 후 연습을 이어가는 방법을 정리했습니다. 위그에서 반복할 동작, 지도받을 실견 과제, 취업 전에 남길 작업 기록을 구분해 보세요.",
+    "category": "진로",
+    "label": "자격증·진로",
+    "tags": "",
+    "recent": true,
+    "card_label": "자격증·진로",
+    "title": "애견미용 수료 후 연습, 취업 전 기술 감각을 어떻게 이어갈까?",
+    "section": "career",
+    "image": "/assets/images/posts/dog-grooming-post-course-practice/hero.jpg",
+    "alt": "애견미용 수료 후 연습 문구 옆에 앉은 붉은 털의 리트리버와 닫힌 노트",
+    "width": "1000",
+    "height": "1000"
+  },
+  {
     "path": "/career/dog-grooming-reservation-capacity/",
     "description": "애견미용 예약 관리는 하루 마릿수보다 상담·작업·정리·인계 시간을 먼저 계산해야 합니다. 실제 소요시간 기록과 인력·공간을 바탕으로 예약 수를 정하는 기준을 살펴보세요.",
     "category": "진로",
