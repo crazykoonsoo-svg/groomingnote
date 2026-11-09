@@ -1,5 +1,20 @@
 [
   {
+    "path": "/breeds/shetland-sheepdog-grooming-coat-care/",
+    "description": "셔틀랜드쉽독 미용은 풍성한 이중모를 짧게 자르기보다 털을 층별로 빗고 엉킴을 확인한 뒤 발바닥·위생 부위·윤곽을 필요한 만큼 정돈하는 관리가 중심입니다.",
+    "category": "견종",
+    "label": "견종별 가이드",
+    "tags": "",
+    "recent": true,
+    "card_label": "견종별 가이드",
+    "title": "셔틀랜드쉽독 미용, 풍성한 털과 부분 정돈은 어떻게 관리할까?",
+    "section": "breeds",
+    "image": "/assets/images/posts/shetland-sheepdog-grooming-coat-care/hero.jpg",
+    "alt": "셔틀랜드쉽독 미용 문구 옆에서 핀 브러시로 풍성한 털을 빗는 손과 세이블화이트 셔틀랜드쉽독",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/career/dog-grooming-consultation-practice/",
     "description": "애견미용 상담 실습에서는 스타일 이름만 묻지 않고 현재 털 상태, 부위별 길이, 관리 우선순위와 변경 허용 범위를 구체적으로 확인해야 합니다. 원하는 모습을 질문하고 기록하는 순서를 정리합니다.",
     "category": "진로",
