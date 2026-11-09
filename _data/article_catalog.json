@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-shampoo-dilution-label/",
+    "description": "강아지 샴푸는 제품마다 희석 지침이 다릅니다. 바로 쓰는 제품과 농축 제품을 구분하고, 라벨의 물과 원액 비율을 읽는 방법을 알아보세요.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "",
+    "recent": true,
+    "card_label": "애견미용정보",
+    "title": "강아지 샴푸 희석, 제품마다 같은 비율로 섞어도 될까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-shampoo-dilution-label/hero.jpg",
+    "alt": "강아지 샴푸 희석 문구 오른쪽에 앉은 황갈색 강아지와 목욕용품",
+    "width": "1000",
+    "height": "1000"
+  },
+  {
     "path": "/academy-guide/nowon-dog-grooming-academy-beginner-feedback/",
     "description": "노원애견미용학원을 찾는 초보자를 위해 실습에서 손이 멈추는 이유를 구분하고, 동작 교정과 재연습이 어떻게 이어지는지 확인하는 방법을 정리했습니다.",
     "category": "지역",
