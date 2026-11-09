@@ -1,5 +1,20 @@
 [
   {
+    "path": "/career/dog-grooming-consultation-practice/",
+    "description": "애견미용 상담 실습에서는 스타일 이름만 묻지 않고 현재 털 상태, 부위별 길이, 관리 우선순위와 변경 허용 범위를 구체적으로 확인해야 합니다. 원하는 모습을 질문하고 기록하는 순서를 정리합니다.",
+    "category": "진로",
+    "label": "자격증·진로",
+    "tags": "",
+    "recent": true,
+    "card_label": "자격증·진로",
+    "title": "애견미용 상담 실습, 원하는 스타일을 어떻게 질문할까?",
+    "section": "career",
+    "image": "/assets/images/posts/dog-grooming-consultation-practice/hero.jpg",
+    "alt": "애견미용 상담 실습 문구 옆 참고 사진과 상담 기록을 확인하는 손, 앉아 있는 살구색 코카푸",
+    "width": "1200",
+    "height": "1200"
+  },
+  {
     "path": "/homecare/dog-towel-drying-after-bath/",
     "description": "강아지 수건 드라이는 털을 세게 비비기보다 물기를 흡수시키는 과정입니다. 수건 교체, 부위별 닦는 방법, 털 안쪽의 건조 확인과 드라이기 적응 기준을 알아보세요.",
     "category": "미용",
