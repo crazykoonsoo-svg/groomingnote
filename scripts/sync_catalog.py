@@ -38,7 +38,7 @@ def main():
    path='/'+page.parent.relative_to(ROOT).as_posix()+'/'
    r=dict(known.get(path,dict(path=path,description=info.meta.get('description',''),category=category,label=label,tags='',recent=True,card_label=label)))
    r['title']=info.title.removesuffix(' | 그루밍노트').strip();r['section']=section
-   r['image']=unquote(urlsplit(info.meta.get('og:image','')).path)
+   r['image']=unquote(urlsplit(info.meta.get('groomingnote:card-image') or info.meta.get('og:image','')).path)
    if not (ROOT/r['image'].lstrip('/')).is_file():errors.append('Missing image: '+path)
    r.setdefault('alt',r['title']);r.setdefault('width','1200');r.setdefault('height','1200')
    if section=='academy-guide':r.setdefault('region',region(path))
