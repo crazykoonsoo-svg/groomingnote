@@ -1,5 +1,20 @@
 [
   {
+    "path": "/career/dog-grooming-owner-handoff/",
+    "description": "애견미용 보호자 인계에서 마친 작업과 보류한 범위, 미용 중 관찰한 반응, 집에서 살필 부위를 어떤 순서로 설명할지 알아보세요.",
+    "category": "진로",
+    "label": "자격증·진로",
+    "tags": "애견미용 보호자 인계 미용 후 설명 작업 기록",
+    "recent": true,
+    "card_label": "자격증·진로",
+    "title": "애견미용 보호자 인계, 미용을 마친 뒤 어떤 순서로 설명할까?",
+    "section": "career",
+    "image": "/assets/images/posts/dog-grooming-owner-handoff/hero.jpg",
+    "alt": "애견미용 보호자 인계 문구 옆 연두색 매트에 앉은 적갈색 오스트리안 핀셔",
+    "width": "1000",
+    "height": "1000"
+  },
+  {
     "path": "/homecare/dog-grooming-salon-change-care-record/",
     "description": "강아지 미용실을 바꿀 때 최근 미용 사진, 지난 작업 범위, 불편해한 반응, 관리 중인 부위를 어떻게 전달할지 알아보세요.",
     "category": "미용",
