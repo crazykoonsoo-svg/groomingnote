@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-grooming-salon-change-care-record/",
+    "description": "강아지 미용실을 바꿀 때 최근 미용 사진, 지난 작업 범위, 불편해한 반응, 관리 중인 부위를 어떻게 전달할지 알아보세요.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 미용실 변경 이전 미용 기록 관리 상담",
+    "recent": true,
+    "card_label": "애견미용정보",
+    "title": "강아지 미용실 변경, 이전 관리 기록에서 무엇을 전달할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-grooming-salon-change-care-record/hero.jpg",
+    "alt": "강아지 미용실 변경 문구와 연두색 매트에 엎드린 삼색 토이 폭스 테리어",
+    "width": "1000",
+    "height": "1000"
+  },
+  {
     "path": "/academy-guide/cheonho-dog-grooming-academy-career-path/",
     "description": "천호애견미용학원에서 취업을 준비할 때, 첫 업무와 현재 경험을 기준으로 기초·자격증 준비, 실견 심화, 취업 연계 과정을 비교하는 방법을 알아보세요.",
     "category": "지역",
