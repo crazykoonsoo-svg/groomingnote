@@ -1,0 +1,36 @@
+{
+  "title": "반월당애견미용학원, 위그에서 실견으로 넘어가기 전에 무엇을 확인할까?",
+  "description": "위그 연습을 마치고 실견 실습을 준비할 때, 강아지의 반응을 살피는 법과 첫날 맡을 작업, 강사가 개입하는 시점을 반월당점 상담에서 확인해 보세요.",
+  "slug": "banwoldang-dog-grooming-academy-live-practice",
+  "region": "yeongnam",
+  "breed": "브리아르",
+  "source": "https://evaw-pet-grooming.co.kr/branches/banwoldang/",
+  "images": [
+    {
+      "path": "assets/images/posts/banwoldang-dog-grooming-academy-live-practice/hero.png",
+      "sha": "ed3a6e91b5fa70973e5850238807c7a04c0baac2",
+      "alt": "반월당 애견미용학원 문구 옆 청록색 매트에 앉은 황갈색 브리아르"
+    },
+    {
+      "path": "assets/images/posts/banwoldang-dog-grooming-academy-live-practice/detail-1.png",
+      "sha": "d2261c9b3d01396322cfb9416f17646da31d3b32",
+      "alt": "흰색 연습용 위그 위로 콤을 든 손과 받침대 옆에 놓인 손"
+    },
+    {
+      "path": "assets/images/posts/banwoldang-dog-grooming-academy-live-practice/detail-2.png",
+      "sha": "03e102d2b45b8b77a665ffc6a443f6571e2893a6",
+      "alt": "회색 바닥 매트에 선 황갈색 브리아르 앞에 손바닥을 펼친 사람"
+    },
+    {
+      "path": "assets/images/posts/banwoldang-dog-grooming-academy-live-practice/detail-3.png",
+      "sha": "18b79f38ac612f673f7ae0339f45d855e70bc3d4",
+      "alt": "파란 매트 위에 나란히 놓인 닫힌 미용 가위와 콤, 클리퍼"
+    },
+    {
+      "path": "assets/images/posts/banwoldang-dog-grooming-academy-live-practice/detail-4.png",
+      "sha": "1e355d393aa866cafd3c5d884eaec7c66e7d3372",
+      "alt": "펼친 노트를 가리키는 손과 연필을 든 손, 탁자 위의 콤"
+    }
+  ],
+  "note": "본문의 {{hero}}·{{detail-1}}~{{detail-4}}를 각 이미지로 치환하고 실제 병합 직전 KST 메타를 적용하세요."
+}
