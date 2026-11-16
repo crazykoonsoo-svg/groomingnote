@@ -1,5 +1,21 @@
 [
   {
+    "path": "/academy-guide/yongin-bundang-suwon-practice-goals/",
+    "description": "용인 죽전·기흥에서 출발해 이바우펫 분당점과 수원점을 비교하는 안내입니다. 용인애견미용학원을 찾는 분이 기초·자격증·실견 목표와 실제 출석일에 맞춰 물어볼 질문을 정리했습니다.",
+    "category": "지역",
+    "region": "capital",
+    "label": "지역별 학원 가이드",
+    "tags": "용인애견미용학원 죽전 기흥 분당 수원 기초 실견 출석",
+    "recent": true,
+    "card_label": "지역 · 목표와 출석",
+    "title": "용인애견미용학원, 내 출석일로 분당점과 수원점에서 무엇을 배울 수 있을까?",
+    "section": "academy-guide",
+    "image": "/assets/images/posts/yongin-bundang-suwon-practice-goals/hero.jpg",
+    "alt": "짙은 초록 배경에 흰색과 갈색 털의 코코니 얼굴을 크게 담은 용인애견미용학원 대표 이미지",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-tug-play-release/",
     "description": "강아지터그놀이에 맞는 바닥과 장난감을 고르고 네 발을 바닥에 둔 채 부드럽게 노는 방법을 살펴보세요. 놓기 신호와 휴식, 치아 통증으로 진료가 필요한 경우를 구분합니다.",
     "category": "미용",
