@@ -1,0 +1,30 @@
+{
+  "keyword": "비숑털갈이시기",
+  "title": "비숑털갈이시기, 소파에는 안 보이던 털이 왜 빗에 모일까?",
+  "url": "https://groomingnote.co.kr/breeds/bichon-shedding-and-tangles/",
+  "stamp": "2026-11-16T18:39:52+09:00",
+  "sources": {
+    "https://www.akc.org/dog-breeds/bichon-frise/": "견종별 털 교체와 속털에 남는 잔털",
+    "https://vcahospitals.com/resources/lifestyle-dog/breeds/high-maintenance-dog-hairdos": "비숑의 빗질과 엉킴",
+    "https://vcahospitals.com/know-your-pet/grooming-and-coat-care-for-your-dog": "귀 뒤·겨드랑이 관찰과 단단한 엉킴의 전문 관리",
+    "https://www.merckvetmanual.com/dog-owners/skin-disorders-of-dogs/hair-loss-alopecia-in-dogs": "가려움 유무로 확정할 수 없는 탈모·진료"
+  },
+  "overlap": "비숑미용 스타일·주기 글과 일반 엉킴 글, 직전 포메 성장기 글의 제목·URL·본문 대조. 빗에 남는 털과 빗을 붙잡는 엉킴 및 진료 기준 중심.",
+  "breed": "비숑 프리제. 지정 견종이라 반복. 160/320px 및 본문 4장 직접 검수.",
+  "alts": [
+    "자주색 배경에 흰 곱슬털 비숑의 얼굴과 비숑털갈이시기 문구",
+    "남색 소파에 누워 고개를 돌린 흰 비숑",
+    "비숑의 앞발 곁 갈색 수건 위 금속 빗에 걸린 흰 잔털",
+    "보호자가 비숑의 귀 바깥쪽을 살짝 들어 뒤쪽 털을 살피는 모습",
+    "연녹색 매트에 선 비숑과 산책 뒤 벗겨 둔 하네스"
+  ],
+  "prompts": [
+    "Square cover, ivory curly Bichon Frise head in large closeup on right against muted dark plum wall, two lines of bold large cream Korean text centered vertically on left '비숑' and '털갈이시기'. No other text.",
+    "Landscape 3:2. White Bichon Frise resting on smooth navy couch cushion in daylight, looking over its shoulder toward camera. Detailed springy curls, no clumps on cushion.",
+    "Landscape 3:2 macro still life of tiny wisps of loose white hair in a metal grooming comb resting on a russet cotton towel, curly white Bichon paw and lower leg softly blurred in background.",
+    "Landscape 3:2. Gentle hand lifts floppy ear of white Bichon Frise just slightly to look at outer curls behind ear; close profile with soft springy woolly coat, dog at ease, no tools, keep ear canal out of view.",
+    "Landscape 3:2. White Bichon on a sage nonslip mat next to its removed soft fabric walking harness. Side view showing natural shoulder curls. Harness clearly on floor, dog relaxed."
+  ],
+  "cover_edit": "Retain portrait, correct left title to 비숑 / 털갈이시기.",
+  "common_prompt": "Single natural editorial photograph; no human faces, logos, watermarks or signage. Body photos text-free."
+}
