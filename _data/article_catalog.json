@@ -1,5 +1,20 @@
 [
   {
+    "path": "/breeds/dog-breed-types-lifestyle/",
+    "description": "강아지종류를 비교할 때 성견 크기, 털빠짐과 빗질, 평일 산책, 한 달 돌봄 비용을 함께 살펴보세요. 비글·푸들·셔틀랜드쉽독의 모질 예시와 입양 전 물어볼 질문을 정리했습니다.",
+    "category": "견종",
+    "label": "견종별 가이드",
+    "tags": "강아지종류 견종 선택 모질 활동량 성견 크기 입양",
+    "recent": true,
+    "card_label": "견종 · 생활 조건 비교",
+    "title": "강아지종류, 우리 집에 맞는 견종은 어떻게 비교할까?",
+    "section": "breeds",
+    "image": "/assets/images/posts/dog-breed-types-lifestyle/hero.jpg",
+    "alt": "짙은 녹색 배경에 흰색과 주황색 털의 노르보텐스피츠 얼굴과 강아지종류 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/why-dogs-lick/",
     "description": "강아지가핥는이유는 애정 표현만이 아닙니다. 사람의 손·자기 발·바닥을 핥는 맥락과 반복 핥기의 변화, 동물병원에 전달할 관찰 내용을 정리했습니다.",
     "category": "미용",
