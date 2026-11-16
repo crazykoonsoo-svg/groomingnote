@@ -1,0 +1,28 @@
+{
+  "keyword": "안산애견미용학원",
+  "title": "안산애견미용학원, 수원점과 부천점의 실습 견적은 어떻게 비교할까?",
+  "url": "https://groomingnote.co.kr/academy-guide/ansan-practice-course-costs/",
+  "stamp": "2026-11-16T20:04:16+09:00",
+  "sources": {
+    "https://evaw-pet-grooming.co.kr/branches/": "전국 지점 목록과 실제 연결 주소 확인",
+    "https://evaw-pet-grooming.co.kr/branches/suwon/": "덕영대로 905 1101·1106호, 기초/실견 심화 과정, 참여 조건·개별 피드백 및 공통 수강료 안내",
+    "https://evaw-pet-grooming.co.kr/branches/bucheon/": "부일로 496·상동과 구분, 공통 과정별 교육비와 도구 조건 및 토요일 실습 상담"
+  },
+  "overlap": "제목·URL·본문 비교. 시흥은 환승, 화성은 출발 동선, 용인은 출석일별 목표. 안산 글은 기초/실견 견적의 범위와 포함·별도 비용 비교. 교통편이나 시험 규정·지원액 단정 없음.",
+  "breed": "타이 방깨우 (Thai Bangkaew Dog). 영구이력과 대조. 대표 160/320px와 본문 4장 확인.",
+  "alts": [
+    "청회색 배경에 갈색과 흰색 타이 방깨우 얼굴을 크게 담은 안산애견미용학원 표지",
+    "검은 털의 연습용 견체 옆면에 빗을 대어 보는 손",
+    "천으로 된 도구집에 가위와 빗, 브러시를 나란히 넣은 모습",
+    "미끄럼 방지 매트에 선 타이 방깨우의 어깨 털을 손으로 빗는 모습",
+    "계산기 양옆의 견적서 두 장을 손끝으로 짚어 보는 모습"
+  ],
+  "prompts": [
+    "Square editorial cover. Thai Bangkaew Dog, expressive foxlike face upright ears, white thick ruff and reddish brown patches, large closeup on RIGHT. Quiet dark blue slate wall left. Big cream Korean type left center on exactly two lines '안산' and '애견미용학원'. No other lettering.",
+    "Landscape photograph of a training mannequin dog with dark practice wool, human hand positioning a wide comb against wool, tabletop evening light. Clearly synthetic teaching model, no scissors.",
+    "Landscape professional still life open neutral tool roll on a light desk, closed grooming scissors safely sheathed, comb and brush, no text or marks; overhead natural light.",
+    "Landscape editorial photo of calm Thai Bangkaew dog with white ruff and brown patches standing on a nonslip floor mat, handler hand gently using a pin brush on shoulder, full body profile, no restraint, no scissors.",
+    "Landscape editorial still life of two cream estimate sheets each with muted illegible grid lines, plain calculator and pencil, hands pointing at respective totals; no text or identifiable numerals, warm wooden table."
+  ],
+  "common_prompt": "Single photorealistic image, realistic proportions, no human faces, branding or watermarks. All body pictures text free."
+}
