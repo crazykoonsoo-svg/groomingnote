@@ -1,5 +1,21 @@
 [
   {
+    "path": "/academy-guide/hwaseong-suwon-pyeongtaek-class-commute/",
+    "description": "화성애견미용학원을 찾는 분을 위해 이바우펫 수원점과 평택점의 주소와 교육과정을 비교합니다. 봉담의 집, 향남의 직장에서 출발해 실습 시작부터 귀가까지 맞춰 보는 방법을 확인하세요.",
+    "category": "지역",
+    "label": "지역별 학원 가이드",
+    "tags": "화성애견미용학원 봉담 향남 수원 평택 통학",
+    "recent": true,
+    "card_label": "지역 · 통학과 교육과정",
+    "title": "화성애견미용학원, 봉담에서 출발하는 날과 향남에서 퇴근하는 날 어디로 다닐까?",
+    "section": "academy-guide",
+    "image": "/assets/images/posts/hwaseong-suwon-pyeongtaek-class-commute/hero.jpg",
+    "alt": "남색 배경의 검정·갈색 프라하 래터와 왼쪽의 화성애견미용학원 문구",
+    "width": "1050",
+    "height": "1050",
+    "region": "yeongnam"
+  },
+  {
     "path": "/breeds/dog-breed-types-lifestyle/",
     "description": "강아지종류를 비교할 때 성견 크기, 털빠짐과 빗질, 평일 산책, 한 달 돌봄 비용을 함께 살펴보세요. 비글·푸들·셔틀랜드쉽독의 모질 예시와 입양 전 물어볼 질문을 정리했습니다.",
     "category": "견종",
