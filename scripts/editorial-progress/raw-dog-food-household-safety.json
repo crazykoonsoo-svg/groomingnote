@@ -1,0 +1,26 @@
+{
+  "keyword": "강아지생식",
+  "title": "강아지생식, 냉동 고기 한 팩을 매일 주식으로 줘도 될까?",
+  "url": "https://groomingnote.co.kr/homecare/raw-dog-food-household-safety/",
+  "stamp": "2026-11-16T21:52:13+09:00",
+  "sources": {
+    "https://www.cdc.gov/healthy-pets/about/pet-food-safety.html": "비가열 원료·동결건조·취약가족·급여 후 손과 도구의 위생",
+    "https://wsava.org/wp-content/uploads/2020/01/Frequently-Asked-Questions-and-Myths.pdf": "영양 불균형·병원체와 분변·우월성 근거 부족·수의영양 상담"
+  },
+  "overlap": "기존 201편과 대조. 사료 글은 열량과 급여량이 중심. 이번 글은 비가열 제품의 주식 적합성과 가족 노출 경로를 분리.",
+  "breed": "쿠르시누 (Cursinu), 기존 견종 이력 대조. 대표 160/320px와 본문 4장 검수.",
+  "alts": [
+    "짙은 녹색 배경에 얼룩무늬 쿠르시누의 얼굴과 강아지생식 문구",
+    "냉장고 아래 칸의 밀폐 용기에 담긴 생고기와 위 칸에 따로 둔 채소",
+    "빈 반려견 밥그릇 옆에서 식품 봉투를 두 손으로 살펴보는 모습",
+    "싱크대에서 거품 낸 수세미로 스테인리스 반려견 그릇을 씻는 손",
+    "주방 앞 안전문 곁 매트에 편안하게 누운 쿠르시누"
+  ],
+  "prompts": [
+    "Square dog portrait. Large beautiful alert brindle Corsican Cursinu with folded ears on right, muted deep forest-green backdrop. Bold perfectly legible white Hangul exactly '강아지생식' on left center; keep whole word within canvas, if split only '강아지' above '생식'.",
+    "Wide 3:2 photo of closed unbranded transparent container of raw meat on lowest shelf of clean fridge, vegetables on upper shelf in separate containers. No animals, no lettering.",
+    "Wide 3:2 photo candid overhead an adult's hands examining back of a plain pale pet food pouch beside a clean empty ceramic pet bowl, shallow depth of field, no readable writing.",
+    "Wide 3:2 close view of hands washing an empty stainless steel dog bowl with suds at a clean sink, ordinary kitchen, no other dishes, no food.",
+    "Wide 3:2 natural photograph with an adult brindle Cursinu dog relaxed on a mat behind a small indoor pet gate, modern home kitchen in background, clean scene."
+  ]
+}
