@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-dental-scaling-exam/",
+    "description": "강아지스케일링을 고민할 때 살펴볼 식사 변화와 마취 전 상담 질문을 정리했습니다. 구강검진과 치과 방사선 촬영이 필요한 이유, 무마취 시술의 한계, 진료 후 양치 재개 기준을 확인하세요.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지스케일링 구강검진 치석 마취 치아 양치",
+    "recent": true,
+    "card_label": "구강검진 · 마취 상담",
+    "title": "강아지스케일링, 마취 전에 무엇을 묻고 잇몸 아래는 왜 살필까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-dental-scaling-exam/hero.jpg",
+    "alt": "짙은 남색 바탕에 폴리시 헌팅 도그의 얼굴과 강아지스케일링 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/academy-guide/ansan-practice-course-costs/",
     "description": "안산에서 출발해 이바우펫 수원점과 부천점의 기초·실견 과정을 비교합니다. 안산애견미용학원을 알아볼 때 같은 기간과 출석 조건으로 실습 범위, 도구와 소모품, 총비용을 확인하는 방법입니다.",
     "category": "지역",
