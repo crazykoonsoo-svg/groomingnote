@@ -14,6 +14,7 @@ html{scroll-padding-top:92px}
 .header .brand img{width:40px;height:40px;border-radius:10px}
 .brand small{display:block;font-size:10px;letter-spacing:2px;margin-top:6px;font-weight:550;color:var(--muted)}
 .brand-accent{color:var(--coral)}
+.header .brand-accent,.header .brand small{color:inherit}
 .desktop-nav{display:flex;align-items:center;gap:24px;margin-left:auto;font-size:15px;font-weight:600;white-space:nowrap;color:var(--ink)}
 .desktop-nav a{position:relative;padding:6px 0}
 .desktop-nav a:hover,.desktop-nav a.active{color:var(--teal)}
