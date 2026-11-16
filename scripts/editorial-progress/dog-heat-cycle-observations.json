@@ -1,0 +1,27 @@
+{
+  "keyword": "강아지생리",
+  "title": "강아지생리, 방석에 핏자국이 줄면 산책 때 다른 개를 만나도 될까?",
+  "url": "https://groomingnote.co.kr/homecare/dog-heat-cycle-observations/",
+  "stamp": "2026-11-16T23:57:40+09:00",
+  "sources": {
+    "https://vcahospitals.com/know-your-pet/estrus-cycles-in-dogs": "외음부·분비물 변화, 배뇨, 개체별 차이, 임신 가능성과 첫 발정",
+    "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/pyometra": "발정 뒤 자궁축농증, 외부 분비물이 없을 수 있음, 전신 이상과 응급 진료",
+    "https://www.vet.cornell.edu/hospitals/services/urgent-care": "창백한 잇몸과 쓰러짐·복부 팽창 응급 분류"
+  },
+  "overlap": "전체 카탈로그 및 본문 검색. 반복 핥기 관찰 글은 핥는 부위·행동에 초점. 이 글은 발정기 접촉 관리와 발정 후 진료 신호를 구분.",
+  "breed": "라포니안 허더 (Lapponian Herder)",
+  "alts": [
+    "갈색 배경의 라포니안 허더 얼굴 옆에 적힌 강아지생리 문구",
+    "창가의 크림색 담요 위에 몸을 둥글게 말고 쉬는 강아지",
+    "현관에서 가슴줄을 착용한 강아지와 산책줄을 잡은 손",
+    "물그릇 옆에 펼쳐 둔 작은 수첩과 연필을 내려놓는 손",
+    "진료실 이동장 옆에 관찰 수첩을 놓는 손과 청진기"
+  ],
+  "prompts": [
+    "Square cover, close-up adult female Lapponian Herder, upright ears and black and tan medium coat, on right against warm dark umber background. Large bold cream Korean word 정확히 '강아지생리' in left center. Only that text. Photorealistic, one coherent scene, no human faces, logos, watermarks or other lettering.",
+    "Horizontal 3:2 calm adult black and tan Lapponian Herder curled on clean cream washable throw by a bright window, domestic editorial photograph. Photorealistic, one coherent scene, no human faces, logos, watermarks or other lettering.",
+    "Horizontal 3:2 at doorway, close-up hand holding attached leash of standing black and tan Lapponian Herder wearing fitted chest harness, quiet garden path outside. Photorealistic, one coherent scene, no human faces, logos, watermarks or other lettering.",
+    "Horizontal 3:2 still life of hand placing a pencil on an open blank pocket notebook beside folded white cotton towel and a water bowl, natural overhead view. Photorealistic, one coherent scene, no human faces, logos, watermarks or other lettering.",
+    "Horizontal 3:2 veterinary consultation still life, hand setting a small notebook beside closed pet carrier on bench, stethoscope on nearby counter, no text. Photorealistic, one coherent scene, no human faces, logos, watermarks or other lettering."
+  ]
+}

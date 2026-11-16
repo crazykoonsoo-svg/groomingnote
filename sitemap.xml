@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://groomingnote.co.kr/</loc><lastmod>2026-11-16T23:17:04+09:00</lastmod><priority>1.0</priority></url>
+  <url><loc>https://groomingnote.co.kr/</loc><lastmod>2026-11-16T23:57:40+09:00</lastmod><priority>1.0</priority></url>
   <url><loc>https://groomingnote.co.kr/about/</loc><lastmod>2026-09-30</lastmod><priority>0.5</priority></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/</loc><lastmod>2026-11-16T23:17:04+09:00</lastmod><priority>0.8</priority></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/%EA%B4%91%EC%A3%BC-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-11-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/gwangju-academy/hero.jpg</image:loc></image:image></url>
@@ -30,7 +30,7 @@
   <url><loc>https://groomingnote.co.kr/homecare/dog-nail-trimming/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-nail-trimming/dog-nail-trimming-hero.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/homecare/dog-paw-hair-trimming/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-paw-hair-trimming/dog-paw-hair-trimming-hero-title-card.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/homecare/dog-self-grooming/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-self-grooming/dog-self-grooming-hero-title-card.jpg</image:loc></image:image></url>
-  <url><loc>https://groomingnote.co.kr/homecare/</loc><lastmod>2026-11-16T21:52:13+09:00</lastmod><priority>0.8</priority></url>
+  <url><loc>https://groomingnote.co.kr/homecare/</loc><lastmod>2026-11-16T23:57:40+09:00</lastmod><priority>0.8</priority></url>
   <url><loc>https://groomingnote.co.kr/industry/animal-grooming-business/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/animal-grooming-business/animal-grooming-business-hero-title-card.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/industry/</loc><lastmod>2026-11-02</lastmod><priority>0.8</priority></url>
   <url><loc>https://groomingnote.co.kr/industry/pet-market-size/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/pet-market-size/pet-market-size-hero-title-card.jpg</image:loc></image:image></url>
@@ -214,4 +214,5 @@
   <url><loc>https://groomingnote.co.kr/homecare/dog-dental-scaling-exam/</loc><lastmod>2026-11-16T20:57:19+09:00</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-dental-scaling-exam/hero.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/homecare/raw-dog-food-household-safety/</loc><lastmod>2026-11-16T21:52:13+09:00</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/raw-dog-food-household-safety/hero.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/uiwang-practice-feedback/</loc><lastmod>2026-11-16T23:17:04+09:00</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/uiwang-practice-feedback/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/homecare/dog-heat-cycle-observations/</loc><lastmod>2026-11-16T23:57:40+09:00</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-heat-cycle-observations/hero.jpg</image:loc></image:image></url>
 </urlset>
