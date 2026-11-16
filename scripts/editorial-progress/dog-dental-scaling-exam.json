@@ -1,0 +1,29 @@
+{
+  "keyword": "강아지스케일링",
+  "title": "강아지스케일링, 마취 전에 무엇을 묻고 잇몸 아래는 왜 살필까?",
+  "url": "https://groomingnote.co.kr/homecare/dog-dental-scaling-exam/",
+  "stamp": "2026-11-16T20:57:19+09:00",
+  "sources": {
+    "https://www.aaha.org/resources/2019-aaha-dental-care-guidelines-for-dogs-and-cats/essential-steps/": "마취하 검사·구강 방사선·치주 탐침·잇몸선 위아래 스케일링과 연마",
+    "https://www.aaha.org/resources/2020-aaha-anesthesia-and-monitoring-guidelines-for-dogs-and-cats/phase-1-preanesthesia/step-1-preanesthetic-planning/": "병력·약물·마취 이력과 개별 검사",
+    "https://avdc.org/download/30/position-statements/2876/dental-scaling-without-anesthesia.pdf": "비마취 치석제거의 한계와 손상 위험",
+    "https://www.aaha.org/resources/2019-aaha-dental-care-guidelines-for-dogs-and-cats/nonanesthetic-dentistry/": "무마취 시 놓치는 치주 질환과 기도 보호",
+    "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/dental-disease-and-home-dental-care": "먹기 어려움·출혈·부종 진료 신호와 처치 뒤 수의사의 양치 재개 안내"
+  },
+  "overlap": "main 전체 목록·홈케어 본문 검색 및 터그놀이 글 대조. 놀이를 멈추는 기준과 달리 마취 전 상담·잇몸 아래 검사·회복 뒤 양치 재개 중심.",
+  "breed": "폴리시 헌팅 도그 (Gończy Polski), 기존 대표 이력 대조. 160/320px 및 본문 4장 직접 검수.",
+  "alts": [
+    "짙은 남색 바탕에 폴리시 헌팅 도그의 얼굴과 강아지스케일링 문구",
+    "사료가 담긴 도자기 그릇 옆에 서 있는 검정·갈색 강아지",
+    "진료실에서 손에 수첩과 작은 주머니를 든 보호자와 바닥에 누운 강아지",
+    "장갑 낀 손이 개의 치아 모형에서 잇몸선을 가리키는 모습",
+    "흰 수건 위에 놓인 연녹색 반려견용 칫솔"
+  ],
+  "prompts": [
+    "Square 1:1 Korean editorial cover photograph. One beautiful adult Polish Hunting Dog (Gończy Polski, athletic short black and tan coat with long drooping brown ears), friendly mouth closed, large close-up on RIGHT half. Deep dark ink-blue backdrop, crisp white heavy Hangul on LEFT vertically centered, clear exactly two lines '강아지' then '스케일링'. Check spelling. No other elements or text.",
+    "Wide 3:2 home documentary photo of one black and tan Polish hunting dog standing next to a ceramic feeding bowl with a few pieces of dry dog food, natural window light, entire muzzle visible, calm kitchen. No text.",
+    "Wide 3:2 editorial photo in quiet veterinary consultation room, a guardian's hands holding a closed medical notebook and unmarked small pouch, black and tan hound resting on floor in background, focus on gesture. No text.",
+    "Wide 3:2 macro editorial photograph of gloved veterinary hand holding a clean educational canine dentition jaw model with long dog canines on a blue clinic counter, pointing to gumline with gloved finger only. No live animal, no writing, no sharp tools.",
+    "Wide 3:2 still life on clean light wood counter at home: a single small soft-bristled pet toothbrush with mint handle lying on folded white towel, background out of focus, no tube, no other instruments. No text."
+  ]
+}
