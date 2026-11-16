@@ -1,5 +1,20 @@
 [
   {
+    "path": "/breeds/pomeranian-shedding-stages/",
+    "description": "포메털갈이시기에 어린 포메라니안의 겉털이 자라는 모습과 성견의 계절성 속털 변화를 비교해 보세요. 집에서 살필 부위와 털이 비거나 가려울 때 동물병원에 전할 내용을 정리했습니다.",
+    "category": "견종",
+    "label": "견종별 가이드",
+    "tags": "포메털갈이시기 포메라니안 성장기 속털 계절 피부 관찰",
+    "recent": true,
+    "card_label": "포메라니안 · 성장과 속털 변화",
+    "title": "포메털갈이시기, 어린 털이 바뀌는 걸까 피부를 살펴야 할까?",
+    "section": "breeds",
+    "image": "/assets/images/posts/pomeranian-shedding-stages/hero.jpg",
+    "alt": "짙은 청록색 바탕에 주황색 포메라니안 얼굴과 포메털갈이시기 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/academy-guide/yongin-bundang-suwon-practice-goals/",
     "description": "용인 죽전·기흥에서 출발해 이바우펫 분당점과 수원점을 비교하는 안내입니다. 용인애견미용학원을 찾는 분이 기초·자격증·실견 목표와 실제 출석일에 맞춰 물어볼 질문을 정리했습니다.",
     "category": "지역",

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://groomingnote.co.kr/</loc><lastmod>2026-11-16T15:43:09+09:00</lastmod><priority>1.0</priority></url>
+  <url><loc>https://groomingnote.co.kr/</loc><lastmod>2026-11-16T17:03:02+09:00</lastmod><priority>1.0</priority></url>
   <url><loc>https://groomingnote.co.kr/about/</loc><lastmod>2026-09-30</lastmod><priority>0.5</priority></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/</loc><lastmod>2026-11-16T15:43:09+09:00</lastmod><priority>0.8</priority></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/%EA%B4%91%EC%A3%BC-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-11-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/gwangju-academy/hero.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/%EB%B6%80%EC%82%B0-%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9%ED%95%99%EC%9B%90/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/busan-academy/hero.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/breeds/bichon-grooming/</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/bichon-grooming/bichon-grooming-hero-title-card.jpg</image:loc></image:image></url>
-  <url><loc>https://groomingnote.co.kr/breeds/</loc><lastmod>2026-11-16T11:42:38+09:00</lastmod><priority>0.8</priority></url>
+  <url><loc>https://groomingnote.co.kr/breeds/</loc><lastmod>2026-11-16T17:03:02+09:00</lastmod><priority>0.8</priority></url>
   <url><loc>https://groomingnote.co.kr/breeds/shetland-sheepdog-grooming-coat-care/</loc><lastmod>2026-11-09T12:10:13+09:00</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/shetland-sheepdog-grooming-coat-care/hero.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/breeds/maltese-grooming/</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/maltese-grooming/maltese-grooming-hero-title-card.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/breeds/pomeranian-grooming/</loc><lastmod>2026-09-30</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/pomeranian-grooming/pomeranian-grooming-hero-title-card.jpg</image:loc></image:image></url>
@@ -208,4 +208,5 @@
   <url><loc>https://groomingnote.co.kr/homecare/dog-food-life-stage-portions/</loc><lastmod>2026-11-16T13:39:18+09:00</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-food-life-stage-portions/hero.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/homecare/dog-tug-play-release/</loc><lastmod>2026-11-16T14:45:54+09:00</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/dog-tug-play-release/hero.jpg</image:loc></image:image></url>
   <url><loc>https://groomingnote.co.kr/academy-guide/yongin-bundang-suwon-practice-goals/</loc><lastmod>2026-11-16T15:43:09+09:00</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/yongin-bundang-suwon-practice-goals/hero.jpg</image:loc></image:image></url>
+  <url><loc>https://groomingnote.co.kr/breeds/pomeranian-shedding-stages/</loc><lastmod>2026-11-16T17:03:02+09:00</lastmod><priority>0.7</priority><image:image><image:loc>https://groomingnote.co.kr/assets/images/posts/pomeranian-shedding-stages/hero.jpg</image:loc></image:image></url>
 </urlset>

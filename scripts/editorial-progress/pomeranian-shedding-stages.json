@@ -1,0 +1,28 @@
+{
+  "keyword": "포메털갈이시기",
+  "title": "포메털갈이시기, 어린 털이 바뀌는 걸까 피부를 살펴야 할까?",
+  "url": "https://groomingnote.co.kr/breeds/pomeranian-shedding-stages/",
+  "stamp": "2026-11-16T17:03:02+09:00",
+  "sources": {
+    "https://www.akc.org/expert-advice/health/why-puppies-shed/": "어린 털 교체와 완성 시기의 차이·포메 개체차·수의사 진료 신호",
+    "https://vcahospitals.com/know-your-pet/grooming-and-coat-care-for-your-dog": "수의사 작성. 이중모의 계절성·실내 생활·부드러운 빗질과 피부 점검",
+    "https://www.merckvetmanual.com/dog-owners/skin-disorders-of-dogs/hair-loss-alopecia-in-dogs": "국소·광범위 탈모, 가려움 유무만으로 원인 확정 불가, 병력과 수의학적 평가"
+  },
+  "overlap": "원격 전체 카탈로그·사이트맵·제목과 본문 확인. breeds/pomeranian-grooming은 길이/스타일, homecare/double-coated-dog-care는 일상 빗질, breeds/pomspitz-grooming은 교배견 관리. 이 글은 포메 성장·계절 변화의 비교 및 국소 탈모 관찰을 다룬다.",
+  "breed": "포메라니안. 지정 견종 주제로 재사용. 대표 160/320 및 본문 4장 직접 검수.",
+  "alts": [
+    "짙은 청록색 바탕에 주황색 포메라니안 얼굴과 포메털갈이시기 문구",
+    "창가 매트에 옆으로 선 어린 포메라니안의 어깨와 등에서 길이가 다르게 보이는 털",
+    "담요 위 빗에 모인 밝은 속털과 곁에 누운 포메라니안",
+    "크림색 포메라니안의 어깨 털을 손가락으로 가볍게 나누어 살피는 모습",
+    "매트 위에 선 포메라니안의 옆모습을 휴대전화로 촬영하는 손"
+  ],
+  "prompts": [
+    "Square Korean editorial cover photo. A young orange sable Pomeranian enlarged on the RIGHT, expressive sharp eyes and soft fine ear fur in clear morning light. Left middle generous deep petrol matte wall with exact large bold ivory Korean lettering arranged as two lines '포메' and '털갈이시기'. Only this text, readable thumbnail.",
+    "Landscape 3:2. Side-on candid photo of a healthy adolescent orange sable Pomeranian standing on a woven neutral mat near a sunny window. Naturally uneven adolescent coat lengths: softer shoulder and slightly longer back guard hairs. Full canine body, no bald patches. No text.",
+    "Landscape 3:2 editorial still life seen from above: a small tuft of loose cream undercoat caught in a rounded grooming pin brush on a charcoal linen throw, adult Pomeranian resting naturally beyond the brush on the far side, soft daylight. No text.",
+    "Landscape 3:2 closeup side view of a relaxed cream Pomeranian's shoulder. A single human hand gently parts the thick hair into a narrow row using two fingertips, showing healthy underlying intact skin, no implements, dog fully supported. No text.",
+    "Landscape 3:2. Over shoulder of adult guardian, only hands visible, photographing a relaxed orange Pomeranian standing in profile on a light mat, smartphone preview shows same side profile, scene framed from different angle to other pictures. No readable lettering. Dog's natural coat."
+  ],
+  "common_prompt": "Natural photorealism, no human faces, branding, watermark or logo. Single photograph, no collage."
+}
