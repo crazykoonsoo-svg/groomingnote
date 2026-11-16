@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-food-life-stage-portions/",
+    "description": "강아지사료를 고를 때 성장기·성견의 영양 적합성, 하루 급여량과 열량 표시를 읽는 방법을 살펴보세요. 간식을 포함한 섭취량 기록과 동물병원에 상담할 변화도 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지사료 성장기 성견 급여량 간식 열량",
+    "recent": true,
+    "card_label": "홈케어 · 사료와 급여량",
+    "title": "강아지사료, 같은 한 컵인데 열량이 다를까? 봉투에서 확인할 세 가지",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-food-life-stage-portions/hero.jpg",
+    "alt": "사료 그릇 옆에 누운 회색 블루 레이시와 왼쪽의 강아지사료 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/academy-guide/hwaseong-suwon-pyeongtaek-class-commute/",
     "description": "화성애견미용학원을 찾는 분을 위해 이바우펫 수원점과 평택점의 주소와 교육과정을 비교합니다. 봉담의 집, 향남의 직장에서 출발해 실습 시작부터 귀가까지 맞춰 보는 방법을 확인하세요.",
     "category": "지역",
