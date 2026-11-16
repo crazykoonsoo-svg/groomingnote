@@ -1,0 +1,27 @@
+{
+  "keyword": "의왕애견미용학원",
+  "title": "의왕애견미용학원, 내가 해 본 빗질부터 어디까지 지도받을 수 있을까?",
+  "url": "https://groomingnote.co.kr/academy-guide/uiwang-practice-feedback/",
+  "stamp": "2026-11-16T23:17:04+09:00",
+  "sources": {
+    "https://evaw-pet-grooming.co.kr/branches/": "실제 지점 목록 및 지점 페이지 연결",
+    "https://evaw-pet-grooming.co.kr/branches/suwon/": "덕영대로 905 1101·1106호, 기초 과정·실견 심화·개별 피드백",
+    "https://evaw-pet-grooming.co.kr/branches/bundang/": "백현로101번길 13 5층, 기초·실견 과정과 위치"
+  },
+  "overlap": "기존 용인 출석 달력과 안산 견적 비교의 본문 대조. 의왕은 출발 시간과 연습용 견체 전후 사진을 이용해 지도 범위와 실견 단계 감독을 비교. 교통 노선·예상 소요시간·시험·지원액 기재 없음.",
+  "breed": "아메리칸 레오파드 하운드 (American Leopard Hound), 기존 이력 확인, 대표 160/320px 및 본문4 검수.",
+  "alts": [
+    "자주색 배경에 아메리칸 레오파드 하운드의 얼굴과 의왕애견미용학원 문구",
+    "현관 벤치 위 작은 가방에 넣어 둔 빗과 수건",
+    "손가락으로 흰 연습용 털을 나누고 옆에 둔 금속 빗",
+    "한 사람이 흰 연습용 견체의 등을 가리키고 다른 사람이 빗을 든 모습",
+    "미끄럼 방지 매트에 선 얼룩무늬 강아지의 어깨를 부드러운 솔로 빗는 손"
+  ],
+  "prompts": [
+    "Square 1:1 editorial cover. Close up one calm adult American Leopard Hound, striking mottled silver brown black short fur, floppy ears, face large on RIGHT, warm dark aubergine background. Large crisp cream bold Hangul on LEFT center, two lines exactly '의왕' and '애견미용학원'. No other letters.",
+    "Landscape 3:2 flat lay small open unbranded travel bag containing a comb in its case and a rolled towel on a hall bench by shoes. Soft morning light.",
+    "Landscape 3:2 candid closeup hands parting a white synthetic fur practice swatch on wooden desk with a simple straight comb, teaching brushing direction, no live animal.",
+    "Landscape 3:2 detail candid editorial two people's hands one pointing at an uneven tuft on an artificial grooming practice dog mannequin on a training desk, the other holding a comb, no scissors.",
+    "Landscape 3:2 side view of a relaxed shorthaired merle American Leopard Hound standing on a nonslip mat while a hand gently brushes its shoulder with a soft brush, natural daylight."
+  ]
+}

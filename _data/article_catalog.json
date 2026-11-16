@@ -1,5 +1,21 @@
 [
   {
+    "path": "/academy-guide/uiwang-practice-feedback/",
+    "description": "의왕역과 포일동에서 출발해 이바우펫 수원점·분당점의 수업을 비교합니다. 의왕애견미용학원을 찾는 초보자와 견체 경험자가 통학 시간과 실제 지도 범위를 확인하는 질문을 정리했습니다.",
+    "category": "지역",
+    "region": "capital",
+    "label": "지역별 학원 가이드",
+    "tags": "의왕애견미용학원 통학 견체 기초 실견 지도 수원 분당",
+    "recent": true,
+    "card_label": "의왕 · 경험별 지도 범위",
+    "title": "의왕애견미용학원, 내가 해 본 빗질부터 어디까지 지도받을 수 있을까?",
+    "section": "academy-guide",
+    "image": "/assets/images/posts/uiwang-practice-feedback/hero.jpg",
+    "alt": "자주색 배경에 아메리칸 레오파드 하운드의 얼굴과 의왕애견미용학원 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/raw-dog-food-household-safety/",
     "description": "강아지생식을 고민할 때 확인할 주식의 영양 균형과 비가열 고기의 위생 위험을 살펴봅니다. 가열 식단을 고르는 기준, 먹이와 그릇을 다룬 뒤 가족이 주의할 점을 확인하세요.",
     "category": "미용",
