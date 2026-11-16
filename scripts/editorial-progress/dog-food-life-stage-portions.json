@@ -1,0 +1,34 @@
+{
+  "title": "강아지사료, 같은 한 컵인데 열량이 다를까? 봉투에서 확인할 세 가지",
+  "url": "https://groomingnote.co.kr/homecare/dog-food-life-stage-portions/",
+  "slug": "dog-food-life-stage-portions",
+  "stamp": "2026-11-16T13:39:18+09:00",
+  "description": "강아지사료를 고를 때 성장기·성견의 영양 적합성, 하루 급여량과 열량 표시를 읽는 방법을 살펴보세요. 간식을 포함한 섭취량 기록과 동물병원에 상담할 변화도 정리했습니다.",
+  "keyword": "강아지사료",
+  "sources": {
+    "https://www.fda.gov/animal-veterinary/animal-health-literacy/complete-and-balanced-pet-food": "대상 생애단계와 주식용 영양 적합성",
+    "https://www.aaha.org/resources/2021-aaha-nutrition-and-weight-management-guidelines/feeding-plans-for-healthy-appropriate-weight-cats-and-dogs/0/": "일일 총열량·간식 비율, 체중과 체형 재평가",
+    "https://www.aafco.org/wp-content/uploads/2023/07/5._2023_AAFCO_Agenda_Book.pdf": "대형견 성장기 예외 표시",
+    "https://vcahospitals.com/know-your-pet/vomiting-in-dogs": "반복 구토와 전신 증상의 진료 필요성"
+  },
+  "compared_pages": [
+    "/homecare/dog-neutering-aftercare-food-walk-bath/",
+    "/breeds/dog-breed-types-lifestyle/",
+    "/homecare/why-dogs-lick/"
+  ],
+  "distinction": "퇴원 직후 첫 식사나 입양 준비와 구분하여 평소 사료의 생애단계, 단위당 열량, 하루 총량에 집중",
+  "image_prompts": [
+    "Square editorial photo of a healthy adult Blue Lacy dog, smooth slate-grey coat, amber eyes, soft folded ears, large close-up right, small stoneware kibble bowl lower right, warm plain ochre background on left. Bold large dark navy Korean text exactly '강아지사료' at left center. No other text.",
+    "Landscape editorial photograph, only hands turning a neutral brown dog food bag to examine its back at a home kitchen counter, shallow focus with tiny indistinct label, no readable writing, no logos.",
+    "Landscape editorial real photo, side view of a digital kitchen scale with a ceramic bowl filled with a small portion of dry dog kibble. Hand tipping a few pellets from scoop, warm kitchen ambient light, no logos.",
+    "Landscape editorial photo overhead of a day's dog kibble in a steel bowl, a small portion of the same kibble set aside in a tiny training treat pouch beside the bowl, wood counter, no text.",
+    "Landscape candid veterinary office photo, healthy blue grey short-coated Blue Lacy dog standing on low platform veterinary scale, owner's hand on loose leash, no human face, no text."
+  ],
+  "alt": [
+    "사료 그릇 옆에 누운 회색 블루 레이시와 왼쪽의 강아지사료 문구",
+    "주방에서 보호자가 사료 봉투를 돌려 뒷면 표시를 읽는 모습",
+    "주방저울 위 그릇에 마른 사료를 조금씩 덜어 넣는 손",
+    "하루치 사료 그릇 옆 산책용 주머니에 따로 덜어 둔 알갱이",
+    "동물병원의 낮은 체중계 위에 네 발로 선 회색 개"
+  ]
+}
