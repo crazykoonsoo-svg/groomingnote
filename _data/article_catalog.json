@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-tug-play-release/",
+    "description": "강아지터그놀이에 맞는 바닥과 장난감을 고르고 네 발을 바닥에 둔 채 부드럽게 노는 방법을 살펴보세요. 놓기 신호와 휴식, 치아 통증으로 진료가 필요한 경우를 구분합니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지터그놀이 장난감 놓기 놀이 중단 치아",
+    "recent": true,
+    "card_label": "홈케어 · 놀이와 휴식",
+    "title": "강아지터그놀이, 얼마나 당기고 언제 놓아야 할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-tug-play-release/hero.jpg",
+    "alt": "자주색 배경에서 청록색 천 장난감 옆에 누운 호르타야 보르자야와 강아지터그놀이 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-food-life-stage-portions/",
     "description": "강아지사료를 고를 때 성장기·성견의 영양 적합성, 하루 급여량과 열량 표시를 읽는 방법을 살펴보세요. 간식을 포함한 섭취량 기록과 동물병원에 상담할 변화도 정리했습니다.",
     "category": "미용",
