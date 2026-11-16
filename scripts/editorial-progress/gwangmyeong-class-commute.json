@@ -1,0 +1,30 @@
+{
+  "keyword": "광명애견미용학원",
+  "title": "광명애견미용학원, 철산에서 상동역까지 갈까 온수에서 갈아탈까?",
+  "url": "https://groomingnote.co.kr/academy-guide/gwangmyeong-class-commute/",
+  "stamp": "2026-11-17T02:43:09+09:00",
+  "sources": {
+    "https://evaw-pet-grooming.co.kr/branches/": "전국 실제 교육장 및 지점 페이지 연결",
+    "https://evaw-pet-grooming.co.kr/branches/sangdong/": "주소·출구·기초/실견 과정·선택 수업·운영시간",
+    "https://evaw-pet-grooming.co.kr/branches/bucheon/": "주소·출구·기초/실견 과정·선택 수업·운영시간",
+    "https://www.ictr.or.kr/main/railway/guidance/map.jsp": "7호선 상동역 및 환승 노선도",
+    "https://www.data.go.kr/data/15041127/fileData.do": "철산·온수 7호선 역 자료",
+    "https://info.korail.com/info/contents.do?key=1446": "경인선 광역철도 운영 구간"
+  },
+  "overlap": "205편 제목·경로·본문 대조. 시흥 글은 서해선 및 버스의 환승 접근, 화성 글은 수원/평택 선택, 안산 글은 실습 비용. 광명은 철산·광명사거리에서 상동 직통과 온수 환승 뒤 부천역을 연결하고, 일직동 토요일 출발과 실습 회차의 시작·마무리 조건을 결합.",
+  "breed": "마호레로 (Perro Majorero)",
+  "alts": [
+    "벽돌빛 배경에 마호레로의 얼굴과 광명애견미용학원 문구",
+    "현관에서 도구 가방 앞주머니에 교통카드를 넣는 손",
+    "저녁빛이 드는 승강장에 정차한 전동차",
+    "흰 연습용 견체에 빗을 대어 털 방향을 살펴보는 손",
+    "도구 케이스 옆 주간 일정표에 색상 표시를 붙이는 손"
+  ],
+  "prompts": [
+    "Square photograph editorial cover. Close-up handsome adult Majorero dog from Canary Islands with short brindled brown and charcoal coat and semi-folded ears on right half, calm expression. Matte warm terracotta background. Left centered extra large crisp cream bold Hangul only, exactly two lines '광명' and '애견미용학원'. No other text, faces, watermark, logo.",
+    "Landscape realistic Korean commuter still life, overhead view of an unbranded transit card being tucked into front pocket of a small grooming tool bag beside keys on an apartment entry shelf. Morning light. No text, faces, logos.",
+    "Landscape realistic photograph of empty suburban Korean train platform with train doors closed, warm evening light, no readable signage, no people or logos, view along train with natural perspective. Not a specific station.",
+    "Landscape realistic close-up of hands practicing comb direction on a white synthetic dog grooming mannequin on a light wooden table, realistic distinct training wig, closed tool pouch, neutral studio, no human faces, no text, logos.",
+    "Landscape realistic flat lay of a paper weekly planner with a few small solid colour tabs but absolutely no legible letters or numbers, hand placing a second tab, closed steel grooming shears in case off to one side and neutral bag. Clean natural daylight, no faces or logos."
+  ]
+}

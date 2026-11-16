@@ -1,5 +1,21 @@
 [
   {
+    "path": "/academy-guide/gwangmyeong-class-commute/",
+    "description": "광명애견미용학원을 찾는 분을 위해 철산역·광명사거리역에서 이바우펫 상동점과 부천점으로 가는 길을 비교합니다. 퇴근 후와 토요일에 참여할 수 있는 기초·실견 수업을 확인해 보세요.",
+    "category": "지역",
+    "region": "capital",
+    "label": "지역별 학원 가이드",
+    "tags": "광명애견미용학원 철산 광명사거리 부천 상동 통학 실습",
+    "recent": true,
+    "card_label": "광명 · 통학과 실습 일정",
+    "title": "광명애견미용학원, 철산에서 상동역까지 갈까 온수에서 갈아탈까?",
+    "section": "academy-guide",
+    "image": "/assets/images/posts/gwangmyeong-class-commute/hero.jpg",
+    "alt": "벽돌빛 배경에 마호레로의 얼굴과 광명애견미용학원 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/winter-coat-length-at-home/",
     "description": "겨울강아지미용을 앞두고 모질과 산책 뒤 젖는 부위, 옷을 벗긴 뒤 빗이 걸리는 곳을 살펴보세요. 현재 길이 유지, 부분 정리, 전체 길이 조절을 선택하는 기준을 안내합니다.",
     "category": "미용",
