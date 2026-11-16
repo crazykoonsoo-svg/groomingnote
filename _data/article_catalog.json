@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/winter-coat-length-at-home/",
+    "description": "겨울강아지미용을 앞두고 모질과 산책 뒤 젖는 부위, 옷을 벗긴 뒤 빗이 걸리는 곳을 살펴보세요. 현재 길이 유지, 부분 정리, 전체 길이 조절을 선택하는 기준을 안내합니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "겨울강아지미용 모질 겨울옷 길이 건조 빗질",
+    "recent": true,
+    "card_label": "겨울 · 털 길이",
+    "title": "겨울강아지미용, 몸통 털은 두고 자꾸 젖는 배와 다리만 다듬어도 될까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/winter-coat-length-at-home/hero.jpg",
+    "alt": "짙은 남색 배경에 겨울강아지미용 문구와 금빛 가라피안 셰퍼드 얼굴",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-heat-cycle-observations/",
     "description": "강아지생리 중 분비물과 행동이 어떻게 달라지는지 살펴봅니다. 산책·생활 공간을 관리하는 방법과 발정 이후에도 바로 진료받아야 하는 변화를 확인하세요.",
     "category": "미용",
