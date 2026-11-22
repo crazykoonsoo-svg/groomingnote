@@ -59,8 +59,8 @@
     "image": ["https://groomingnote.co.kr/assets/images/posts/{{이미지폴더}}/hero.jpg"],
     "datePublished": "{{작성일 YYYY-MM-DD}}",
     "dateModified": "{{작성일 YYYY-MM-DD}}",
-    "author": { "@type": "Organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": { "@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png" } },
-    "publisher": { "@type": "Organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": { "@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png" } },
+    "author": { "@type": "Organization", "@id": "https://groomingnote.co.kr/about/#editorial-team", "name": "그루밍노트 편집팀", "url": "https://groomingnote.co.kr/about/#editorial-team", "parentOrganization": { "@id": "https://groomingnote.co.kr/#organization" } },
+    "publisher": { "@type": "Organization", "@id": "https://groomingnote.co.kr/#organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": { "@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png" } },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://groomingnote.co.kr/academy-guide/{{슬러그}}/" },
     "inLanguage": "ko-KR"
   },
@@ -100,7 +100,9 @@
     <span class="tag">ACADEMY GUIDE</span>
     <!-- 안내: H1 예시 — "대전애견미용학원, 주부가 오전에 배우려면 무엇부터 확인할까?" -->
     <h1>{{H1 제목}}</h1>
-    <p class="post-meta"><time datetime="{{작성일 YYYY-MM-DD}}">작성 {{작성일 YYYY.MM.DD}}</time> · 그루밍노트</p>
+    <p class="post-meta"><time datetime="{{작성일 YYYY-MM-DD}}">작성 {{작성일 YYYY.MM.DD}}</time> · <a href="/about/#editorial-team" rel="author">그루밍노트 편집팀</a></p>
+    <!-- 감수를 받은 글이면 위 줄 끝의 </p> 앞에 추가: · 감수 <span class="reviewer">{{감수자 이름·직함}}</span> (<time datetime="{{감수일 YYYY-MM-DD}}">{{감수일 YYYY.MM.DD}}</time>)
+         JSON-LD BlogPosting에도 "contributor": { "@type": "Person", "name": "{{감수자 이름}}", "jobTitle": "{{직함}}" } 추가. 감수가 없으면 이 주석을 지우세요. -->
   </div>
 </section>
 
@@ -122,7 +124,7 @@
     <nav aria-label="하단 메뉴"><a href="/homecare/">애견미용정보</a><a href="/breeds/">견종별 가이드</a><a href="/career/">자격증·진로</a><a href="/academy-guide/">지역별 학원</a><a href="/industry/">업계 뉴스</a><a href="/reviews/">리뷰</a><a href="/qna/">Q&amp;A</a><a href="/about/">사이트 소개</a></nav>
     <div class="footer-contact"><span>교육과정이 궁금하다면</span><a href="https://talk.naver.com/ct/w5ipub#nafullscreen" target="_blank" rel="noopener noreferrer">네이버 톡톡</a><a href="https://pf.kakao.com/_xaNjrn/chat" target="_blank" rel="noopener noreferrer">카카오톡</a><a href="https://evaw-pet-grooming.co.kr/" target="_blank" rel="noopener">교육 상담</a></div>
   </div>
-  <div class="footer-bottom"><p>© 2026 GroomingNote. All rights reserved.</p><p>함께 배우는 애견미용 정보</p><p class="footer-disclosure">그루밍노트는 이바우펫 애견미용학원과 연관되어 운영되는 정보 사이트입니다. <a href="/about/">운영 안내</a></p></div>
+  <div class="footer-bottom"><p>© 2026 GroomingNote. All rights reserved.</p><p>함께 배우는 애견미용 정보</p><p class="footer-disclosure">그루밍노트는 이바우펫미용학원과 연관되어 운영되는 정보 사이트입니다. <a href="/about/">운영 안내</a></p></div>
 </div></footer>
 <!-- Naver Analytics -->
 <script type="text/javascript" src="https://wcs.pstatic.net/wcslog.js"></script>

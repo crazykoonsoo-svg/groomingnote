@@ -32,7 +32,7 @@ function matches(a){const text=normalized(a.title+a.description+a.tags+a.categor
 function escapeHTML(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));}
 function render(){
  const results=articles.filter(matches);
- $("#article-grid").innerHTML=results.slice(0,state.limit).map(a=>`<a class="article-card" href="${a.path}" aria-label="${escapeHTML(a.title)} · 원문 읽기"><div class="card-meta"><span class="card-category">${a.label}</span>${a.recent?'<span class="new-label">최근 업데이트</span>':''}</div><h3>${a.title}</h3><p>${a.description}</p><div class="card-bottom"><span>GroomingNote</span><span class="read-label">원문 읽기</span></div></a>`).join("");
+ $("#article-grid").innerHTML=results.slice(0,state.limit).map(a=>`<a class="article-card" href="${a.path}" aria-label="${escapeHTML(a.title)} 자세히 보기"><div class="card-meta"><span class="card-category">${a.label}</span>${a.recent?'<span class="new-label">최근 업데이트</span>':''}</div><h3>${a.title}</h3><p>${a.description}</p><div class="card-bottom"><span>GroomingNote</span><span class="read-label">자세히 보기</span></div></a>`).join("");
  $("#result-count").textContent=`${results.length}개의 가이드`;
  $("#empty").hidden=results.length>0; $("#show-more").hidden=results.length<=state.limit;
  $("#show-more").textContent=`글 더 보기 (${results.length-state.limit})`;
@@ -64,6 +64,8 @@ window.addEventListener('resize',()=>{if(innerWidth>800)closeMenu();});
 $("#back-top").addEventListener('click',()=>window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}));
 window.addEventListener('scroll',()=>{$("#back-top").hidden=window.scrollY<700;},{passive:true});
 render();
+const initialQuery=new URLSearchParams(location.search).get("q");
+if(initialQuery&&initialQuery.trim())search(initialQuery);
 
 const breedTrack=$("#breed-tab-track"),breedPrev=$("#breed-prev"),breedNext=$("#breed-next");
 function updateBreedArrows(){breedPrev.disabled=breedTrack.scrollLeft<=1;breedNext.disabled=breedTrack.scrollLeft+breedTrack.clientWidth>=breedTrack.scrollWidth-1;}

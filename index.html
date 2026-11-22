@@ -30,8 +30,8 @@ layout: null
 <meta name="theme-color" content="#173a3e">
 <link rel="stylesheet" href="/assets/homepage.css?v=20261008-breed-slider">
 <link rel="stylesheet" href="/assets/layout.css?v=20261002f">
-<script src="/assets/homepage.js?v=20261102catalog" defer></script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "inLanguage": "ko-KR", "publisher": {"@type": "Organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": {"@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png"}}}, {"@type": "Organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": {"@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png"}}]}</script>
+<script src="/assets/homepage.js?v=20261122search" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://groomingnote.co.kr/#website", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "inLanguage": "ko-KR", "publisher": {"@id": "https://groomingnote.co.kr/#organization"}}, {"@type": "Organization", "@id": "https://groomingnote.co.kr/#organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": {"@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png"}, "parentOrganization": {"@type": "EducationalOrganization", "name": "이바우펫미용학원", "url": "https://evaw-pet-grooming.co.kr/"}}]}</script>
 <link rel="alternate" type="application/rss+xml" title="그루밍노트 최신 게시물" href="https://groomingnote.co.kr/rss.xml">
 </head>
 <body>
@@ -57,10 +57,10 @@ layout: null
         <p class="eyebrow"><span></span>반려견 미용을 위한 작은 기록</p>
         <h1 id="hero-title">우리 강아지에게 맞는<br><em>미용 정보</em>를 찾아보세요.</h1>
         <p class="hero-description">매일의 목욕과 털 관리부터<br class="mobile-break"> 애견미용사의 첫걸음까지.</p>
-        <form class="search-form" role="search" id="search-form">
+        <form class="search-form" role="search" id="search-form" action="/" method="get">
           <label class="sr-only" for="search">미용 정보 검색</label>
           <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="7.2"></circle><path d="m16 16 5 5"></path></svg>
-          <input id="search" type="search" placeholder="미용 주기, 목욕, 자격증 검색" autocomplete="off" maxlength="100">
+          <input id="search" name="q" type="search" placeholder="미용 주기, 목욕, 자격증 검색" autocomplete="off" maxlength="100">
           <button type="submit">검색</button>
         </form>
         <div class="quick-queries"><span>바로 찾기</span><button data-query="미용 주기">미용 주기</button><button data-query="목욕">목욕</button><button data-query="3급">자격증 3급</button></div>
@@ -126,7 +126,7 @@ layout: null
     <nav aria-label="하단 메뉴"><a href="/homecare/">애견미용정보</a><a href="/breeds/">견종별 가이드</a><a href="/career/">자격증·진로</a><a href="/academy-guide/">지역별 학원</a><a href="/industry/">업계 뉴스</a><a href="/reviews/">리뷰</a><a href="/qna/">Q&amp;A</a><a href="/about/">사이트 소개</a></nav>
     <div class="footer-contact"><span>교육과정이 궁금하다면</span><a href="https://talk.naver.com/ct/w5ipub#nafullscreen" target="_blank" rel="noopener noreferrer">네이버 톡톡</a><a href="https://pf.kakao.com/_xaNjrn/chat" target="_blank" rel="noopener noreferrer">카카오톡</a><a href="https://evaw-pet-grooming.co.kr/" target="_blank" rel="noopener">교육 상담</a></div>
   </div>
-  <div class="footer-bottom"><p>© 2026 GroomingNote. All rights reserved.</p><p>함께 배우는 애견미용 정보</p><p class="footer-disclosure">그루밍노트는 이바우펫 애견미용학원과 연관되어 운영되는 정보 사이트입니다. <a href="/about/">운영 안내</a></p></div>
+  <div class="footer-bottom"><p>© 2026 GroomingNote. All rights reserved.</p><p>함께 배우는 애견미용 정보</p><p class="footer-disclosure">그루밍노트는 이바우펫미용학원과 연관되어 운영되는 정보 사이트입니다. <a href="/about/">운영 안내</a></p></div>
 </div></footer>
   <button id="back-top" class="back-top" aria-label="맨 위로 이동" hidden>TOP</button>
 <!-- Naver Analytics -->
