@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-pet-hair-fabric-cleaning/",
+    "description": "강아지 털 청소는 소재별 관리 표시부터 확인하세요. 직물·가죽 소파, 옷, 러그에 붙은 털을 걷는 도구와 순서, 멈춰야 할 때를 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 털 청소 강아지 털 제거 소파 옷 러그 소재 롤러 청소기",
+    "recent": true,
+    "card_label": "소파·옷·러그 · 털 청소",
+    "title": "강아지 털 청소, 소파·옷·러그에 붙은 털은 어떻게 제거할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-pet-hair-fabric-cleaning/hero.jpg",
+    "alt": "강아지 털 청소 문구 옆에 직물 소파와 함께 앉은 카라카찬",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-harness-washing-care/",
     "description": "강아지 하네스 세탁 전 모델별 관리 표시를 확인하세요. 패딩형 안감과 끈형 조절부를 씻고, 건조 후 버클·봉제선·착용 길이를 점검하는 순서를 정리했습니다.",
     "category": "미용",
