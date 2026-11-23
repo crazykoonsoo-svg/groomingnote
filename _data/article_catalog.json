@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-grass-seeds-after-walk/",
+    "description": "강아지 산책 후 풀씨가 보이면 발가락 사이와 귀·눈 주변부터 확인하세요. 겉털의 씨만 떼는 기준과 수의사에게 바로 문의할 신호를 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 산책 후 풀씨 발가락 귀 눈 코 산책 이물 수의사",
+    "recent": true,
+    "card_label": "산책 후 풀씨 · 진료 신호",
+    "title": "강아지 산책 후 풀씨, 털에 붙었을 때 어디부터 확인할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-grass-seeds-after-walk/hero.jpg",
+    "alt": "강아지 산책 후 풀씨 문구 옆에 앉은 흰색과 황갈색의 그랑 바세 그리퐁 방데",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-pet-hair-fabric-cleaning/",
     "description": "강아지 털 청소는 소재별 관리 표시부터 확인하세요. 직물·가죽 소파, 옷, 러그에 붙은 털을 걷는 도구와 순서, 멈춰야 할 때를 정리했습니다.",
     "category": "미용",
