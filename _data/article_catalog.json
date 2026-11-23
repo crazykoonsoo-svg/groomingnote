@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-harness-washing-care/",
+    "description": "강아지 하네스 세탁 전 모델별 관리 표시를 확인하세요. 패딩형 안감과 끈형 조절부를 씻고, 건조 후 버클·봉제선·착용 길이를 점검하는 순서를 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 하네스 세탁 패딩형 끈형 세탁표시 버클 봉제선 건조",
+    "recent": true,
+    "card_label": "하네스 세탁 · 착용 점검",
+    "title": "강아지 하네스 세탁, 패딩형과 끈형은 어떻게 관리할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-harness-washing-care/hero.jpg",
+    "alt": "강아지 하네스 세탁 문구 옆에 하네스와 함께 나온 도이체 브라케",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-bath-towel-laundry/",
     "description": "강아지 목욕 수건에서 빨아도 냄새가 난다면 사용 후 보관, 세탁 전 털 제거, 세탁과 건조 순서를 확인하세요. 냄새가 나는 시점별로 바꿀 방법을 정리했습니다.",
     "category": "미용",
