@@ -1,5 +1,21 @@
 [
   {
+    "path": "/academy-guide/ganseok-dog-grooming-incheon-commute/",
+    "description": "간석동에서 인천점까지 가는 길을 비교합니다. 간석역의 부평 환승과 간석오거리역 직통, 인천터미널역 출구부터 교육장까지 확인하세요.",
+    "category": "지역",
+    "region": "capital",
+    "label": "지역별 학원 가이드",
+    "tags": "간석동애견미용학원 간석동 간석역 간석오거리역 부평역 인천터미널역 인천점 도보 환승 통학",
+    "recent": true,
+    "card_label": "간석동 · 두 역 통학 비교",
+    "title": "간석동애견미용학원, 간석역과 간석오거리역 중 어디서 출발할까?",
+    "section": "academy-guide",
+    "image": "/assets/images/posts/ganseok-dog-grooming-incheon-commute/hero.jpg",
+    "alt": "짙은 자주색 배경의 루마니안 카르파티안 셰퍼드와 간석동애견미용학원 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/academy-guide/guwol-dog-grooming-live-class-comparison/",
     "description": "구월동에서 인천점 실견수업을 알아본다면 가정견 배정, 수강생 역할, 강사 개입 시점과 피드백을 같은 상황에 놓고 비교해 보세요.",
     "category": "지역",
