@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-bath-towel-laundry/",
+    "description": "강아지 목욕 수건에서 빨아도 냄새가 난다면 사용 후 보관, 세탁 전 털 제거, 세탁과 건조 순서를 확인하세요. 냄새가 나는 시점별로 바꿀 방법을 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 목욕 수건 수건 냄새 젖은 수건 보관 털 제거 세탁 건조",
+    "recent": true,
+    "card_label": "수건 냄새 · 세탁과 건조",
+    "title": "강아지 목욕 수건, 빨아도 냄새가 남으면 무엇을 바꿀까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-bath-towel-laundry/hero.jpg",
+    "alt": "강아지 목욕 수건 문구 옆에 접은 수건과 함께 엎드린 갈색 줄무늬 마운틴 커",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-grooming-late-pickup/",
     "description": "강아지 미용 픽업이 늦어질 때 완료 연락과 새 도착 시각을 확인하고, 대기 장소와 추가 비용, 대리 인계까지 물어볼 내용을 정리했습니다.",
     "category": "미용",
