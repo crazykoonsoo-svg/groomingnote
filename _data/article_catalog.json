@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-grooming-photo-sharing/",
+    "description": "강아지 미용 사진을 찍기 전에 보호자 전달, 매장 기록, SNS 게시 범위를 정해 보세요. 공개할 계정, 이름표와 보호자 정보, 재사용과 변경 문의까지 다섯 가지를 안내합니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 미용 사진 촬영 기록 보호자 SNS 공개 이름표 계정 태그",
+    "recent": true,
+    "card_label": "미용 사진 · 촬영과 공개",
+    "title": "강아지 미용 사진, 기록용 촬영과 SNS 공개는 어떻게 정할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-grooming-photo-sharing/hero.jpg",
+    "alt": "남색 바탕에 강아지 미용 사진 문구와 황갈색 아자와크 한 마리",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-grass-seeds-after-walk/",
     "description": "강아지 산책 후 풀씨가 보이면 발가락 사이와 귀·눈 주변부터 확인하세요. 겉털의 씨만 떼는 기준과 수의사에게 바로 문의할 신호를 정리했습니다.",
     "category": "미용",
