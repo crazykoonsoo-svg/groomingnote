@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-toothbrushing-first-steps/",
+    "description": "강아지 양치질이 어렵다면 볼 만지기, 입술 들기, 칫솔 보여주기부터 차근차근 연습하세요. 다음 단계와 진료가 필요한 신호를 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 양치질 반려견 칫솔 입술 적응 치태 구강관리",
+    "recent": true,
+    "card_label": "칫솔 적응 · 구강관리",
+    "title": "강아지 양치질, 칫솔만 보면 고개를 돌릴 때 어떻게 시작할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-toothbrushing-first-steps/hero.jpg",
+    "alt": "강아지 양치질 문구 옆의 검정과 갈색 무늬 칠레 테리어",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-eye-discharge-tear-stain-care/",
     "description": "강아지 눈곱과 눈물자국을 살필 때 눈 바깥 털을 닦는 범위와 찡그림·충혈·혼탁 등 진료를 서둘러야 할 신호를 알아보세요.",
     "category": "미용",
