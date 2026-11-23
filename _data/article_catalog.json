@@ -1,5 +1,21 @@
 [
   {
+    "path": "/academy-guide/siksa-dog-grooming-academy-fit-check/",
+    "description": "고양시 식사동에서 애견미용을 시작하기 전, 실습대 앞 자세와 반복 동작, 가정견 응대를 참관하고 적성을 점검하는 방법을 정리했습니다.",
+    "category": "지역",
+    "region": "capital",
+    "label": "지역별 학원 가이드",
+    "tags": "식사동애견미용학원 고양 식사동 일산점 입문 적성 서 있는 자세 위그 반복 가정견 참관",
+    "recent": true,
+    "card_label": "식사동 · 시작 전 적성 점검",
+    "title": "식사동애견미용학원, 시작 전 적성은 무엇을 보고 판단할까?",
+    "section": "academy-guide",
+    "image": "/assets/images/posts/siksa-dog-grooming-academy-fit-check/hero.jpg",
+    "alt": "자주색 배경의 아이디 한 마리와 식사동애견미용학원 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/academy-guide/ilsan-pungdong-dog-grooming-bath-dry-practice/",
     "description": "일산 풍동에서 애견미용학원을 찾는다면 목욕·드라이 실습에서 수강생이 맡는 범위와 강사가 확인하는 시점, 중단·인계 기준을 함께 물어보세요.",
     "category": "지역",
