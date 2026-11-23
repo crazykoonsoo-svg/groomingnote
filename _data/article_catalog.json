@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-eye-discharge-tear-stain-care/",
+    "description": "강아지 눈곱과 눈물자국을 살필 때 눈 바깥 털을 닦는 범위와 찡그림·충혈·혼탁 등 진료를 서둘러야 할 신호를 알아보세요.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 눈곱과 눈물자국 눈가 털 관리 눈물 눈곱 반려견 홈케어",
+    "recent": true,
+    "card_label": "눈가 닦기 · 진료 신호",
+    "title": "강아지 눈곱과 눈물자국, 집에서 어디까지 닦아도 될까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-eye-discharge-tear-stain-care/hero.jpg",
+    "alt": "강아지 눈곱, 눈물자국 문구 옆 흰색·갈색·검정 무늬의 체코 스포티드 도그",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-grooming-salon-hygiene-first-visit/",
     "description": "애견미용실 위생을 살피려면 미용대, 빗, 수건, 대기 자리부터 확인하세요. 직접 볼 곳과 매장에 물을 질문을 5항목으로 정리했습니다.",
     "category": "미용",
