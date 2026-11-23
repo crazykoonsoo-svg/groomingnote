@@ -1,5 +1,21 @@
 [
   {
+    "path": "/academy-guide/tanhyeon-dog-grooming-jeongbalsan-commute/",
+    "description": "탄현동에서 정발산 일산점으로 통학할 때 버스 정류장과 철도 환승, 수업 후 귀가편을 같은 요일과 시간대에 비교하는 방법입니다.",
+    "category": "지역",
+    "region": "capital",
+    "label": "지역별 학원 가이드",
+    "tags": "탄현동애견미용학원 탄현역 정발산역 일산점 버스 철도 환승 귀가",
+    "recent": true,
+    "card_label": "탄현동 · 정발산 통학 비교",
+    "title": "탄현동애견미용학원, 정발산까지 버스와 철도 중 어떻게 고를까?",
+    "section": "academy-guide",
+    "image": "/assets/images/posts/tanhyeon-dog-grooming-jeongbalsan-commute/hero.jpg",
+    "alt": "탄현동 애견미용학원 문구 옆에 앉아 있는 갈색 반점의 파촌 나바로",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/academy-guide/ilsan-baekseok-dog-grooming-first-month-budget/",
     "description": "일산 백석동에서 애견미용학원을 알아본다면 수강료, 도구, 위그, 소모품, 응시료를 실제 납부일에 배치해 첫 달 예산을 짜보세요.",
     "category": "지역",
