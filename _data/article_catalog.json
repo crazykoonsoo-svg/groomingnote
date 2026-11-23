@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-grooming-late-pickup/",
+    "description": "강아지 미용 픽업이 늦어질 때 완료 연락과 새 도착 시각을 확인하고, 대기 장소와 추가 비용, 대리 인계까지 물어볼 내용을 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 미용 픽업 미용 완료 연락 도착 시각 대기 추가 비용 보호자 인계",
+    "recent": true,
+    "card_label": "픽업 지연 · 당일 연락",
+    "title": "강아지 미용 픽업, 약속한 시간에 늦으면 무엇을 확인할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-grooming-late-pickup/hero.jpg",
+    "alt": "강아지 미용 픽업 문구 옆에 서 있는 흰색과 적갈색의 텐터필드 테리어",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-toothbrushing-first-steps/",
     "description": "강아지 양치질이 어렵다면 볼 만지기, 입술 들기, 칫솔 보여주기부터 차근차근 연습하세요. 다음 단계와 진료가 필요한 신호를 정리했습니다.",
     "category": "미용",
