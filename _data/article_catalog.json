@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-indoor-non-slip-mat-placement/",
+    "description": "강아지 미끄럼 방지 매트를 소파 앞, 복도 모서리, 물그릇 주변에 놓는 순서를 살펴보세요. 평소 발을 딛는 자리부터 매트 이음새와 물기까지 확인합니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 미끄럼 방지 매트 소파 복도 물그릇 발 디딤 실내 동선",
+    "recent": true,
+    "card_label": "생활관리 · 실내 매트 배치",
+    "title": "강아지가 집에서 미끄러질 때, 매트는 어디부터 깔까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-indoor-non-slip-mat-placement/hero.jpg",
+    "alt": "거실의 녹색 매트 위에 네 발을 딛고 선 크리탄 하운드와 강아지 미끄럼 방지 매트 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-toy-damage-replacement/",
     "description": "강아지 장난감이 찢어졌다면 봉제선, 솜, 삑삑이와 떨어진 조각을 확인하세요. 로프·고무 장난감 교체 기준과 삼켰을 때 연락할 내용도 정리했습니다.",
     "category": "미용",
