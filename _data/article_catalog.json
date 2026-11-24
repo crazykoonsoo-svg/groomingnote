@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-toy-damage-replacement/",
+    "description": "강아지 장난감이 찢어졌다면 봉제선, 솜, 삑삑이와 떨어진 조각을 확인하세요. 로프·고무 장난감 교체 기준과 삼켰을 때 연락할 내용도 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 장난감 강아지 장난감 봉제선 충전재 삑삑이 고무 로프 교체",
+    "recent": true,
+    "card_label": "장난감 · 손상 확인과 교체",
+    "title": "강아지 장난감, 찢어지면 언제 버려야 할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-toy-damage-replacement/hero.jpg",
+    "alt": "크림색 배경에서 천 장난감 곁에 있는 트란실바니안 하운드와 강아지 장난감 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-water-bowl-cleaning/",
     "description": "강아지 물그릇이 씻어도 미끈거리면 테두리와 바닥부터 살펴보세요. 일반 물그릇 세척 순서와 자동급수기 필터·펌프의 확인 부위를 정리했습니다.",
     "category": "미용",
