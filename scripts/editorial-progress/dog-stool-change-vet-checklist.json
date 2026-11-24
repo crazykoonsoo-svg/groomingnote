@@ -1,0 +1,24 @@
+{
+  "series": "반려동물 생활관리 정보형 10편",
+  "item": 7,
+  "keyword": "강아지 변 관찰 기록",
+  "title": "강아지 변이 평소와 다를 때, 병원에 무엇을 알려줄까?",
+  "url": "https://groomingnote.co.kr/homecare/dog-stool-change-vet-checklist/",
+  "stamp": "2026-11-24T16:47:43+09:00",
+  "sources": {
+    "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/diarrhea": "선홍색 피·검고 타르 같은 변·구토·식욕 저하 시 진료 문의. 수의사가 지시하지 않은 사람용 지사제 금지.",
+    "https://riney.vet.cornell.edu/member-benefits-health-tips/when-to-go-to-the-er-june-2025": "반복 설사·구토와 혈변·무기력·식사 거부, 복부팽만 및 헛구역질 응급 신호.",
+    "https://www.vet.cornell.edu/hospitals/services/urgent-care": "쓰러짐·창백한 잇몸·갑자기 부푼 복부는 응급.",
+    "https://vcahospitals.com/know-your-pet/diarrhea-in-dogs": "빈도·색·형태·전신 징후와 신선한 변 검체.",
+    "https://vcahospitals.com/know-your-pet/testing-for-diarrhea": "빈도, 급박감, 모양, 특이 음식, 구토와 식욕 등을 문진에서 확인.",
+    "https://vcahospitals.com/encina/primary/know-your-pet/fecal-flotation": "깨끗하고 마른 밀폐 용기와 풀·흙 등 오염 최소화. 제시량은 해당 검사에 한정.",
+    "https://www.vet.cornell.edu/animal-health-diagnostic-center/diagnostic-services/diagnostic-plans-and-panels/canine-diagnostic-plans-and-panels": "검사마다 용기·보존 조건 차이. 보호자는 병원 안내를 따름.",
+    "https://www.cdc.gov/hygiene/about/hygiene-practices-around-animals.html": "동물 배설물을 다룬 뒤 비누와 흐르는 물로 손 씻기.",
+    "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/gastrointestinal-foreign-body-obstruction-dogs": "이물 섭취 의심 시 진료 필요성과 구토·식욕 저하 등 동반 신호.",
+    "https://groomingnote.co.kr/homecare/dog-sanitary-grooming/": "공개 본문은 배변 후 묻은 털과 위생미용이 중심. 배변 기록·진료 문진·검체 글과 다름.",
+    "https://groomingnote.co.kr/homecare/dog-toy-damage-replacement/": "이전 글은 손상 장난감 교체 및 삼킴 의심 전달. 이번 글은 배변 시간·횟수와 진료·검체."
+  },
+  "image": "삽살개 대표, 관찰 시각 메모, 사료 변경 기록, 빈 검체 용기, 진료 접수 메모. 실제 배설물과 얼굴 없음.",
+  "prior_public_confirmed_kst": "2026-11-24T15:42:14+09:00",
+  "minimum_deploy_kst": "2026-11-24T16:42:14+09:00"
+}
