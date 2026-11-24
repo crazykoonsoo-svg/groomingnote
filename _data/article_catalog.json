@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-stool-change-vet-checklist/",
+    "description": "강아지 변 관찰 기록에 시작 시각, 횟수, 사진과 먹은 것을 남기세요. 진료 문의가 필요한 신호와 병원에 확인할 대변 검체 지침을 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 변 관찰 기록 설사 배변 횟수 변 사진 검사 검체 동물병원",
+    "recent": true,
+    "card_label": "생활관리 · 배변 관찰",
+    "title": "강아지 변이 평소와 다를 때, 병원에 무엇을 알려줄까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-stool-change-vet-checklist/hero.jpg",
+    "alt": "크림색 벽 앞에 앉은 회색 삽살개와 강아지 변 관찰 기록 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-car-travel-restraint-check/",
     "description": "강아지 차량 이동 전 이동장과 차량용 하네스의 설치 위치, 크기, 고정 부품을 확인하세요. 독립 충돌시험과 제조사 설명서를 대조하는 방법을 정리했습니다.",
     "category": "미용",
