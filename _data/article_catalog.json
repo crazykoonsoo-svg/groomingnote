@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-car-travel-restraint-check/",
+    "description": "강아지 차량 이동 전 이동장과 차량용 하네스의 설치 위치, 크기, 고정 부품을 확인하세요. 독립 충돌시험과 제조사 설명서를 대조하는 방법을 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 차량 이동 이동장 차량용 하네스 안전벨트 고정 스트랩 독립 충돌시험",
+    "recent": true,
+    "card_label": "생활관리 · 차량 이동 점검",
+    "title": "강아지와 자동차로 이동할 때, 출발 전 무엇을 확인할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-car-travel-restraint-check/hero.jpg",
+    "alt": "주차된 차 옆의 회색과 흰색 폴리시 롤랜드 쉽독과 강아지 차량 이동 출발 전 점검 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-home-camera-observation-log/",
     "description": "강아지 홈캠 관찰 기록에 외출 직후 행동, 소리, 쉬기까지 걸린 시간을 남겨 보세요. 수의사에게 전달할 영상 구간과 메모 예시를 정리했습니다.",
     "category": "미용",
