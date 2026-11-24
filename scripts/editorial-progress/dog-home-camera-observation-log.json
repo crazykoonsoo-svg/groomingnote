@@ -1,0 +1,19 @@
+{
+  "series": "반려동물 생활관리 정보형 10편",
+  "item": 5,
+  "keyword": "강아지 홈캠 관찰 기록",
+  "title": "강아지 혼자 있을 때, 홈캠에서 무엇을 기록할까?",
+  "url": "https://groomingnote.co.kr/homecare/dog-home-camera-observation-log/",
+  "stamp": "2026-11-24T14:33:35+09:00",
+  "sources": {
+    "https://www.merckvetmanual.com/behavior/behavior-of-dogs/behavior-problems-of-dogs": "외출 준비와 초기·후기 양상의 차이, 외부 자극이나 다른 행동 문제를 영상으로 구분하는 수의학적 평가.",
+    "https://avsab.org/how-to-tell-if-your-dog-has-separation-anxiety-and-5-things-to-do-if-she-does/": "초기 영상, 일상·비일상 조건과 행동 전후를 비교. 고정 시간으로 진단하지 않음.",
+    "https://vcahospitals.com/know-your-pet/separation-distress": "외출 준비 반응과 영상·행동 일지를 수의팀에 전달. 상담을 기다리는 동안 혼자 두는 상황을 줄임.",
+    "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/separation-anxiety": "평소 머무는 공간을 카메라로 관찰하고 카메라 각도를 맞춤. 걱정이 있을 때 외출시간을 늘려 시험하지 않음.",
+    "https://groomingnote.co.kr/homecare/dog-front-door-escape-prevention/": "기존 글은 보호자가 문을 열기 전 공간과 동선. 이번 글은 보호자 부재 중 관찰, 시간순 영상 메모와 진료 상담.",
+    "https://groomingnote.co.kr/homecare/dog-grooming-late-pickup/": "마지막 픽업 지연과 미용실 대기 중 안내에 관한 글. 집에서 혼자 있는 동안의 관찰 절차와 범위가 다름."
+  },
+  "image": "샤르플라니나츠 대표, 선반의 카메라, 닫힌 문을 바라보는 장면, 방석에 편히 눕기, 영상과 메모.",
+  "prior_public_confirmed_kst": "2026-11-24T13:29:16+09:00",
+  "minimum_deploy_kst": "2026-11-24T14:29:16+09:00"
+}
