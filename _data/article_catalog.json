@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/cat-sofa-scratching-post-placement/",
+    "description": "고양이 스크래처를 소파 어디에 둘지 고민이라면, 실제로 긁는 면과 자세부터 확인하세요. 수직형·수평형의 위치와 높이, 받침, 재질을 비교합니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "고양이 스크래처 소파 긁기 수직형 수평형 위치 사이잘 골판지",
+    "recent": true,
+    "card_label": "생활관리 · 스크래처 배치",
+    "title": "고양이가 소파만 긁을 때, 스크래처는 어디에 둘까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/cat-sofa-scratching-post-placement/hero.jpg",
+    "alt": "소파와 기둥형 스크래처 곁의 러시안 블루와 고양이 스크래처 놓는 자리 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/cat-litter-change-observation/",
     "description": "고양이 화장실 모래 교체 전 익숙한 모래를 남겨 두고 새 모래를 별도 상자에서 비교하세요. 실제 배뇨 확인과 응급 진료가 필요한 신호를 안내합니다.",
     "category": "미용",
