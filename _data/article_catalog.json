@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-water-bowl-cleaning/",
+    "description": "강아지 물그릇이 씻어도 미끈거리면 테두리와 바닥부터 살펴보세요. 일반 물그릇 세척 순서와 자동급수기 필터·펌프의 확인 부위를 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 물그릇 반려견 식기 자동급수기 물통 필터 펌프 위생 홈케어",
+    "recent": true,
+    "card_label": "물그릇 · 급수기 세척",
+    "title": "강아지 물그릇, 씻어도 미끈거릴 때 어디부터 확인할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-water-bowl-cleaning/hero.jpg",
+    "alt": "스테인리스 물그릇 옆 에스토니안 하운드와 강아지 물그릇 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/academy-guide/ganseok-dog-grooming-incheon-commute/",
     "description": "간석동에서 인천점까지 가는 길을 비교합니다. 간석역의 부평 환승과 간석오거리역 직통, 인천터미널역 출구부터 교육장까지 확인하세요.",
     "category": "지역",
