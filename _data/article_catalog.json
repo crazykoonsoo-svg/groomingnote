@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/cat-litter-change-observation/",
+    "description": "고양이 화장실 모래 교체 전 익숙한 모래를 남겨 두고 새 모래를 별도 상자에서 비교하세요. 실제 배뇨 확인과 응급 진료가 필요한 신호를 안내합니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "고양이 화장실 모래 교체 모래 선호 소변 배뇨 요도 폐색 동물병원",
+    "recent": true,
+    "card_label": "생활관리 · 화장실 모래",
+    "title": "고양이 화장실 모래를 바꿀 때 한 번에 전부 갈아도 될까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/cat-litter-change-observation/hero.jpg",
+    "alt": "깨끗한 모래 상자 옆에 앉은 아비시니안 고양이와 고양이 화장실 모래 교체 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-stool-change-vet-checklist/",
     "description": "강아지 변 관찰 기록에 시작 시각, 횟수, 사진과 먹은 것을 남기세요. 진료 문의가 필요한 신호와 병원에 확인할 대변 검체 지침을 정리했습니다.",
     "category": "미용",

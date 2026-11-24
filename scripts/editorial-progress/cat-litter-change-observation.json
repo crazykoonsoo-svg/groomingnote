@@ -1,0 +1,19 @@
+{
+  "series": "반려동물 생활관리 정보형 10편",
+  "item": 8,
+  "keyword": "고양이 화장실 모래 교체",
+  "title": "고양이 화장실 모래를 바꿀 때 한 번에 전부 갈아도 될까?",
+  "url": "https://groomingnote.co.kr/homecare/cat-litter-change-observation/",
+  "stamp": "2026-11-24T17:54:21+09:00",
+  "sources": {
+    "https://www.aaha.org/resources/2021-aaha-aafp-feline-life-stage-guidelines/general-litter-box-considerations/": "종류마다 별도 상자, 쉬운 접근·조용한 위치와 여러 장소에 분산, 매일 제거. 무향 응고형은 시도 가능한 선택.",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148882/": "고운 무향 응고형, 모래 깊이·입구·상자 선호와 다묘 가정 동선, 배설 행동의 진료 감별.",
+    "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-lower-urinary-tract-disease": "배뇨 통증·빈뇨·혈뇨·화장실 밖 배뇨·생식기 핥기, 반복 시도와 거의 없거나 전혀 없는 배뇨의 즉시 응급 진료, 수컷 위험.",
+    "https://vcahospitals.com/know-your-pet/urinary-tract-disease-in-cats": "소변을 보려고 힘주는 모습은 변비처럼 보일 수 있으며, 반복해서 힘주고 거의 안 나오면 즉시 진료.",
+    "https://groomingnote.co.kr/homecare/dog-stool-change-vet-checklist/": "직전 공개 본문은 강아지 배변 기록과 검체. 관찰 내용을 전달하는 예시로 연결했으며 고양이 모래 비교와 배뇨 관찰은 별개 주제."
+  },
+  "duplicate_review": "공개 RSS·사이트맵과 원격 main 카탈로그에서 고양이 화장실·모래·배뇨 범위의 공개 글 및 준비본 없음. 이전 배변 글은 개의 대변을 다룸.",
+  "image": "아비시니안 대표, 서로 다른 모래를 담은 상자, 입구에서 냄새를 맡는 고양이, 진료 문의 메모, 정리한 상자와 모래삽. 얼굴·로고·배설물 없음. 최근 편집 기록과 견종 및 장면 대조.",
+  "prior_public_confirmed_kst": "2026-11-24T16:49:40+09:00",
+  "minimum_deploy_kst": "2026-11-24T17:49:40+09:00"
+}
