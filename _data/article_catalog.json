@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-front-door-escape-prevention/",
+    "description": "강아지 현관문 이탈 방지를 위해 택배나 손님이 오면 문을 열기 전에 어디에서 기다리게 할까요? 방문·중문·펫게이트 선택과 가족의 출입 순서를 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 현관문 이탈 방지 현관 택배 방문객 중문 펫게이트 생활 동선",
+    "recent": true,
+    "card_label": "생활관리 · 현관 출입",
+    "title": "강아지가 현관문이 열릴 때 뛰어나간다면 무엇부터 바꿀까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-front-door-escape-prevention/hero.jpg",
+    "alt": "닫힌 현관문에서 떨어져 쿠션에 쉬는 라페이루 두 알렌테주와 강아지 현관문 이탈 방지 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-indoor-non-slip-mat-placement/",
     "description": "강아지 미끄럼 방지 매트를 소파 앞, 복도 모서리, 물그릇 주변에 놓는 순서를 살펴보세요. 평소 발을 딛는 자리부터 매트 이음새와 물기까지 확인합니다.",
     "category": "미용",
