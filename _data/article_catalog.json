@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/cat-carrier-vet-visit-training/",
+    "description": "고양이 이동장 적응은 문을 열어 둔 장에 스스로 다가오는 것부터 시작하세요. 문을 잠깐 닫기, 들어 올리기, 짧게 이동하기를 나눠 연습합니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "고양이 이동장 적응 문 닫기 짧은 이동 동물병원 자발적 접근",
+    "recent": true,
+    "card_label": "생활관리 · 이동장 적응",
+    "title": "고양이가 이동장만 보면 숨을 때, 병원 가기 전 무엇부터 연습할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/cat-carrier-vet-visit-training/hero.jpg",
+    "alt": "열린 이동장 곁에 앉은 데본 렉스와 고양이 이동장 적응 연습 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/cat-sofa-scratching-post-placement/",
     "description": "고양이 스크래처를 소파 어디에 둘지 고민이라면, 실제로 긁는 면과 자세부터 확인하세요. 수직형·수평형의 위치와 높이, 받침, 재질을 비교합니다.",
     "category": "미용",
