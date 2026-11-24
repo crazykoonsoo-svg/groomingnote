@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-home-camera-observation-log/",
+    "description": "강아지 홈캠 관찰 기록에 외출 직후 행동, 소리, 쉬기까지 걸린 시간을 남겨 보세요. 수의사에게 전달할 영상 구간과 메모 예시를 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 홈캠 관찰 기록 외출 행동 휴식 시간 영상 수의사 전달",
+    "recent": true,
+    "card_label": "생활관리 · 홈캠 기록",
+    "title": "강아지 혼자 있을 때, 홈캠에서 무엇을 기록할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-home-camera-observation-log/hero.jpg",
+    "alt": "거실 매트에 누운 회색 샤르플라니나츠와 강아지 홈캠 관찰 기록 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/dog-front-door-escape-prevention/",
     "description": "강아지 현관문 이탈 방지를 위해 택배나 손님이 오면 문을 열기 전에 어디에서 기다리게 할까요? 방문·중문·펫게이트 선택과 가족의 출입 순서를 정리했습니다.",
     "category": "미용",
