@@ -1,0 +1,21 @@
+{
+  "series": "강아지 질환 10편",
+  "item": 9,
+  "keyword": "강아지 신장 수치",
+  "title": "강아지 건강검진에서 신장 수치가 높다면, 다음 진료에서 뭘 물을까?",
+  "url": "https://groomingnote.co.kr/homecare/dog-kidney-lab-results-follow-up/",
+  "stamp": "2026-11-25T23:58:42+09:00",
+  "status": "release_prepared",
+  "sources_checked_kst": "2026-11-25",
+  "sources": {
+    "https://www.iris-kidney.com/iris-guidelines-1": "2026 개정 IRIS 병기 지침의 적용 범위와 크레아티닌·SDMA 추세, 단백뇨 및 혈압 하위 분류.",
+    "https://www.merckvetmanual.com/urinary-system/noninfectious-diseases-of-the-urinary-system-in-small-animals/renal-dysfunction-in-dogs-and-cats": "급성 신장 손상과 만성 신장질환 감별, 크레아티닌과 근육량, 구토·활력·소변량 변화.",
+    "https://vcahospitals.com/know-your-pet/kidney-disease-testing": "혈액검사에 포함되는 지표, 소변검사와 단백질 평가.",
+    "https://www.vet.cornell.edu/animal-health-diagnostic-center/testing/testing-protocols-interpretations/urinalysis": "혈액 화학검사와 소변비중을 수분 상태와 함께 해석.",
+    "https://www.merckvetmanual.com/dog-owners/kidney-and-urinary-tract-disorders-of-dogs/urinary-emergencies-in-dogs": "힘을 줘도 소변이 나오지 않는 배뇨 응급 상황."
+  },
+  "duplicate_review": "공개 홈·카탈로그·사이트맵·RSS, 저장소 main·열린 PR·관련 브랜치·Pages와 기존 건강 글 대조. 이전 혈뇨 글은 붉은 소변과 배뇨 상태를 응급 전화에 전하는 데 집중하며, 이번 글은 건강검진표의 신장 지표와 소변검사·추적검사 질문을 다룸.",
+  "image": "아펜핀셔 대표 및 검사표 모형·음수 관찰·빈 검체 통·재검 카드 설명용 이미지. 최근 대표 견종과 장면의 재사용 여부를 대조했으며 실제 환자나 실제 병원 장면으로 소개하지 않음.",
+  "prior_public_confirmed_kst": "2026-11-25T22:57:12+09:00",
+  "earliest_release_kst": "2026-11-25T23:57:12+09:00"
+}
