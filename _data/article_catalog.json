@@ -1,5 +1,22 @@
 [
   {
+    "path": "/homecare/dog-tracheal-collapse-cough-video-log/",
+    "description": "강아지가 흥분할 때 기침한다면 직전 행동과 기침 뒤 호흡을 기록하세요. 영상에 담을 장면과 강아지 기관허탈 진료에서 확인하는 범위를 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 기관허탈 흥분 기침 호흡 영상 문진 투시검사",
+    "recent": true,
+    "card_label": "강아지 질환 · 기침과 기관허탈",
+    "title": "강아지가 흥분할 때 기침한다면, 어떤 장면을 기록할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-tracheal-collapse-cough-video-log/hero.jpg",
+    "alt": "밝은 현관 오른쪽의 오스트레일리안 테리어와 강아지 기관허탈 문구",
+    "width": "1050",
+    "height": "1050",
+    "published_at": "2026-11-25T20:30:09+09:00",
+    "topic": "health"
+  },
+  {
     "path": "/homecare/dog-tooth-fracture-dental-exam/",
     "description": "강아지 이가 깨졌다면 밥을 잘 먹어도 진료 일정을 잡으세요. 처음 발견한 상황과 씹는 모습, 치과 방사선으로 확인하는 범위를 정리했습니다.",
     "category": "미용",
