@@ -1,5 +1,22 @@
 [
   {
+    "path": "/homecare/dog-kidney-lab-results-follow-up/",
+    "description": "강아지 건강검진에서 신장 수치가 높을 때 크레아티닌·BUN·SDMA, 소변비중과 단백뇨, 재검 시기를 다음 진료에서 어떻게 물어볼지 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 신장 수치 건강검진 크레아티닌 BUN SDMA 소변비중 재검",
+    "recent": true,
+    "card_label": "강아지 질환 · 신장 수치",
+    "title": "강아지 건강검진에서 신장 수치가 높다면, 다음 진료에서 뭘 물을까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-kidney-lab-results-follow-up/hero.jpg",
+    "alt": "밝은 실내의 검은 아펜핀셔와 강아지 신장 수치 문구",
+    "width": "1050",
+    "height": "1050",
+    "published_at": "2026-11-25T23:58:42+09:00",
+    "topic": "health"
+  },
+  {
     "path": "/homecare/dog-hind-leg-dragging-ivdd-vet-checklist/",
     "description": "강아지가 갑자기 뒷다리를 끌 때 마지막 정상 보행, 증상 시작 시각, 지금 걷는 능력과 배뇨를 병원에 전하세요. 응급 신호와 척추 디스크 검사 범위를 정리했습니다.",
     "category": "미용",
