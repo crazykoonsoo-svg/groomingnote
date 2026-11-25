@@ -1,22 +1,23 @@
 ---
 layout: null
 ---
-{% assign category_articles = site.data.article_catalog | where: 'section', 'homecare' %}
+{% assign category_articles = site.data.article_catalog | where: 'section', 'homecare' | sort: 'published_at' | reverse %}
+{% assign care_topics = 'grooming,bathing,daily-life,health,tools' | split: ',' %}
 <!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta name="robots" content="max-image-preview:large">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>강아지 홈미용 방법과 기초 애견미용 정보 | 그루밍노트</title>
-<meta name="description" content="강아지 목욕, 브러싱, 발톱 관리, 위생미용과 미용 주기까지 보호자가 알아두면 좋은 홈미용 기초 정보를 확인해보세요.">
+<title>반려동물 생활관리·건강·홈미용 | 그루밍노트</title>
+<meta name="description" content="강아지와 고양이의 생활·행동, 건강·진료 준비, 목욕·위생과 털 관리 정보를 주제별로 찾아보세요.">
 <link rel="canonical" href="https://groomingnote.co.kr/homecare/">
 <meta name="google-site-verification" content="eMtMAhnisszJqtmRXcixv_qgd_rQZ-06mRY7uptrgXM" />
 <meta name="naver-site-verification" content="8271fd3d7209630ed468145a6289d46a5aa6796e" />
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="그루밍노트">
-<meta property="og:title" content="강아지 홈미용 방법과 기초 애견미용 정보 | 그루밍노트">
-<meta property="og:description" content="강아지 목욕, 브러싱, 발톱 관리, 위생미용과 미용 주기까지 보호자가 알아두면 좋은 홈미용 기초 정보를 확인해보세요.">
+<meta property="og:title" content="반려동물 생활관리·건강·홈미용 | 그루밍노트">
+<meta property="og:description" content="강아지와 고양이의 생활·행동, 건강·진료 준비, 목욕·위생과 털 관리 정보를 주제별로 찾아보세요.">
 <meta property="og:url" content="https://groomingnote.co.kr/homecare/">
 <meta property="og:image" content="https://groomingnote.co.kr/assets/images/pages/homecare-banner.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -29,9 +30,10 @@ layout: null
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css?v=20261002f">
-<link rel="stylesheet" href="/assets/layout.css?v=20261002f">
-<script src="/assets/layout.js?v=20261002f" defer></script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://groomingnote.co.kr/"}, {"@type": "ListItem", "position": 2, "name": "애견미용정보", "item": "https://groomingnote.co.kr/homecare/"}]}, {"@type": "CollectionPage", "name": "강아지 홈미용 방법과 기초 애견미용 정보 | 그루밍노트", "description": "강아지 목욕, 브러싱, 발톱 관리, 위생미용과 미용 주기까지 보호자가 알아두면 좋은 홈미용 기초 정보를 확인해보세요.", "url": "https://groomingnote.co.kr/homecare/", "inLanguage": "ko-KR", "isPartOf": {"@type": "WebSite", "name": "그루밍노트", "url": "https://groomingnote.co.kr/"}}]}</script>
+<link rel="stylesheet" href="/assets/layout.css?v=20261125-care">
+<script src="/assets/layout.js?v=20261125-care" defer></script>
+<script src="/assets/homecare.js?v=20261125-care" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://groomingnote.co.kr/"}, {"@type": "ListItem", "position": 2, "name": "애견미용정보", "item": "https://groomingnote.co.kr/homecare/"}]}, {"@type": "CollectionPage", "name": "반려동물 생활관리·건강·홈미용 | 그루밍노트", "description": "강아지 목욕, 브러싱, 발톱 관리, 위생미용과 미용 주기까지 보호자가 알아두면 좋은 홈미용 기초 정보를 확인해보세요.", "url": "https://groomingnote.co.kr/homecare/", "inLanguage": "ko-KR", "isPartOf": {"@type": "WebSite", "name": "그루밍노트", "url": "https://groomingnote.co.kr/"}}]}</script>
 <link rel="alternate" type="application/rss+xml" title="그루밍노트 최신 게시물" href="https://groomingnote.co.kr/rss.xml">
 </head>
 <body>
@@ -39,7 +41,7 @@ layout: null
 <header class="header">
   <div class="wrap header-inner">
     <a class="brand" href="/" aria-label="그루밍노트 홈"><img src="/favicon-192x192.png" alt="" width="40" height="40"><span>그루밍<span class="brand-accent">노트</span><small>GROOMINGNOTE</small></span></a>
-    <nav class="desktop-nav" aria-label="주요 메뉴"><a href="/homecare/" class="active" aria-current="page">애견미용정보</a><a href="/breeds/">견종별 가이드</a><a href="/career/">자격증·진로</a><a href="/academy-guide/">지역별 학원</a><a href="/industry/">업계</a><a href="/reviews/">리뷰</a><a href="/qna/">Q&amp;A</a></nav>
+    <nav class="desktop-nav" aria-label="주요 메뉴"><a href="/homecare/" class="active" aria-current="page">애견미용정보</a><a class="care-nav-link" href="/homecare/#daily-life">생활·행동</a><a class="care-nav-link" href="/homecare/#health">건강·진료</a><a href="/breeds/">견종별 가이드</a><a href="/career/">자격증·진로</a><a href="/academy-guide/">지역별 학원</a><a href="/industry/">업계</a><a href="/reviews/">리뷰</a><a href="/qna/">Q&amp;A</a></nav>
     <div class="header-cta">
       <a class="cta-btn cta-naver" href="https://talk.naver.com/ct/w5ipub#nafullscreen" target="_blank" rel="noopener">네이버</a>
       <a class="cta-btn cta-kakao" href="https://pf.kakao.com/_xaNjrn/chat" target="_blank" rel="noopener">카톡</a>
@@ -47,7 +49,7 @@ layout: null
     </div>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="메뉴 열기"><span></span><span></span></button>
   </div>
-  <nav id="mobile-nav" aria-label="모바일 메뉴" hidden><div class="wrap"><a href="/">홈</a><a href="/homecare/" class="active" aria-current="page">애견미용정보</a><a href="/breeds/">견종별 가이드</a><a href="/career/">자격증·진로</a><a href="/academy-guide/">지역별 학원</a><a href="/industry/">업계</a><a href="/reviews/">리뷰</a><a href="/qna/">Q&amp;A</a><a href="/about/">사이트 소개</a></div></nav>
+  <nav id="mobile-nav" aria-label="모바일 메뉴" hidden><div class="wrap"><a href="/">홈</a><a href="/homecare/" class="active" aria-current="page">애견미용정보</a><a class="care-nav-link" href="/homecare/#daily-life">생활·행동</a><a class="care-nav-link" href="/homecare/#health">건강·진료</a><a href="/breeds/">견종별 가이드</a><a href="/career/">자격증·진로</a><a href="/academy-guide/">지역별 학원</a><a href="/industry/">업계</a><a href="/reviews/">리뷰</a><a href="/qna/">Q&amp;A</a><a href="/about/">사이트 소개</a></div></nav>
 </header>
 <main id="main">
 
@@ -56,17 +58,34 @@ layout: null
   <div class="wrap breadcrumb"><a href="/">홈</a> / 애견미용정보</div>
   <div class="wrap">
     <span class="tag">HOMECARE</span>
-    <h1>강아지 홈미용과 기초 애견미용 가이드</h1>
-    <p>강아지 미용은 털을 자르는 것만을 의미하지 않습니다. 목욕, 빗질, 발톱과 발바닥 관리, 귀 관리처럼 일상에서 필요한 기본 케어도 중요합니다.</p><p>처음 반려견을 키우는 보호자도 쉽게 이해할 수 있도록 강아지 홈미용 순서와 필요한 도구, 관리 주기, 주의해야 할 상황을 하나씩 정리합니다. 집에서 가능한 관리와 전문가에게 맡기는 것이 좋은 미용도 함께 구분해 알아보세요.</p>
+    <h1>반려동물 생활관리·건강·홈미용</h1>
+    <p>강아지와 고양이의 집에서 하는 돌봄부터 목욕·털 관리, 증상 관찰과 진료 전 확인까지 주제별로 살펴보세요.</p>
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="homecare-guides" aria-labelledby="guide-list-title">
   <div class="wrap">
     <div class="section-head">
-      <h2>전체 글 ({{ category_articles | size }}개)</h2>
+      <h2 id="guide-list-title">전체 글 ({{ category_articles | size }}개)</h2>
     </div>
-    <div class="post-grid">{% for article in category_articles %}{% include post-card.html %}{% endfor %}</div>
+    <nav class="care-topic-nav" aria-label="보호자 가이드 주제">
+      <a href="#homecare-guides" data-care-filter="all" aria-current="true">전체</a>
+      {% for topic in care_topics %}
+        <a href="#{{ topic }}" data-care-filter="{{ topic }}">{{ site.data.guide_topics.labels[topic] }}</a>
+      {% endfor %}
+    </nav>
+    <p id="care-filter-status" role="status" class="care-filter-status"></p>
+    <div class="post-grid">
+      {% assign anchored_topics = '' | split: ',' %}
+      {% for article in category_articles %}
+        {% if anchored_topics contains article.topic %}
+          {% include post-card.html care_topic=article.topic %}
+        {% else %}
+          {% include post-card.html care_topic=article.topic care_anchor=article.topic %}
+          {% assign anchored_topics = anchored_topics | push: article.topic %}
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </section>
 
