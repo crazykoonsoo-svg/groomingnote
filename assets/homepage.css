@@ -147,7 +147,7 @@ img{height:auto}.footer-bottom .footer-disclosure{display:block!important;width:
     margin-inline: auto;
     text-align: center;
   }
-  .health-spotlight-related { gap: 8px; }
+  .health-spotlight-related { gap: 8px; margin: 0; padding: 0; }
   .health-spotlight-lead { align-items: center; padding: 20px; }
   .health-spotlight-related a {
     display: grid;
