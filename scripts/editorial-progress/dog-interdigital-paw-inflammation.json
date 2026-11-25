@@ -16,5 +16,17 @@
   "duplicate_review": "원격 main 카탈로그와 사이트맵·RSS·건강 목록 및 기존 발 씻기·핥기 본문 대조. 같은 독자 질문과 범위 없음.",
   "image": "핀란드 라프훈트 대표 신규, 양쪽 앞발, 산책 현관, 관찰 메모, 진료실 자료 이미지. 실제 환자와 실사 진료 기록 대신 설명용 생성 이미지. 최근 원격 편집 기록에서 같은 견종 사용을 찾지 못함.",
   "prior_public_confirmed_kst": "2026-11-25T09:46:08+09:00",
-  "publication_verification": "공개 배포 이후 실제 최초 확인 시각은 발행 일정의 진행 기록에 보존."
+  "publication_verification": {
+    "title": "강아지가 한쪽 발만 계속 핥고 발가락 사이가 붉다면?",
+    "url": "https://groomingnote.co.kr/homecare/dog-interdigital-paw-inflammation/",
+    "confirmed": "2026-11-25T16:12:46+09:00",
+    "published": "2026-11-25T16:10:28+09:00",
+    "sha": "a0c8de19ac6db802efb8945a692b99bec05c1c99",
+    "pr": 157,
+    "pages": 45566231919,
+    "elapsed": "6:26:38",
+    "next_minimum": "2026-11-25T17:12:46+09:00",
+    "naver_collection": "보류. 접속한 네이버 웹마스터 도구 사이트 목록이 비어 HTTPS 속성과 기존 접수에 접근할 수 없었음. 검색 반영 미확인.",
+    "mobile": "340px 브라우저에서 홈 섹션, 표, 이미지 5장과 alt 5종 확인."
+  }
 }
