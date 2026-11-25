@@ -21,19 +21,19 @@ const breeds = {
  cocker:{"name": "코카스파니엘", "tag": "귀털·부위별 길이", "title": "코카스파니엘, 귀털과 몸통 길이", "description": "귀털의 오염과 귀 이상 증상을 구분하고, 부위별 길이와 빗질·목욕 전 확인 기준을 살펴보세요.", "path": "/breeds/cocker-spaniel-grooming/"},
  dachshund:{"name": "닥스훈트", "tag": "단모·장모·강모", "title": "닥스훈트, 털 유형에 맞는 관리", "description": "단모·장모·강모를 구분하고, 빗질과 부분 정돈·전문 미용의 상담 기준을 살펴보세요.", "path": "/breeds/dachshund-grooming/"}
 };
-const state={category:"전체",query:"",limit:9};
+const state={category:"all",query:"",limit:9};
 const $=s=>document.querySelector(s);
 function normalized(s){return s.toLowerCase().replace(/\s+/g,"");}
 const articles = Array.from(document.querySelectorAll("#article-grid .article-card"), card => ({
   card,
-  category: card.dataset.category,
-  searchText: normalized(card.querySelector("h3").textContent + card.querySelector("p").textContent + card.dataset.tags + card.dataset.category)
+  category: card.dataset.guideTopic,
+  searchText: normalized(card.querySelector("h3").textContent + card.querySelector("p").textContent + card.dataset.tags + card.dataset.category + card.querySelector(".card-category").textContent)
 }));
 function render(){
  const terms = state.query ? state.query.split(/\s+/).map(normalized) : [];
  let count = 0;
  for (const { card, category, searchText } of articles) {
-  const matches = (state.category === "전체" || category === state.category)
+  const matches = (state.category === "all" || category === state.category)
     && terms.every(term => searchText.includes(term));
   if (matches) count += 1;
   card.hidden = !matches || count > state.limit;
@@ -47,13 +47,13 @@ function render(){
 }
 function moveToExplore(){ $("#explore").scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}
 function selectCategory(category){state.category=category;state.query="";state.limit=9;$("#search").value="";render();}
-function search(query){state.query=query.trim().slice(0,100);state.category="전체";state.limit=9;$("#search").value=state.query;render();moveToExplore();}
+function search(query){state.query=query.trim().slice(0,100);state.category="all";state.limit=9;$("#search").value=state.query;render();moveToExplore();}
 $("#search-form").addEventListener('submit',e=>{e.preventDefault();search($("#search").value);});
 document.querySelectorAll('[data-query]').forEach(b=>b.addEventListener('click',()=>search(b.dataset.query)));
 document.querySelectorAll('[data-topic]').forEach(b=>b.addEventListener('click',()=>{selectCategory(b.dataset.topic);moveToExplore();}));
 document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{
- if (b.dataset.filter === "전체") {
-  selectCategory("전체");
+ if (b.dataset.filter === "all") {
+  selectCategory("all");
   return;
  }
  state.category = b.dataset.filter;
@@ -62,7 +62,7 @@ document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click'
 }));
 document.querySelectorAll('[data-nav-topic]').forEach(a=>a.addEventListener('click',()=>selectCategory(a.dataset.navTopic)));
 $("#clear-search").addEventListener('click',()=>{state.query="";$("#search").value="";state.limit=9;render();});
-$("#reset").addEventListener('click',()=>selectCategory('전체'));
+$("#reset").addEventListener('click',()=>selectCategory('all'));
 $("#show-more").addEventListener('click',()=>{state.limit+=9;render();});
 function selectBreed(key,focus=false){
  const b=breeds[key]; $("#breed-tag").textContent=b.tag;$("#breed-title").textContent=b.title;$("#breed-description").textContent=b.description;$("#breed-link").href=b.path;$("#breed-link").textContent=b.name+' 미용 가이드 읽기';$("#breed-panel").setAttribute('aria-labelledby','breed-tab-'+key);
