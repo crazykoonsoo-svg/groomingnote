@@ -1,5 +1,20 @@
 [
   {
+    "path": "/homecare/dog-otitis-externa-ear-exam/",
+    "description": "강아지 외이염이 의심될 때 귀 냄새·머리 흔들기·분비물의 변화를 기록하세요. 이경과 귀 분비물 검사에서 보는 항목, 진료 전 주의점을 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 외이염 귀 냄새 머리 흔들기 이경 귀 분비물 세포검사",
+    "recent": true,
+    "card_label": "강아지 질환 · 외이염",
+    "title": "강아지 외이염, 한쪽 귀에서 냄새가 나고 자꾸 머리를 흔든다면?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-otitis-externa-ear-exam/hero.jpg",
+    "alt": "귀가 늘어진 필드 스패니얼과 강아지 외이염, 귀 냄새와 머리 흔들기 문구",
+    "width": "1050",
+    "height": "1050"
+  },
+  {
     "path": "/homecare/cat-carrier-vet-visit-training/",
     "description": "고양이 이동장 적응은 문을 열어 둔 장에 스스로 다가오는 것부터 시작하세요. 문을 잠깐 닫기, 들어 올리기, 짧게 이동하기를 나눠 연습합니다.",
     "category": "미용",
