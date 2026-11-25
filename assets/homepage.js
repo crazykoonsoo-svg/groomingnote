@@ -24,6 +24,19 @@ const breeds = {
 const state={category:"all",query:"",limit:9};
 const $=s=>document.querySelector(s);
 function normalized(s){return s.toLowerCase().replace(/\s+/g,"");}
+const filterTrack = $("#filter-track");
+const filterButtons = [...filterTrack.querySelectorAll("[data-filter]")];
+
+function revealSelectedFilter() {
+ const selected = filterButtons.find(button => button.dataset.filter === state.category);
+ if (!selected) return;
+ const trackBounds = filterTrack.getBoundingClientRect();
+ const buttonBounds = selected.getBoundingClientRect();
+ const left = buttonBounds.left - trackBounds.left - 4;
+ const right = buttonBounds.right - trackBounds.right + 4;
+ if (left < 0) filterTrack.scrollBy({ left, behavior: "auto" });
+ else if (right > 0) filterTrack.scrollBy({ left: right, behavior: "auto" });
+}
 const articles = Array.from(document.querySelectorAll("#article-grid .article-card"), card => ({
   card,
   category: card.dataset.guideTopic,
@@ -43,15 +56,15 @@ function render(){
  $("#show-more").hidden = count <= state.limit;
  $("#show-more").textContent = `글 더 보기 (${count - state.limit})`;
  $("#search-state").hidden=!state.query; $("#search-label").textContent=`‘${state.query}’ 검색 결과`;
- document.querySelectorAll('[data-filter]').forEach(b=>{const active=b.dataset.filter===state.category;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
+ filterButtons.forEach(b=>{const active=b.dataset.filter===state.category;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
 }
 function moveToExplore(){ $("#explore").scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}
-function selectCategory(category){state.category=category;state.query="";state.limit=9;$("#search").value="";render();}
-function search(query){state.query=query.trim().slice(0,100);state.category="all";state.limit=9;$("#search").value=state.query;render();moveToExplore();}
+function selectCategory(category){state.category=category;state.query="";state.limit=9;$("#search").value="";render();revealSelectedFilter();}
+function search(query){state.query=query.trim().slice(0,100);state.category="all";state.limit=9;$("#search").value=state.query;render();revealSelectedFilter();moveToExplore();}
 $("#search-form").addEventListener('submit',e=>{e.preventDefault();search($("#search").value);});
 document.querySelectorAll('[data-query]').forEach(b=>b.addEventListener('click',()=>search(b.dataset.query)));
 document.querySelectorAll('[data-topic]').forEach(b=>b.addEventListener('click',()=>{selectCategory(b.dataset.topic);moveToExplore();}));
-document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{
+filterButtons.forEach(b=>b.addEventListener('click',()=>{
  if (b.dataset.filter === "all") {
   selectCategory("all");
   return;
@@ -79,12 +92,25 @@ $("#back-top").addEventListener('click',()=>window.scrollTo({top:0,behavior:wind
 window.addEventListener('scroll',()=>{$("#back-top").hidden=window.scrollY<700;},{passive:true});
 render();
 
-const breedTrack=$("#breed-tab-track"),breedPrev=$("#breed-prev"),breedNext=$("#breed-next");
-function updateBreedArrows(){breedPrev.disabled=breedTrack.scrollLeft<=1;breedNext.disabled=breedTrack.scrollLeft+breedTrack.clientWidth>=breedTrack.scrollWidth-1;}
-function slideBreeds(direction){const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;breedTrack.scrollBy({left:direction*Math.max(120,breedTrack.clientWidth*.75),behavior:reduced?'auto':'smooth'});}
-breedPrev.addEventListener('click',()=>slideBreeds(-1));
-breedNext.addEventListener('click',()=>slideBreeds(1));
-breedTrack.addEventListener('scroll',updateBreedArrows,{passive:true});
-window.addEventListener('resize',updateBreedArrows);
-updateBreedArrows();
+function connectHorizontalSlider(track, previous, next) {
+ const update = () => {
+  previous.disabled = track.scrollLeft <= 1;
+  next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 1;
+ };
+ const slide = (direction) => {
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  track.scrollBy({
+   left: direction * Math.max(120, track.clientWidth * .75),
+   behavior: reduced ? "auto" : "smooth"
+  });
+ };
+ previous.addEventListener("click", () => slide(-1));
+ next.addEventListener("click", () => slide(1));
+ track.addEventListener("scroll", update, { passive: true });
+ window.addEventListener("resize", update);
+ document.fonts?.ready.then(update);
+ update();
+}
 
+connectHorizontalSlider(filterTrack, $("#filter-prev"), $("#filter-next"));
+connectHorizontalSlider($("#breed-tab-track"), $("#breed-prev"), $("#breed-next"));

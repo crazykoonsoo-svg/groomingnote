@@ -28,9 +28,9 @@ layout: null
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
 <meta name="theme-color" content="#173a3e">
-<link rel="stylesheet" href="/assets/homepage.css?v=20261125-spotlights">
+<link rel="stylesheet" href="/assets/homepage.css?v=20261125-library-slider">
 <link rel="stylesheet" href="/assets/layout.css?v=20261125-care">
-<script src="/assets/homepage.js?v=20261125-care" defer></script>
+<script src="/assets/homepage.js?v=20261125-library-slider" defer></script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "inLanguage": "ko-KR", "publisher": {"@type": "Organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": {"@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png"}}}, {"@type": "Organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": {"@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png"}}]}</script>
 <link rel="alternate" type="application/rss+xml" title="그루밍노트 최신 게시물" href="https://groomingnote.co.kr/rss.xml">
 <script>
@@ -151,11 +151,15 @@ layout: null
       <section class="section explore" id="explore" aria-labelledby="explore-title">
         <div class="section-heading"><div><p class="eyebrow">THE GROOMING LIBRARY</p><h2 id="explore-title">궁금한 주제부터, 가볍게 읽어보세요.</h2></div><p class="section-note">보호자와 예비 미용사를 위한<br>주제별 정보 모음</p></div>
         <div class="filter-row">
-          <div class="filters" role="group" aria-label="글 주제 필터">
-            <button type="button" class="filter active" aria-pressed="true" data-filter="all">전체</button>
-            {% for topic in site.data.guide_topics.labels %}
-            <button type="button" class="filter" aria-pressed="false" data-filter="{{ topic[0] }}">{{ topic[1] | escape }}</button>
-            {% endfor %}
+          <div class="filter-slider">
+            <button class="filter-slide-arrow" type="button" id="filter-prev" aria-label="이전 카테고리 보기" aria-controls="filter-track" disabled><span aria-hidden="true">‹</span></button>
+            <div class="filters" id="filter-track" role="group" aria-label="글 주제 필터">
+              <button type="button" class="filter active" aria-pressed="true" data-filter="all">전체</button>
+              {% for topic in site.data.guide_topics.labels %}
+              <button type="button" class="filter" aria-pressed="false" data-filter="{{ topic[0] }}">{{ topic[1] | escape }}</button>
+              {% endfor %}
+            </div>
+            <button class="filter-slide-arrow" type="button" id="filter-next" aria-label="다음 카테고리 보기" aria-controls="filter-track"><span aria-hidden="true">›</span></button>
           </div>
           <p class="result-count" id="result-count" role="status" aria-live="polite">{{ articles_by_date | size }}개의 가이드 · 최신순</p>
         </div>
