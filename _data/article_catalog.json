@@ -1,5 +1,22 @@
 [
   {
+    "path": "/homecare/dog-hind-leg-dragging-ivdd-vet-checklist/",
+    "description": "강아지가 갑자기 뒷다리를 끌 때 마지막 정상 보행, 증상 시작 시각, 지금 걷는 능력과 배뇨를 병원에 전하세요. 응급 신호와 척추 디스크 검사 범위를 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 척추 디스크 뒷다리 끌기 보행 장애 배뇨 신경학적 검사 MRI 응급",
+    "recent": true,
+    "card_label": "강아지 질환 · 척추 디스크",
+    "title": "강아지가 갑자기 뒷다리를 끌 때, 병원에 무엇부터 말할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-hind-leg-dragging-ivdd-vet-checklist/hero.jpg",
+    "alt": "밝은 벽 앞에 앉은 글렌 오브 이말 테리어와 강아지 척추 디스크 문구",
+    "width": "1050",
+    "height": "1050",
+    "published_at": "2026-11-25T22:55:12+09:00",
+    "topic": "health"
+  },
+  {
     "path": "/homecare/dog-hematuria-urination-vet-checklist/",
     "description": "강아지 소변에 피가 보일 때 병원에 전할 배뇨량·횟수·자세를 정리했습니다. 즉시 응급 진료가 필요한 신호와 소변검사 문의 항목도 확인하세요.",
     "category": "미용",

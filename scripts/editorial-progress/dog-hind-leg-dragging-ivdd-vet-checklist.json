@@ -1,0 +1,21 @@
+{
+  "series": "강아지 질환 10편",
+  "item": 8,
+  "keyword": "강아지 척추 디스크",
+  "title": "강아지가 갑자기 뒷다리를 끌 때, 병원에 무엇부터 말할까?",
+  "url": "https://groomingnote.co.kr/homecare/dog-hind-leg-dragging-ivdd-vet-checklist/",
+  "stamp": "2026-11-25T22:55:12+09:00",
+  "status": "release_prepared",
+  "sources_checked_kst": "2026-11-25",
+  "sources": {
+    "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/intervertebral-disc-disease": "추간판 질환의 통증·보행 변화, 신체검사와 CT·MRI 의뢰.",
+    "https://www.acvs.org/small-animal/intervertebral-disc-disease/": "보행 기능 평가, 신경학적 위치 추정, 심한 운동기능 저하와 배뇨 장애.",
+    "https://academic.oup.com/jvim/article/36/5/1570/8448913": "ACVIM 개 급성 흉요추 추간판 탈출 합의문, 영상 접근과 적용 범위.",
+    "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/evaluation-and-initial-treatment-of-small-animal-emergency-patients/initial-triage-and-resuscitation-of-small-animal-emergency-patients": "급성 보행불능·척추 외상의 응급 평가.",
+    "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/emergency-medicine-introduction/first-aid-and-transport-of-small-animals": "응급 전화로 현재 상태를 설명하고 안전한 이송 지침을 받는 이유."
+  },
+  "duplicate_review": "원격 main과 관련 브랜치·열린 PR·Pages 및 공개 홈·카탈로그·사이트맵·RSS·본문 대조. 기존 실내 매트 글은 평상시 미끄러지는 이동 경로, 혈뇨 글은 소변에 피가 보일 때 실제 양과 자세에 집중. 이번 글은 급성 뒷발 끌기 발생 시점과 변화, 응급 진료 문의 및 신경·영상 평가를 다룸.",
+  "image": "글렌 오브 이말 테리어. 최근 대표 견종과 장면 중복을 대조했으며, 자연광 사진 왼쪽 굵은 한글과 오른쪽 강아지 구도를 적용. 신규 사진형 설명 이미지 5장. 실제 환자·진료 촬영으로 표시하지 않음.",
+  "prior_public_confirmed_kst": "2026-11-25T21:45:08+09:00",
+  "earliest_release_kst": "2026-11-25T22:45:08+09:00"
+}
