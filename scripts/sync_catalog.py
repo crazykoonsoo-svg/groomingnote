@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Sync article titles/media with the catalog; --check reports drift without writing."""
 from pathlib import Path
+from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 import json,sys
 ROOT=Path(__file__).resolve().parents[1]
 CATALOG=ROOT/'_data/article_catalog.json'
 SECTIONS={'homecare':('미용','애견미용정보'),'breeds':('견종','견종별 가이드'),'career':('진로','자격증·진로'),'academy-guide':('지역','지역별 학원 가이드'),'industry':('업계','업계'),'reviews':('미용','리뷰')}
+KST = timezone(timedelta(hours=9))
 class Info(HTMLParser):
  def __init__(self,text):
   super().__init__();self.meta={};self.title='';self.in_title=False;self.feed(text)
@@ -25,6 +27,12 @@ def region(path):
  if any(x in path for x in ['광주','광산']):return 'honam'
  return 'yeongnam'
 
+def published_at(value):
+ date = datetime.fromisoformat(value)
+ if date.tzinfo is None:
+  date = date.replace(tzinfo=KST)
+ return date.astimezone(KST).isoformat(timespec='seconds')
+
 def main():
  records=json.loads(CATALOG.read_text());known={};errors=[]
  for r in records:
@@ -38,6 +46,7 @@ def main():
    path='/'+page.parent.relative_to(ROOT).as_posix()+'/'
    r=dict(known.get(path,dict(path=path,description=info.meta.get('description',''),category=category,label=label,tags='',recent=True,card_label=label)))
    r['title']=info.title.removesuffix(' | 그루밍노트').strip();r['section']=section
+   r['published_at']=published_at(info.meta['article:published_time'])
    r['image']=unquote(urlsplit(info.meta.get('groomingnote:card-image') or info.meta.get('og:image','')).path)
    if not (ROOT/r['image'].lstrip('/')).is_file():errors.append('Missing image: '+path)
    r.setdefault('alt',r['title']);r.setdefault('width','1200');r.setdefault('height','1200')

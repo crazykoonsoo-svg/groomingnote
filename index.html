@@ -30,7 +30,7 @@ layout: null
 <meta name="theme-color" content="#173a3e">
 <link rel="stylesheet" href="/assets/homepage.css?v=20261008-breed-slider">
 <link rel="stylesheet" href="/assets/layout.css?v=20261002f">
-<script src="/assets/homepage.js?v=20261102catalog" defer></script>
+<script src="/assets/homepage.js?v=20261125-dom-catalog" defer></script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "inLanguage": "ko-KR", "publisher": {"@type": "Organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": {"@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png"}}}, {"@type": "Organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": {"@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png"}}]}</script>
 <link rel="alternate" type="application/rss+xml" title="그루밍노트 최신 게시물" href="https://groomingnote.co.kr/rss.xml">
 <script>
@@ -80,16 +80,17 @@ layout: null
         <button class="entry" data-topic="지역"><span class="entry-number">04</span><div><h2>애견미용학원</h2><p>지역별 위치와 수업 안내</p></div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11Z"></path><circle cx="12" cy="10" r="2.5"></circle></svg></button>
       </section>
       <section class="section explore" id="explore" aria-labelledby="explore-title">
+        {% assign articles_by_date = site.data.article_catalog | sort: 'published_at' | reverse %}
         <div class="section-heading"><div><p class="eyebrow">THE GROOMING LIBRARY</p><h2 id="explore-title">궁금한 주제부터, 가볍게 읽어보세요.</h2></div><p class="section-note">보호자와 예비 미용사를 위한<br>주제별 정보 모음</p></div>
         <div class="filter-row">
           <div class="filters" role="group" aria-label="글 주제 필터"><button class="filter active" aria-pressed="true" data-filter="전체">전체</button><button class="filter" aria-pressed="false" data-filter="미용">미용·관리</button><button class="filter" aria-pressed="false" data-filter="목욕">목욕</button><button class="filter" aria-pressed="false" data-filter="견종">견종</button><button class="filter" aria-pressed="false" data-filter="자격증">자격증</button><button class="filter" aria-pressed="false" data-filter="진로">취업·창업</button><button class="filter" aria-pressed="false" data-filter="지역">지역별 학원</button><button class="filter" aria-pressed="false" data-filter="업계">업계</button></div>
-          <p class="result-count" id="result-count" role="status" aria-live="polite">{{ site.data.article_catalog | size }}개의 가이드</p>
+          <p class="result-count" id="result-count" role="status" aria-live="polite">{{ articles_by_date | size }}개의 가이드 · 최신순</p>
         </div>
         <div class="search-state" id="search-state" hidden><span id="search-label"></span><button id="clear-search">검색 지우기</button></div>
-        <div id="article-grid" class="article-grid">{% for article in site.data.article_catalog %}{% include article-card.html %}{% endfor %}
+        <div id="article-grid" class="article-grid">{% for article in articles_by_date %}{% include article-card.html %}{% endfor %}
         </div>
         <div id="empty" class="empty" hidden><h3>아직 일치하는 글이 없어요.</h3><p>‘목욕’, ‘미용’, ‘자격증’처럼 짧은 주제로 다시 찾아보세요.</p><button class="outline-button" id="reset">전체 글 보기</button></div>
-        <button class="outline-button more-button" id="show-more">글 더 보기</button>
+        <button class="outline-button more-button" id="show-more" hidden>글 더 보기</button>
       </section>
     </div>
     <section class="breed-section" id="breeds" aria-labelledby="breeds-title">
