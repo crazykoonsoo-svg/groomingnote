@@ -1,0 +1,22 @@
+{
+  "series": "강아지 질환 10편",
+  "item": 3,
+  "keyword": "강아지 각막 손상",
+  "title": "강아지가 한쪽 눈을 자꾸 감을 때, 병원에서 무엇을 확인할까?",
+  "url": "https://groomingnote.co.kr/homecare/dog-eye-squint-corneal-exam/",
+  "stamp": "2026-11-25T16:36:24+09:00",
+  "status": "held_before_minimum",
+  "draft_timestamp_is_provisional": true,
+  "sources": {
+    "https://www.merckvetmanual.com/dog-owners/eye-disorders-of-dogs/disorders-of-the-cornea-in-dogs": "한쪽 각막 손상과 외상·이물·눈꺼풀 문제, 겉에서 확인하기 어려운 작은 손상의 염색 검사.",
+    "https://vcahospitals.com/premier/know-your-pet/corneal-ulcers-in-dogs": "눈 찡그림·비비기·혼탁, 표면 손상과 형광염색, 소견에 따라 추가 검사를 결정.",
+    "https://vcahospitals.com/urgent-care/health-concerns/eye-issues": "눈을 감고 있거나 혼탁이 생겼을 때 신속 문의, 안구 자체의 심한 외상과 돌출의 응급 기준.",
+    "https://www.acvo.org/tips-treatments-tricks/63zs8rf9l5et8gzwrfnhnpt7b36w3s": "눈 찡그림·눈물·비비기 관찰과 진료 문의.",
+    "https://www.acvo.org/tips-treatments-tricks/common-ocular-tests": "눈물 생성량, 형광염색, 안압이 확인하는 항목의 차이.",
+    "https://groomingnote.co.kr/homecare/dog-eye-discharge-tear-stain-care/": "이미 공개된 눈곱·눈물자국 글은 바깥 털 위생 중심. 새 글은 눈을 지속해서 감는 행동, 진료실 검사 및 연락 기준에 집중."
+  },
+  "duplicate_review": "원격 main, 관련 브랜치·열린 PR, 카탈로그·홈·사이트맵·RSS 및 기존 눈가 관리 본문 대조. 같은 독자 질문과 범위 없음.",
+  "image": "한 장의 사진 위 왼쪽에 굵은 한글 제목을 넣고, 오른쪽에 브리타니를 배치한 기존 그루밍노트 썸네일 스타일. 본문은 관찰, 상황 메모, 안과 검사 도구, 진료 대기 장면. 최근 편집 기록 동일 견종 없음. 설명용 이미지이며 실제 진료 사례 아님.",
+  "prior_public_confirmed_kst": "2026-11-25T16:12:46+09:00",
+  "earliest_release_kst": "2026-11-25T17:12:46+09:00"
+}
