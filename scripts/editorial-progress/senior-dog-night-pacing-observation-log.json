@@ -1,0 +1,20 @@
+{
+  "series": "강아지 질환 10편",
+  "item": 10,
+  "keyword": "노령견 야간 배회",
+  "title": "노령견이 밤마다 집 안을 돌 때, 어떤 변화를 기록할까?",
+  "url": "https://groomingnote.co.kr/homecare/senior-dog-night-pacing-observation-log/",
+  "stamp": "2026-11-26T01:09:06+09:00",
+  "status": "release_prepared",
+  "sources_checked_kst": "2026-11-26",
+  "sources": {
+    "https://pubmed.ncbi.nlm.nih.gov/41442884/": "JAVMA 2026 개 인지기능장애 실무그룹의 진단과 추적 관찰, DISHAA 행동 범주.",
+    "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/cognitive-dysfunction-syndrome": "야간 배회·낮 수면·실내 배변 및 다른 질환을 살피는 신체, 혈액, 소변검사.",
+    "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/health-info/senior-dog-dementia": "수면·행동 변화를 구체화하고 급성 전정 증상과 구분.",
+    "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/evaluation-and-initial-treatment-of-small-animal-emergency-patients/initial-triage-and-resuscitation-of-small-animal-emergency-patients": "급성 보행 장애와 발작의 응급 평가."
+  },
+  "duplicate_review": "원격 main과 관련 브랜치, 열린 PR, Pages, 공개 홈·카탈로그·사이트맵·RSS와 본문 대조. 기존 노령견 미용 글 및 그 브랜치는 미용 전 건강 전달, 홈캠 글은 외출 동안 행동 관찰, 혈뇨 글은 붉은 소변과 배뇨 상태가 주제. 이번 글은 노령견의 반복 야간 배회에 수면·배변·행동 변화를 묶어 인지기능 상담을 준비하는 범위.",
+  "image": "코이커혼제. 최근 대표 견종 및 설명 이미지 원본 재사용 여부 확인, 단일 자연 사진 왼쪽 굵은 제목과 오른쪽 강아지 구도. 야간 복도·낮잠·현관 패드·진료 기록 준비를 보여 주는 새 설명용 사진 4장, 실제 환자나 진료 현장 사진으로 소개하지 않음.",
+  "prior_public_confirmed_kst": "2026-11-26T00:00:26+09:00",
+  "earliest_release_kst": "2026-11-26T01:00:26+09:00"
+}
