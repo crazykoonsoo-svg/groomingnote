@@ -46,35 +46,13 @@
 
 ## 3. 발행 체크리스트 (글 파일 외에 함께 고칠 곳)
 
-### ☐ ① 카테고리 페이지에 카드 추가 — `/카테고리/index.html`
+### ☐ ① 홈과 카테고리 목록 동기화
 
-`<div class="post-grid">` 바로 다음(맨 앞)에 붙여넣고, 위쪽 `전체 글 (N개)` 숫자 +1
+글 파일을 작성한 뒤 `python3 scripts/sync_catalog.py`를 실행하고 `python3 scripts/sync_catalog.py --check`로 검증하세요. 소개문, 검색 태그, 이미지 대체텍스트와 주제는 [목록 관리 안내](../scripts/README.md)를 확인합니다.
 
-```html
-<a class="post-card" href="/카테고리/슬러그/"><div class="post-thumb"><img width="1200" height="1200" src="/assets/images/posts/이미지폴더/hero.jpg" alt="H1 제목" loading="lazy"></div><div class="post-body"><span class="post-cat">카드 라벨</span><h3>H1 제목</h3></div></a>
-```
+### ☐ ② 건강·진료 글 편집
 
-카드 라벨: homecare `애견미용정보` / breeds `견종` / career `진로` / industry `업계` / reviews `리뷰` / academy-guide `OO광역시 · 지역별 학원 가이드`
-
-### ☐ ② 홈 검색 목록에 추가 — `/assets/homepage.js`
-
-맨 위 `const articles = [` 바로 다음 줄에 추가. 새 글을 `"recent": true`로 하고, **기존에 true였던 글은 false로**.
-
-```js
-{"title": "H1 제목", "description": "카드에 보일 한 문장 요약", "category": "미용", "label": "애견미용정보", "path": "/카테고리/슬러그/", "tags": "핵심키워드 연관키워드 띄어쓰기로구분", "recent": true},
-```
-
-| category (홈 필터) | 쓰는 글 | label 예시 |
-|---|---|---|
-| `미용` | 홈케어·리뷰 중 미용 관련 | 애견미용정보 / 미용·관리 |
-| `목욕` | 목욕·샴푸·드라이 | 애견미용정보 / 목욕·관리 |
-| `견종` | 견종별 가이드 | 견종별 가이드 |
-| `자격증` | 자격증 관련 | 진로·자격증 |
-| `진로` | 취업·창업·학원 선택 | 취업·창업 |
-| `지역` | 지역별 학원 가이드 | 지역별 학원 가이드 |
-| `업계` | 업계 | 업계 |
-
-`homepage.js`를 고쳤다면 `/index.html`에서 `homepage.js?v=날짜` 의 날짜도 바꿔주기 (예: `?v=20261015`)
+`<meta name="groomingnote:topic" content="health">`를 지정하고 보호자가 동물병원에 전달할 항목을 증상에 맞게 설명합니다. [외이염 진료 글](../homecare/dog-otitis-externa-ear-exam/index.html)의 진료 문의 안내와 확인 자료 구조를 참고해, 실제 확인한 수의학 출처와 자료 확인 날짜를 명시합니다. 작성자와 편집 확인 사실을 표시합니다. 수의사 검토 표기는 실제 감수가 확보된 경우에 사용합니다. 건강·진료 글의 상단과 본문은 진료 안내를 사용하고 교육 연락처는 교육·진로 문맥에서 사용합니다.
 
 ### ☐ ③ 사이트맵에 추가 — `/sitemap.xml`
 
@@ -95,7 +73,7 @@
 
 - 실제 주소로 열어서 이미지·링크 확인 (휴대폰에서도 한 번)
 - [리치 결과 테스트](https://search.google.com/test/rich-results)에 주소 넣고 오류 없는지 확인
-- 네이버 서치어드바이저 → 웹페이지 수집 요청 / 구글 서치콘솔 → URL 검사 → 색인 생성 요청
+- 네이버·구글 수집 요청은 해당 발행 일정 또는 사용자가 승인한 범위를 따릅니다.
 
 ---
 

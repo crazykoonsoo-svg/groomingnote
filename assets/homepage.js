@@ -74,7 +74,7 @@ function closeMenu(){toggle.setAttribute('aria-expanded','false');toggle.setAttr
 toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!open));toggle.setAttribute('aria-label',open?'메뉴 열기':'메뉴 닫기');mobileNav.hidden=open;});
 mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!mobileNav.hidden){closeMenu();toggle.focus();}});
-window.addEventListener('resize',()=>{if(innerWidth>800)closeMenu();});
+window.addEventListener('resize',()=>{if(innerWidth>1240)closeMenu();});
 $("#back-top").addEventListener('click',()=>window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}));
 window.addEventListener('scroll',()=>{$("#back-top").hidden=window.scrollY<700;},{passive:true});
 render();
