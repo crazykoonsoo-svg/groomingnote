@@ -1,0 +1,20 @@
+{
+  "series": "강아지 질환 10편",
+  "item": 6,
+  "keyword": "강아지 기관허탈",
+  "title": "강아지가 흥분할 때 기침한다면, 어떤 장면을 기록할까?",
+  "url": "https://groomingnote.co.kr/homecare/dog-tracheal-collapse-cough-video-log/",
+  "stamp": "2026-11-25T20:30:09+09:00",
+  "status": "release_prepared",
+  "sources_checked_kst": "2026-11-25",
+  "sources": {
+    "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/tracheal-collapse": "흥분, 압력, 활동 등 기침 발생 조건과 기관허탈의 임상 범위.",
+    "https://www.acvs.org/small-animal/tracheal-collapse/": "일반 방사선·투시·내시경의 검사 범위.",
+    "https://vcahospitals.com/know-your-pet/testing-for-cough": "발생 상황과 접촉 이력, 신체검사 및 다른 원인 평가.",
+    "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/recognizing-and-responding-canine-respiratory-distress": "호흡 노력과 청색증·쓰러짐의 응급 연락 기준."
+  },
+  "duplicate_review": "원격 main·관련 브랜치·열린 PR·배포 기록과 공개 홈·목록·사이트맵·RSS 대조. 기존 하네스 글은 착용 적응, 홈캠 글은 외출 중 행동 기록, 스케일링 글은 마취 전 상담을 다루므로 질문이 다름. 이번에는 기침이 시작된 조건과 회복 영상, 기관허탈 관련 진료로 범위를 설정.",
+  "image": "오스트레일리안 테리어 대표 및 현관·촬영 도구·진료실·휴식 장면의 설명용 이미지. 최근 편집 기록과 비교. 실제 환자나 특정 시설로 표시하지 않음.",
+  "prior_public_confirmed_kst": "2026-11-25T19:25:22+09:00",
+  "earliest_release_kst": "2026-11-25T20:25:22+09:00"
+}
