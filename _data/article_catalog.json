@@ -1,5 +1,22 @@
 [
   {
+    "path": "/homecare/dog-eye-squint-corneal-exam/",
+    "description": "강아지가 한쪽 눈을 자꾸 감는다면 시작 시점과 눈물·비비기 등 보이는 변화를 알려 주세요. 진료 문의 시점과 각막 형광염색 검사가 확인하는 내용을 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 각막 손상 한쪽 눈 감음 각막 궤양 형광 염색 진료 문의 눈 찡그림",
+    "recent": true,
+    "card_label": "강아지 질환 · 한쪽 눈 감음",
+    "title": "강아지가 한쪽 눈을 자꾸 감을 때, 병원에서 무엇을 확인할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-eye-squint-corneal-exam/hero.jpg",
+    "alt": "사진 오른쪽의 흰색과 주황색 브리타니와 ‘강아지 한쪽 눈 계속 감을 때’ 문구",
+    "width": "1050",
+    "height": "1050",
+    "published_at": "2026-11-25T17:12:52+09:00",
+    "topic": "health"
+  },
+  {
     "path": "/homecare/dog-interdigital-paw-inflammation/",
     "description": "강아지 발가락 사이 염증이 의심될 때 발의 위치, 붉은기와 부기, 걷는 모습을 살펴보세요. 진료 문의 시점과 동물병원에 전할 기록을 정리했습니다.",
     "category": "미용",
