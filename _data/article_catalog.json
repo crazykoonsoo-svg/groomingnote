@@ -1,5 +1,22 @@
 [
   {
+    "path": "/homecare/dog-hematuria-urination-vet-checklist/",
+    "description": "강아지 소변에 피가 보일 때 병원에 전할 배뇨량·횟수·자세를 정리했습니다. 즉시 응급 진료가 필요한 신호와 소변검사 문의 항목도 확인하세요.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 혈뇨 소변에 피 배뇨량 배뇨 자세 소변검사 요로 응급",
+    "recent": true,
+    "card_label": "강아지 질환 · 혈뇨",
+    "title": "강아지 소변에 피가 보이면, 병원에 무엇을 알려줄까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-hematuria-urination-vet-checklist/hero.jpg",
+    "alt": "밝은 실내 오른쪽에 선 검은 스키퍼키와 강아지 혈뇨 문구",
+    "width": "1050",
+    "height": "1050",
+    "published_at": "2026-11-25T21:43:43+09:00",
+    "topic": "health"
+  },
+  {
     "path": "/homecare/dog-tracheal-collapse-cough-video-log/",
     "description": "강아지가 흥분할 때 기침한다면 직전 행동과 기침 뒤 호흡을 기록하세요. 영상에 담을 장면과 강아지 기관허탈 진료에서 확인하는 범위를 정리했습니다.",
     "category": "미용",
