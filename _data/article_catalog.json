@@ -1,5 +1,22 @@
 [
   {
+    "path": "/homecare/dog-interdigital-paw-inflammation/",
+    "description": "강아지 발가락 사이 염증이 의심될 때 발의 위치, 붉은기와 부기, 걷는 모습을 살펴보세요. 진료 문의 시점과 동물병원에 전할 기록을 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 발가락 사이 염증 한쪽 발 핥기 절뚝거림 발 피부염 발가락 사이 붉은기 진료 기록",
+    "recent": true,
+    "card_label": "강아지 질환 · 발가락 사이 염증",
+    "title": "강아지가 한쪽 발만 계속 핥고 발가락 사이가 붉다면?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-interdigital-paw-inflammation/hero.jpg",
+    "alt": "검고 황갈색 털의 핀란드 라프훈트와 ‘강아지 발가락 사이 염증’ 문구",
+    "width": "1050",
+    "height": "1050",
+    "published_at": "2026-11-25T16:10:28+09:00",
+    "topic": "health"
+  },
+  {
     "path": "/homecare/dog-otitis-externa-ear-exam/",
     "description": "강아지 외이염이 의심될 때 귀 냄새·머리 흔들기·분비물의 변화를 기록하세요. 이경과 귀 분비물 검사에서 보는 항목, 진료 전 주의점을 정리했습니다.",
     "category": "미용",
