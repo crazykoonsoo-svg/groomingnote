@@ -1,0 +1,110 @@
+{
+  "labels": {
+    "grooming": "미용·털 관리",
+    "bathing": "목욕·위생",
+    "daily-life": "생활·행동",
+    "health": "건강·진료",
+    "breeds": "견종별 관리",
+    "tools": "용품·도구",
+    "certification": "자격증·시험",
+    "education": "교육·과정",
+    "practice": "미용 기술·실습",
+    "career": "취업·창업",
+    "local-academies": "지역별 학원",
+    "industry": "업계·동향"
+  },
+  "section_defaults": {
+    "homecare": "grooming",
+    "breeds": "breeds",
+    "career": "education",
+    "academy-guide": "local-academies",
+    "industry": "industry",
+    "reviews": "tools"
+  },
+  "overrides": {
+    "bathing": [
+      "/homecare/dog-bath-rinse-check/",
+      "/homecare/dog-bath-supplies-checklist/",
+      "/homecare/dog-bath-towel-laundry/",
+      "/homecare/dog-bath-water-temperature/",
+      "/homecare/dog-bathing-frequency/",
+      "/homecare/dog-coat-drying/",
+      "/homecare/dog-ear-cleaning/",
+      "/homecare/dog-eye-discharge-tear-stain-care/",
+      "/homecare/dog-grooming-salon-hygiene-first-visit/",
+      "/homecare/dog-paw-cleaning-after-walk/",
+      "/homecare/dog-shampoo-dilution-label/",
+      "/homecare/dog-toothbrushing-first-steps/",
+      "/homecare/dog-towel-drying-after-bath/"
+    ],
+    "daily-life": [
+      "/homecare/cat-carrier-vet-visit-training/",
+      "/homecare/cat-litter-change-observation/",
+      "/homecare/cat-sofa-scratching-post-placement/",
+      "/homecare/dog-brushing-desensitization/",
+      "/homecare/dog-car-travel-restraint-check/",
+      "/homecare/dog-food-life-stage-portions/",
+      "/homecare/dog-front-door-escape-prevention/",
+      "/homecare/dog-grass-seeds-after-walk/",
+      "/homecare/dog-grooming-salon-familiarisation/",
+      "/homecare/dog-grooming-stress/",
+      "/homecare/dog-hairdryer-noise-training/",
+      "/homecare/dog-harness-training-at-home/",
+      "/homecare/dog-harness-washing-care/",
+      "/homecare/dog-home-camera-observation-log/",
+      "/homecare/dog-indoor-non-slip-mat-placement/",
+      "/homecare/dog-paw-handling-training/",
+      "/homecare/dog-pet-hair-fabric-cleaning/",
+      "/homecare/dog-toy-damage-replacement/",
+      "/homecare/dog-tug-play-release/",
+      "/homecare/dog-water-bowl-cleaning/",
+      "/homecare/raw-dog-food-household-safety/",
+      "/homecare/why-dogs-lick/"
+    ],
+    "health": [
+      "/homecare/dog-dental-scaling-exam/",
+      "/homecare/dog-heat-cycle-observations/",
+      "/homecare/dog-neutering-aftercare-food-walk-bath/",
+      "/homecare/dog-stool-change-vet-checklist/",
+      "/homecare/puppy-first-walk-vaccination-socialization/"
+    ],
+    "tools": [
+      "/homecare/dog-grooming-tool-care/"
+    ],
+    "certification": [
+      "/career/dog-grooming-certificate-retest-practice-review/"
+    ],
+    "practice": [
+      "/career/dog-grooming-bathing-basics-before-shampoo/",
+      "/career/dog-grooming-clipper-handling/",
+      "/career/dog-grooming-consultation-practice/",
+      "/career/dog-grooming-live-dog-assignment/",
+      "/career/dog-grooming-live-dog-practice-guide/",
+      "/career/dog-grooming-post-course-practice/",
+      "/career/dog-grooming-practice-feedback/",
+      "/career/dog-grooming-practice-journal/",
+      "/career/dog-grooming-scissor-grip-basics/",
+      "/career/dog-grooming-scissoring-coat-prep/",
+      "/career/dog-grooming-symmetry-checkpoints/",
+      "/career/dog-grooming-wig-practice-foundations/"
+    ],
+    "career": [
+      "/career/dog-groomer-apprentice-work-training/",
+      "/career/dog-groomer-employment/",
+      "/career/dog-groomer-first-day/",
+      "/career/dog-groomer-interview/",
+      "/career/dog-groomer-outlook/",
+      "/career/dog-groomer-resume/",
+      "/career/dog-grooming-owner-handoff/",
+      "/career/dog-grooming-portfolio/",
+      "/career/dog-grooming-reservation-capacity/",
+      "/career/dog-grooming-shop-startup/",
+      "/career/dog-grooming-startup-costs/",
+      "/career/dog-grooming-workstation-layout/",
+      "/career/how-to-become-dog-groomer/"
+    ]
+  },
+  "series_topics": {
+    "강아지 질환 10편": "health"
+  }
+}

@@ -1,5 +1,5 @@
-<a class="article-card" href="{{ article.path }}" data-category="{{ article.category | escape }}" data-tags="{{ article.tags | escape }}" aria-label="{{ article.title | escape }} · 원문 읽기">
-  <div class="card-meta"><span class="card-category">{{ article.label | escape }}</span>{% if article.recent %}<span class="new-label">최근 업데이트</span>{% endif %}</div>
+<a class="article-card" href="{{ article.path }}" data-guide-topic="{{ article.topic }}" data-category="{{ article.category | escape }}" data-tags="{{ article.tags | escape }}" aria-label="{{ article.title | escape }} · 원문 읽기">
+  <div class="card-meta"><span class="card-category">{{ site.data.guide_topics.labels[article.topic] | escape }}</span>{% if article.recent %}<span class="new-label">최근 업데이트</span>{% endif %}</div>
   <h3>{{ article.title | escape }}</h3>
   <p>{{ article.description | escape }}</p>
   <div class="card-bottom"><time datetime="{{ article.published_at }}">{{ article.published_at | slice: 0, 10 | replace: '-', '.' }}</time><span class="read-label">원문 읽기</span></div>
