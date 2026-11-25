@@ -5,7 +5,7 @@
   "title": "강아지가 엉덩이를 바닥에 끌 때, 항문낭은 어떻게 확인할까?",
   "url": "https://groomingnote.co.kr/homecare/dog-anal-sac-scooting-vet-exam/",
   "stamp": "2026-11-25T18:21:14+09:00",
-  "status": "release_prepared",
+  "status": "published",
   "sources_checked_kst": "2026-11-25",
   "sources": {
     "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/anal-sac-diseases": "반복 행동과 냄새, 배변·분비물 및 직장 촉진 범위.",
@@ -16,5 +16,17 @@
   "duplicate_review": "main 카탈로그·글·편집 기록, 관련 브랜치·열린 PR, 공개 홈·건강 목록·사이트맵·RSS 대조. 위생미용 글은 부분미용과 털 오염, 배변 글은 변의 상태 및 검사 안내가 중심. 이번 글은 행동과 배변의 관계, 병원 직장 촉진과 후속 질문에 집중.",
   "image": "댄디 딘몬트 테리어 대표와 복도 관찰·메모·진료실·휴식 장면. 최근 발행 견종 기록 대조. 설명용 이미지를 사용했으며 실제 환자나 진료 사례로 표시하지 않음.",
   "prior_public_confirmed_kst": "2026-11-25T17:14:39+09:00",
-  "earliest_release_kst": "2026-11-25T18:14:39+09:00"
+  "earliest_release_kst": "2026-11-25T18:14:39+09:00",
+  "first_public_confirmed_kst": "2026-11-25T18:23:02+09:00",
+  "elapsed_since_previous_confirmation_seconds": 4103,
+  "main_sha": "c3da1d7281f88f6e0a3365790011c3cc76977d50",
+  "pull_request": 163,
+  "pages_run_id": 45584670480,
+  "pages_conclusion": "success",
+  "naver_collection_status": "held_no_property",
+  "naver_collection_reason": "네이버 서치어드바이저 로그인 계정 사이트 목록에 그루밍노트 HTTPS 속성이 표시되지 않아 기존 접수 대조 및 제출을 보류함.",
+  "naver_search_reflection": "unverified",
+  "next_item": 5,
+  "next_earliest_release_kst": "2026-11-25T19:23:02+09:00",
+  "verification": "공개 HTTP 200·제목, 홈 건강 대표글, 건강 목록, 관련 링크 2개, canonical·BlogPosting·RSS·사이트맵, 이미지 5개 원본 일치 및 alt 5개, 2열 5항목 표·FAQ 4개, 대표 160·320px와 브라우저 CSS 너비 337·449px에서 표·이미지·강조·링크 넘침 없음."
 }
