@@ -5,7 +5,7 @@
   "title": "강아지 건강검진에서 신장 수치가 높다면, 다음 진료에서 뭘 물을까?",
   "url": "https://groomingnote.co.kr/homecare/dog-kidney-lab-results-follow-up/",
   "stamp": "2026-11-25T23:58:42+09:00",
-  "status": "release_prepared",
+  "status": "published",
   "sources_checked_kst": "2026-11-25",
   "sources": {
     "https://www.iris-kidney.com/iris-guidelines-1": "2026 개정 IRIS 병기 지침의 적용 범위와 크레아티닌·SDMA 추세, 단백뇨 및 혈압 하위 분류.",
@@ -17,5 +17,19 @@
   "duplicate_review": "공개 홈·카탈로그·사이트맵·RSS, 저장소 main·열린 PR·관련 브랜치·Pages와 기존 건강 글 대조. 이전 혈뇨 글은 붉은 소변과 배뇨 상태를 응급 전화에 전하는 데 집중하며, 이번 글은 건강검진표의 신장 지표와 소변검사·추적검사 질문을 다룸.",
   "image": "아펜핀셔 대표 및 검사표 모형·음수 관찰·빈 검체 통·재검 카드 설명용 이미지. 최근 대표 견종과 장면의 재사용 여부를 대조했으며 실제 환자나 실제 병원 장면으로 소개하지 않음.",
   "prior_public_confirmed_kst": "2026-11-25T22:57:12+09:00",
-  "earliest_release_kst": "2026-11-25T23:57:12+09:00"
+  "earliest_release_kst": "2026-11-25T23:57:12+09:00",
+  "first_public_confirmed_kst": "2026-11-26T00:00:26+09:00",
+  "elapsed_since_previous_confirmation_seconds": 3794,
+  "release_preflight_kst": "2026-11-25T23:59:04+09:00",
+  "main_sha": "8b629bfae6bccb8376420e994421f0274a3d9f56",
+  "pull_request": 173,
+  "pages_run_id": 45640041534,
+  "pages_conclusion": "success",
+  "naver_collection_status": "held_no_property",
+  "naver_collection_reason": "네이버 서치어드바이저 로그인 계정의 사이트 목록이 비어 그루밍노트 HTTPS 속성과 기존 접수 확인 불가로 제출 보류.",
+  "naver_search_reflection": "unverified",
+  "next_item": 10,
+  "next_earliest_release_kst": "2026-11-26T01:00:26+09:00",
+  "next_run_local": "2026-11-26T01:01+09:00",
+  "verification": "HTTP 200과 제목, 홈 대표글과 건강·진료 목록, 혈뇨 관련 글 연결, canonical·BlogPosting·RSS·사이트맵, 2열 5항목 표와 FAQ 4개, 이미지 5장 원본 일치와 alt 5개 확인. 대표 160·320px와 브라우저 337·449px 너비에서 표·강조·이미지·링크 가로 넘침 없음 확인."
 }
