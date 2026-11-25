@@ -1,8 +1,4 @@
----
-layout: null
----
 "use strict";
-const articles = {{ site.data.article_catalog | jsonify }};
 const breeds = {
  pomspitz:{"name": "폼피츠", "tag": "털빠짐·속털 관리", "title": "폼피츠, 털빠짐과 길이 정돈 구분하기", "description": "속털 상태와 이전 미용 이력을 살피고, 빗질·부분 정돈·짧은 클리핑의 차이를 확인하세요.", "path": "/breeds/pomspitz-grooming/"},
  maltipoo:{"name": "말티푸", "tag": "털 기르기·부분 정돈", "title": "말티푸, 기를 털과 정돈할 부위 나누기", "description": "원하는 스타일을 위해 남길 길이와 생활에 필요한 부분 정돈을 나누고, 기르는 동안의 관리 방법을 확인하세요.", "path": "/breeds/maltipoo-grooming/"},
@@ -28,14 +24,24 @@ const breeds = {
 const state={category:"전체",query:"",limit:9};
 const $=s=>document.querySelector(s);
 function normalized(s){return s.toLowerCase().replace(/\s+/g,"");}
-function matches(a){const text=normalized(a.title+a.description+a.tags+a.category);return (state.category==="전체"||a.category===state.category)&&state.query.trim().split(/\s+/).every(q=>text.includes(normalized(q)));}
-function escapeHTML(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));}
+const articles = Array.from(document.querySelectorAll("#article-grid .article-card"), card => ({
+  card,
+  category: card.dataset.category,
+  searchText: normalized(card.querySelector("h3").textContent + card.querySelector("p").textContent + card.dataset.tags + card.dataset.category)
+}));
 function render(){
- const results=articles.filter(matches);
- $("#article-grid").innerHTML=results.slice(0,state.limit).map(a=>`<a class="article-card" href="${a.path}" aria-label="${escapeHTML(a.title)} · 원문 읽기"><div class="card-meta"><span class="card-category">${a.label}</span>${a.recent?'<span class="new-label">최근 업데이트</span>':''}</div><h3>${a.title}</h3><p>${a.description}</p><div class="card-bottom"><span>GroomingNote</span><span class="read-label">원문 읽기</span></div></a>`).join("");
- $("#result-count").textContent=`${results.length}개의 가이드`;
- $("#empty").hidden=results.length>0; $("#show-more").hidden=results.length<=state.limit;
- $("#show-more").textContent=`글 더 보기 (${results.length-state.limit})`;
+ const terms = state.query ? state.query.split(/\s+/).map(normalized) : [];
+ let count = 0;
+ for (const { card, category, searchText } of articles) {
+  const matches = (state.category === "전체" || category === state.category)
+    && terms.every(term => searchText.includes(term));
+  if (matches) count += 1;
+  card.hidden = !matches || count > state.limit;
+ }
+ $("#result-count").textContent = `${count}개의 가이드 · 최신순`;
+ $("#empty").hidden = count > 0;
+ $("#show-more").hidden = count <= state.limit;
+ $("#show-more").textContent = `글 더 보기 (${count - state.limit})`;
  $("#search-state").hidden=!state.query; $("#search-label").textContent=`‘${state.query}’ 검색 결과`;
  document.querySelectorAll('[data-filter]').forEach(b=>{const active=b.dataset.filter===state.category;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
 }
@@ -45,7 +51,15 @@ function search(query){state.query=query.trim().slice(0,100);state.category="전
 $("#search-form").addEventListener('submit',e=>{e.preventDefault();search($("#search").value);});
 document.querySelectorAll('[data-query]').forEach(b=>b.addEventListener('click',()=>search(b.dataset.query)));
 document.querySelectorAll('[data-topic]').forEach(b=>b.addEventListener('click',()=>{selectCategory(b.dataset.topic);moveToExplore();}));
-document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{state.category=b.dataset.filter;state.limit=9;render();}));
+document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{
+ if (b.dataset.filter === "전체") {
+  selectCategory("전체");
+  return;
+ }
+ state.category = b.dataset.filter;
+ state.limit = 9;
+ render();
+}));
 document.querySelectorAll('[data-nav-topic]').forEach(a=>a.addEventListener('click',()=>selectCategory(a.dataset.navTopic)));
 $("#clear-search").addEventListener('click',()=>{state.query="";$("#search").value="";state.limit=9;render();});
 $("#reset").addEventListener('click',()=>selectCategory('전체'));
