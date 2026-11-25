@@ -1,0 +1,20 @@
+{
+  "series": "강아지 질환 10편",
+  "item": 5,
+  "keyword": "강아지 치아 파절",
+  "title": "강아지 이가 깨졌다면, 밥을 잘 먹어도 진료가 필요할까?",
+  "url": "https://groomingnote.co.kr/homecare/dog-tooth-fracture-dental-exam/",
+  "stamp": "2026-11-25T19:23:54+09:00",
+  "status": "release_prepared",
+  "sources_checked_kst": "2026-11-25",
+  "sources": {
+    "https://www.vet.cornell.edu/departments-centers-and-institutes/canine-health-center/health-info/worries-about-fractured-tooth": "발견 경위, 치수 손상과 통증, 치과 방사선의 평가 범위.",
+    "https://vcahospitals.com/know-your-pet/fractured-teeth-in-dogs": "한쪽 씹기, 사료 떨어뜨리기, 뚜렷한 증상이 없는 경우, 치료 선택.",
+    "https://www.aaha.org/wp-content/uploads/2019/05/2019-AAHA-Dental-Care-Guidelines-for-Dogs.pdf": "깨어 있을 때 평가와 마취하 정밀 검사·치과 방사선의 차이.",
+    "https://www.merckvetmanual.com/special-pet-topics/emergencies/evaluation-and-initial-treatment-of-dog-and-cat-emergencies": "심한 외상·출혈 및 호흡 곤란의 응급 기준."
+  },
+  "duplicate_review": "main·카탈로그·본문·편집 기록, 관련 열린 PR·브랜치, 공개 홈·건강 목록·사이트맵·RSS에서 동일한 질문의 글을 찾지 못함. 양치 적응은 칫솔과 구강 관리, 스케일링 글은 마취 전 질문과 치주 평가, 터그놀이는 놀이 중단 기준 중심. 이번 글은 치아가 깨졌을 때 발견 정황·식사 변화·파절 평가를 다룸.",
+  "image": "스웨디시 발훈트 대표 및 놀이 공간·사료 그릇·치아 모형·대기 공간의 새 설명용 이미지. 최근 견종과 장면 대조. 실제 환자나 치과 시술로 표시하지 않음.",
+  "prior_public_confirmed_kst": "2026-11-25T18:23:02+09:00",
+  "earliest_release_kst": "2026-11-25T19:23:02+09:00"
+}

@@ -1,5 +1,22 @@
 [
   {
+    "path": "/homecare/dog-tooth-fracture-dental-exam/",
+    "description": "강아지 이가 깨졌다면 밥을 잘 먹어도 진료 일정을 잡으세요. 처음 발견한 상황과 씹는 모습, 치과 방사선으로 확인하는 범위를 정리했습니다.",
+    "category": "미용",
+    "label": "애견미용정보",
+    "tags": "강아지 치아 파절 이가 깨짐 한쪽 씹기 치수 치과 방사선",
+    "recent": true,
+    "card_label": "강아지 질환 · 치아 파절",
+    "title": "강아지 이가 깨졌다면, 밥을 잘 먹어도 진료가 필요할까?",
+    "section": "homecare",
+    "image": "/assets/images/posts/dog-tooth-fracture-dental-exam/hero.jpg",
+    "alt": "밝은 주방 오른쪽에 앉은 스웨디시 발훈트와 강아지 치아 파절 문구",
+    "width": "1050",
+    "height": "1050",
+    "published_at": "2026-11-25T19:23:54+09:00",
+    "topic": "health"
+  },
+  {
     "path": "/homecare/dog-anal-sac-scooting-vet-exam/",
     "description": "강아지가 엉덩이를 바닥에 끌 때 기록할 횟수와 배변 변화, 바로 병원에 연락할 신호, 강아지 항문낭 진찰에서 확인하는 내용을 정리했습니다.",
     "category": "미용",
