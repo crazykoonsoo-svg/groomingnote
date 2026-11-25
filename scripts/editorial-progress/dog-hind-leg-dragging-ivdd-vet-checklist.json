@@ -5,7 +5,7 @@
   "title": "강아지가 갑자기 뒷다리를 끌 때, 병원에 무엇부터 말할까?",
   "url": "https://groomingnote.co.kr/homecare/dog-hind-leg-dragging-ivdd-vet-checklist/",
   "stamp": "2026-11-25T22:55:12+09:00",
-  "status": "release_prepared",
+  "status": "published",
   "sources_checked_kst": "2026-11-25",
   "sources": {
     "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/intervertebral-disc-disease": "추간판 질환의 통증·보행 변화, 신체검사와 CT·MRI 의뢰.",
@@ -17,5 +17,18 @@
   "duplicate_review": "원격 main과 관련 브랜치·열린 PR·Pages 및 공개 홈·카탈로그·사이트맵·RSS·본문 대조. 기존 실내 매트 글은 평상시 미끄러지는 이동 경로, 혈뇨 글은 소변에 피가 보일 때 실제 양과 자세에 집중. 이번 글은 급성 뒷발 끌기 발생 시점과 변화, 응급 진료 문의 및 신경·영상 평가를 다룸.",
   "image": "글렌 오브 이말 테리어. 최근 대표 견종과 장면 중복을 대조했으며, 자연광 사진 왼쪽 굵은 한글과 오른쪽 강아지 구도를 적용. 신규 사진형 설명 이미지 5장. 실제 환자·진료 촬영으로 표시하지 않음.",
   "prior_public_confirmed_kst": "2026-11-25T21:45:08+09:00",
-  "earliest_release_kst": "2026-11-25T22:45:08+09:00"
+  "earliest_release_kst": "2026-11-25T22:45:08+09:00",
+  "first_public_confirmed_kst": "2026-11-25T22:57:12+09:00",
+  "elapsed_since_previous_confirmation_seconds": 4324,
+  "release_preflight_kst": "2026-11-25T22:55:36+09:00",
+  "main_sha": "23ab23c776d567b40e795ac10fa2be8a2aafe006",
+  "pull_request": 171,
+  "pages_run_id": 45628622710,
+  "pages_conclusion": "success",
+  "naver_collection_status": "held_no_property",
+  "naver_collection_reason": "로그인 상태에서 네이버 서치어드바이저의 사이트 목록이 비어 그루밍노트 HTTPS 속성과 기존 접수를 확인할 수 없어 제출 보류.",
+  "naver_search_reflection": "unverified",
+  "next_item": 9,
+  "next_earliest_release_kst": "2026-11-25T23:57:12+09:00",
+  "verification": "HTTP 200과 제목, 홈 대표글과 건강·진료 목록, 실내 매트 관련 링크, canonical·BlogPosting·RSS·사이트맵, 2열 5항목 표와 FAQ 4개, 이미지 5장 원본 일치와 alt 5개 확인. 대표 160·320px와 브라우저 337·449px CSS 너비에서 표·강조·이미지·링크 가로 넘침 없음 확인."
 }
