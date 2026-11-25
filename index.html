@@ -28,7 +28,7 @@ layout: null
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
 <meta name="theme-color" content="#173a3e">
-<link rel="stylesheet" href="/assets/homepage.css?v=20261008-breed-slider">
+<link rel="stylesheet" href="/assets/homepage.css?v=20261125-spotlights">
 <link rel="stylesheet" href="/assets/layout.css?v=20261125-care">
 <script src="/assets/homepage.js?v=20261125-care" defer></script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "inLanguage": "ko-KR", "publisher": {"@type": "Organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": {"@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png"}}}, {"@type": "Organization", "name": "그루밍노트", "alternateName": "GroomingNote", "url": "https://groomingnote.co.kr/", "logo": {"@type": "ImageObject", "url": "https://groomingnote.co.kr/favicon-512x512.png"}}]}</script>
@@ -79,8 +79,76 @@ layout: null
         <button class="entry" data-topic="certification"><div><h2>자격증·시험</h2><p>자격증 종류, 필기와 실기 준비</p></div><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="14" rx="2"></rect><circle cx="12" cy="11" r="3"></circle><path d="m9 14-1 7 4-2 4 2-1-7M8 6h8"></path></svg></button>
         <button class="entry" data-topic="local-academies"><div><h2>애견미용학원</h2><p>지역별 위치와 수업 안내</p></div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11Z"></path><circle cx="12" cy="10" r="2.5"></circle></svg></button>
       </section>
+      {% assign articles_by_date = site.data.article_catalog | sort: 'published_at' | reverse %}
+      {% assign health_picks = articles_by_date | where: 'topic', 'health' | slice: 0, 3 %}
+      {% assign life_articles = articles_by_date | where: 'topic', 'daily-life' %}
+      {% assign life_picks = life_articles | slice: 0, 3 %}
+      {% assign cat_picks = life_picks | where_exp: 'guide', "guide.title contains '고양이'" %}
+      {% assign dog_picks = life_picks | where_exp: 'guide', "guide.title contains '강아지'" %}
+      {% if cat_picks.size == 3 %}
+        {% assign other_pet = life_articles | where_exp: 'guide', "guide.title contains '강아지'" | slice: 0, 1 %}
+        {% assign life_picks = life_picks | slice: 0, 2 | concat: other_pet %}
+        {% if other_pet == empty %}{% assign life_picks = life_articles | slice: 0, 3 %}{% endif %}
+      {% elsif dog_picks.size == 3 %}
+        {% assign other_pet = life_articles | where_exp: 'guide', "guide.title contains '고양이'" | slice: 0, 1 %}
+        {% assign life_picks = life_picks | slice: 0, 2 | concat: other_pet %}
+        {% if other_pet == empty %}{% assign life_picks = life_articles | slice: 0, 3 %}{% endif %}
+      {% endif %}
+
+      {% if health_picks.size > 0 %}
+      <section class="home-spotlight" id="health-check" aria-labelledby="health-check-title">
+        <div class="spotlight-heading">
+          <div><p class="eyebrow">HEALTH CHECK</p><h2 id="health-check-title">평소와 다른 신호가 보인다면</h2></div>
+          <a class="text-link" href="/homecare/#health">건강·진료 전체 보기 <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="health-spotlight-cards">
+          {% assign health_lead = health_picks | first %}
+          <a class="health-spotlight-lead" href="{{ health_lead.path }}">
+            <h3>{{ health_lead.title | escape }}</h3>
+            <p>{{ health_lead.description | escape }}</p>
+            <span class="spotlight-read">가이드 읽기 <span aria-hidden="true">→</span></span>
+          </a>
+          {% assign health_related = health_picks | slice: 1, 2 %}
+          {% if health_related.size > 0 %}
+          <ul class="health-spotlight-related">
+            {% for guide in health_related %}
+            <li><a href="{{ guide.path }}"><span>{{ guide.title | escape }}</span><span class="spotlight-arrow" aria-hidden="true">→</span></a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </section>
+      {% endif %}
+
+      {% if life_picks.size > 0 %}
+      <section class="home-spotlight life-spotlight" id="life-at-home" aria-labelledby="life-at-home-title">
+        <div class="spotlight-heading">
+          <div><p class="eyebrow">LIFE AT HOME</p><h2 id="life-at-home-title">집에서 바로 해볼 수 있어요</h2></div>
+          <a class="text-link" href="/homecare/#daily-life">생활·행동 전체 보기 <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="life-spotlight-cards">
+          {% for guide in life_picks %}
+          {% assign scene_path = guide.image | replace_first: '/hero.jpg', '/detail-2.jpg' %}
+          {% assign scene_file = site.static_files | where: 'path', scene_path | first %}
+          <a class="life-spotlight-card" href="{{ guide.path }}">
+            <div class="life-spotlight-media">
+              {% if scene_file and scene_path != guide.image %}
+              <img src="{{ scene_path | escape }}" alt="" loading="lazy" decoding="async">
+              {% else %}
+              <img class="life-spotlight-cover" src="{{ guide.image | escape }}" alt="" loading="lazy" decoding="async">
+              {% endif %}
+            </div>
+            <div class="life-spotlight-copy">
+              <h3>{{ guide.title | escape }}</h3>
+              {% if forloop.first %}<p>{{ guide.description | escape }}</p>{% endif %}
+            </div>
+          </a>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+
       <section class="section explore" id="explore" aria-labelledby="explore-title">
-        {% assign articles_by_date = site.data.article_catalog | sort: 'published_at' | reverse %}
         <div class="section-heading"><div><p class="eyebrow">THE GROOMING LIBRARY</p><h2 id="explore-title">궁금한 주제부터, 가볍게 읽어보세요.</h2></div><p class="section-note">보호자와 예비 미용사를 위한<br>주제별 정보 모음</p></div>
         <div class="filter-row">
           <div class="filters" role="group" aria-label="글 주제 필터">
