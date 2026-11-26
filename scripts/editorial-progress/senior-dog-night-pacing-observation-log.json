@@ -5,7 +5,7 @@
   "title": "노령견이 밤마다 집 안을 돌 때, 어떤 변화를 기록할까?",
   "url": "https://groomingnote.co.kr/homecare/senior-dog-night-pacing-observation-log/",
   "stamp": "2026-11-26T01:09:06+09:00",
-  "status": "release_prepared",
+  "status": "withdrawn_before_publication",
   "sources_checked_kst": "2026-11-26",
   "sources": {
     "https://pubmed.ncbi.nlm.nih.gov/41442884/": "JAVMA 2026 개 인지기능장애 실무그룹의 진단과 추적 관찰, DISHAA 행동 범주.",
@@ -16,5 +16,7 @@
   "duplicate_review": "원격 main과 관련 브랜치, 열린 PR, Pages, 공개 홈·카탈로그·사이트맵·RSS와 본문 대조. 기존 노령견 미용 글 및 그 브랜치는 미용 전 건강 전달, 홈캠 글은 외출 동안 행동 관찰, 혈뇨 글은 붉은 소변과 배뇨 상태가 주제. 이번 글은 노령견의 반복 야간 배회에 수면·배변·행동 변화를 묶어 인지기능 상담을 준비하는 범위.",
   "image": "코이커혼제. 최근 대표 견종 및 설명 이미지 원본 재사용 여부 확인, 단일 자연 사진 왼쪽 굵은 제목과 오른쪽 강아지 구도. 야간 복도·낮잠·현관 패드·진료 기록 준비를 보여 주는 새 설명용 사진 4장, 실제 환자나 진료 현장 사진으로 소개하지 않음.",
   "prior_public_confirmed_kst": "2026-11-26T00:00:26+09:00",
-  "earliest_release_kst": "2026-11-26T01:00:26+09:00"
+  "earliest_release_kst": "2026-11-26T01:00:26+09:00",
+  "withdrawal_date_kst": "2026-11-26",
+  "draft_commit": "669c010ddc3c4a6eb8db6b40339f7682ef0c4990"
 }

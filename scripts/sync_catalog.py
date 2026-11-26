@@ -67,6 +67,8 @@ def main():
   for page in (ROOT/section).glob('*/index.html'):
    info=Info(page.read_text())
    if 'article:published_time' not in info.meta:continue
+   robots = info.meta.get('robots', '').lower().replace(',', ' ').split()
+   if {'noindex', 'none'}.intersection(robots):continue
    path='/'+page.parent.relative_to(ROOT).as_posix()+'/'
    r=dict(known.get(path,dict(path=path,description=info.meta.get('description',''),category=category,label=label,tags='',recent=True,card_label=label)))
    r['title']=info.title.removesuffix(' | 그루밍노트').strip();r['section']=section
